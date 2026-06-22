@@ -1,0 +1,349 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://signalgraph.local/schemas/source.schema.json",
+  "title": "Nvidia Intelligence POC Source Registry Schema",
+  "description": "Schema for validating trusted sources used in the Nvidia intelligence POC. The source registry defines source quality, collection method, trust level, legal status, and downstream intelligence use.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "registry_version",
+    "registry_name",
+    "primary_entity",
+    "description",
+    "sources"
+  ],
+  "properties": {
+    "registry_version": {
+      "type": "string",
+      "description": "Version of the source registry.",
+      "examples": ["0.1.0"]
+    },
+    "registry_name": {
+      "type": "string",
+      "description": "Human-readable registry name.",
+      "examples": ["Nvidia Source Registry"]
+    },
+    "primary_entity": {
+      "type": "string",
+      "description": "Main company/entity being analyzed.",
+      "examples": ["Nvidia"]
+    },
+    "description": {
+      "type": "string",
+      "description": "Short explanation of the registry purpose."
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_id",
+        "source_name",
+        "source_family",
+        "source_type",
+        "source_tier",
+        "url",
+        "root_domain",
+        "purpose",
+        "associated_entities",
+        "themes",
+        "reliability_score",
+        "bias_risk",
+        "license_status",
+        "collection_method",
+        "active_status",
+        "refresh_frequency",
+        "content_formats",
+        "ingestion_priority",
+        "downstream_use",
+        "quality_controls"
+      ],
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "pattern": "^src_[0-9]{3,4}$",
+          "description": "Unique source ID."
+        },
+        "source_name": {
+          "type": "string",
+          "minLength": 3,
+          "description": "Human-readable source name."
+        },
+        "source_family": {
+          "type": "string",
+          "enum": [
+            "primary_regulatory",
+            "company_investor",
+            "company_news",
+            "company_product",
+            "company_technical",
+            "regulatory_policy",
+            "supplier_ecosystem",
+            "customer_partner",
+            "benchmark_technical",
+            "patent_research",
+            "jobs_hiring",
+            "market_news",
+            "industry_context",
+            "manual_upload",
+            "restricted_licensed"
+          ],
+          "description": "High-level family used for source strategy and weighting."
+        },
+        "source_type": {
+          "type": "string",
+          "enum": [
+            "sec_filing",
+            "annual_report",
+            "quarterly_result",
+            "earnings_release",
+            "earnings_call_transcript",
+            "investor_presentation",
+            "company_newsroom",
+            "press_release",
+            "product_page",
+            "developer_docs",
+            "technical_blog",
+            "regulatory_export_control",
+            "government_rule",
+            "supplier_investor_relations",
+            "supplier_newsroom",
+            "customer_partner_announcement",
+            "benchmark",
+            "patent_database",
+            "job_postings",
+            "trade_publication",
+            "news_article",
+            "industry_association",
+            "manual_document"
+          ],
+          "description": "Specific source type."
+        },
+        "source_tier": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 5,
+          "description": "Trust tier. 0 = highest trust primary source, 5 = weakest/contextual source."
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Canonical source URL."
+        },
+        "root_domain": {
+          "type": "string",
+          "description": "Main domain for grouping and deduplication.",
+          "examples": ["investor.nvidia.com", "sec.gov", "nvidianews.nvidia.com"]
+        },
+        "purpose": {
+          "type": "string",
+          "minLength": 15,
+          "description": "Why this source matters for Nvidia intelligence."
+        },
+        "associated_entities": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Entities this source may provide evidence about.",
+          "examples": [["Nvidia", "TSMC", "SK Hynix"]]
+        },
+        "themes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "financial_performance",
+              "risk_factors",
+              "data_center_growth",
+              "ai_accelerators",
+              "blackwell",
+              "cuda_ecosystem",
+              "hyperscaler_demand",
+              "hbm_supply",
+              "foundry_dependency",
+              "advanced_packaging",
+              "export_controls",
+              "china_restrictions",
+              "supplier_dependency",
+              "competitor_movement",
+              "product_launch",
+              "partnership",
+              "benchmark_performance",
+              "patents_r_and_d",
+              "hiring_signal",
+              "industry_context",
+              "regulatory_context"
+            ]
+          },
+          "description": "Strategic themes this source can support."
+        },
+        "reliability_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Source reliability score before evidence-level confidence scoring."
+        },
+        "bias_risk": {
+          "type": "string",
+          "enum": [
+            "low",
+            "low_medium",
+            "medium",
+            "medium_high",
+            "high",
+            "unknown"
+          ],
+          "description": "Expected bias risk of the source."
+        },
+        "license_status": {
+          "type": "string",
+          "enum": [
+            "official_public",
+            "public",
+            "fair_use_review",
+            "licensed_required",
+            "restricted",
+            "manual_only",
+            "unknown"
+          ],
+          "description": "Legal/licensing status for ingestion and use."
+        },
+        "collection_method": {
+          "type": "string",
+          "enum": [
+            "scripted_fetch",
+            "manual_download",
+            "manual_upload",
+            "api",
+            "rss",
+            "web_snapshot",
+            "restricted_manual_only",
+            "not_ingested"
+          ],
+          "description": "How the source content should be collected."
+        },
+        "active_status": {
+          "type": "string",
+          "enum": [
+            "active_now",
+            "active_later",
+            "manual_only",
+            "restricted",
+            "disabled"
+          ],
+          "description": "Whether this source is used immediately in Phase 1 ingestion."
+        },
+        "refresh_frequency": {
+          "type": "string",
+          "enum": [
+            "one_time",
+            "daily",
+            "weekly",
+            "monthly",
+            "quarterly",
+            "event_driven",
+            "manual",
+            "unknown"
+          ],
+          "description": "Expected refresh cadence."
+        },
+        "content_formats": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "html",
+              "pdf",
+              "txt",
+              "json",
+              "xml",
+              "xbrl",
+              "rss",
+              "csv",
+              "transcript",
+              "api",
+              "unknown"
+            ]
+          },
+          "description": "Likely content formats found at this source."
+        },
+        "ingestion_priority": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5,
+          "description": "1 = ingest first, 5 = low-priority/context-only."
+        },
+        "downstream_use": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "evidence_extraction",
+              "relationship_discovery",
+              "event_detection",
+              "risk_detection",
+              "confidence_scoring",
+              "graph_context",
+              "dossier_generation",
+              "benchmark_context",
+              "source_validation",
+              "watch_item_generation"
+            ]
+          },
+          "description": "How this source can be used later in the intelligence pipeline."
+        },
+        "quality_controls": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "requires_snapshot",
+            "requires_metadata",
+            "requires_deduplication",
+            "allow_llm_extraction",
+            "requires_human_review"
+          ],
+          "properties": {
+            "requires_snapshot": {
+              "type": "boolean",
+              "description": "Whether content should be saved locally before extraction."
+            },
+            "requires_metadata": {
+              "type": "boolean",
+              "description": "Whether document metadata must be captured."
+            },
+            "requires_deduplication": {
+              "type": "boolean",
+              "description": "Whether duplicate documents/chunks should be removed."
+            },
+            "allow_llm_extraction": {
+              "type": "boolean",
+              "description": "Whether this source can be sent into evidence extraction."
+            },
+            "requires_human_review": {
+              "type": "boolean",
+              "description": "Whether evidence from this source should be reviewed before being treated as strong intelligence."
+            }
+          }
+        },
+        "notes": {
+          "type": "string",
+          "description": "Optional analyst notes."
+        },
+        "last_reviewed_date": {
+          "type": "string",
+          "format": "date",
+          "description": "Optional date when source metadata was last reviewed."
+        }
+      }
+    }
+  }
+}

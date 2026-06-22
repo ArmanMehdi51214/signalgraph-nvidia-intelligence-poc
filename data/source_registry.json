@@ -1,0 +1,1920 @@
+ {
+  "registry_version": "0.1.0",
+  "registry_name": "Nvidia Source Registry",
+  "primary_entity": "Nvidia",
+  "description": "Trusted source registry for Phase 1 of the Nvidia Intelligence POC. The registry is intentionally broad, while active ingestion remains narrow and high-signal.",
+  "sources": [
+    {
+      "source_id": "src_001",
+      "source_name": "Nvidia Investor Relations SEC Filings",
+      "source_family": "primary_regulatory",
+      "source_type": "sec_filing",
+      "source_tier": 0,
+      "url": "https://investor.nvidia.com/financial-info/sec-filings/default.aspx",
+      "root_domain": "investor.nvidia.com",
+      "purpose": "Authoritative Nvidia SEC filings for risk factors, financial disclosures, business dependencies, customer/supplier exposure, and regulatory context.",
+      "associated_entities": [
+        "Nvidia"
+      ],
+      "themes": [
+        "risk_factors",
+        "financial_performance",
+        "export_controls",
+        "china_restrictions",
+        "supplier_dependency"
+      ],
+      "reliability_score": 0.96,
+      "bias_risk": "low",
+      "license_status": "official_public",
+      "collection_method": "manual_download",
+      "active_status": "active_now",
+      "refresh_frequency": "quarterly",
+      "content_formats": [
+        "html",
+        "pdf"
+      ],
+      "ingestion_priority": 1,
+      "downstream_use": [
+        "evidence_extraction",
+        "risk_detection",
+        "confidence_scoring",
+        "dossier_generation"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Highest-priority Nvidia source.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_002",
+      "source_name": "Nvidia Annual Reports and Proxies",
+      "source_family": "primary_regulatory",
+      "source_type": "annual_report",
+      "source_tier": 0,
+      "url": "https://investor.nvidia.com/financial-info/annual-reports-and-proxies/default.aspx",
+      "root_domain": "investor.nvidia.com",
+      "purpose": "Official annual reports and proxy materials for long-form strategy, risk, market exposure, governance, and business context.",
+      "associated_entities": [
+        "Nvidia"
+      ],
+      "themes": [
+        "risk_factors",
+        "financial_performance",
+        "data_center_growth",
+        "supplier_dependency",
+        "export_controls"
+      ],
+      "reliability_score": 0.96,
+      "bias_risk": "low_medium",
+      "license_status": "official_public",
+      "collection_method": "manual_download",
+      "active_status": "active_now",
+      "refresh_frequency": "annual",
+      "content_formats": [
+        "html",
+        "pdf"
+      ],
+      "ingestion_priority": 1,
+      "downstream_use": [
+        "evidence_extraction",
+        "risk_detection",
+        "dossier_generation",
+        "relationship_discovery"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Use latest annual report early.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_003",
+      "source_name": "SEC EDGAR Nvidia Company Page",
+      "source_family": "primary_regulatory",
+      "source_type": "sec_filing",
+      "source_tier": 0,
+      "url": "https://www.sec.gov/edgar/browse/?CIK=1045810",
+      "root_domain": "www.sec.gov",
+      "purpose": "Direct SEC filing archive for Nvidia CIK 1045810, used as regulator-controlled source of truth.",
+      "associated_entities": [
+        "Nvidia"
+      ],
+      "themes": [
+        "risk_factors",
+        "financial_performance",
+        "regulatory_context",
+        "export_controls"
+      ],
+      "reliability_score": 0.98,
+      "bias_risk": "low",
+      "license_status": "official_public",
+      "collection_method": "scripted_fetch",
+      "active_status": "active_now",
+      "refresh_frequency": "quarterly",
+      "content_formats": [
+        "html",
+        "xbrl",
+        "xml"
+      ],
+      "ingestion_priority": 1,
+      "downstream_use": [
+        "evidence_extraction",
+        "source_validation",
+        "confidence_scoring",
+        "risk_detection"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Use SEC-compliant user agent for scripted fetching.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_004",
+      "source_name": "SEC Nvidia Submissions JSON",
+      "source_family": "primary_regulatory",
+      "source_type": "sec_filing",
+      "source_tier": 0,
+      "url": "https://data.sec.gov/submissions/CIK0001045810.json",
+      "root_domain": "data.sec.gov",
+      "purpose": "Machine-readable Nvidia SEC submissions index for discovering 10-K, 10-Q, 8-K and other filings.",
+      "associated_entities": [
+        "Nvidia"
+      ],
+      "themes": [
+        "financial_performance",
+        "risk_factors",
+        "regulatory_context"
+      ],
+      "reliability_score": 0.98,
+      "bias_risk": "low",
+      "license_status": "official_public",
+      "collection_method": "api",
+      "active_status": "active_now",
+      "refresh_frequency": "daily",
+      "content_formats": [
+        "json"
+      ],
+      "ingestion_priority": 1,
+      "downstream_use": [
+        "source_validation",
+        "evidence_extraction",
+        "confidence_scoring"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Good for automated filing discovery.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_005",
+      "source_name": "SEC Nvidia Company Facts XBRL",
+      "source_family": "primary_regulatory",
+      "source_type": "sec_filing",
+      "source_tier": 0,
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+      "root_domain": "data.sec.gov",
+      "purpose": "Machine-readable Nvidia XBRL facts for structured financial validation.",
+      "associated_entities": [
+        "Nvidia"
+      ],
+      "themes": [
+        "financial_performance",
+        "data_center_growth"
+      ],
+      "reliability_score": 0.98,
+      "bias_risk": "low",
+      "license_status": "official_public",
+      "collection_method": "api",
+      "active_status": "active_later",
+      "refresh_frequency": "quarterly",
+      "content_formats": [
+        "json",
+        "xbrl"
+      ],
+      "ingestion_priority": 2,
+      "downstream_use": [
+        "source_validation",
+        "confidence_scoring",
+        "dossier_generation"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Useful after the first evidence pipeline works.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_006",
+      "source_name": "BIS Export Controls",
+      "source_family": "regulatory_policy",
+      "source_type": "regulatory_export_control",
+      "source_tier": 0,
+      "url": "https://www.bis.gov/",
+      "root_domain": "www.bis.gov",
+      "purpose": "Official Bureau of Industry and Security source for export-control policy affecting advanced AI chips and semiconductor equipment.",
+      "associated_entities": [
+        "Nvidia",
+        "BIS",
+        "China"
+      ],
+      "themes": [
+        "export_controls",
+        "china_restrictions",
+        "regulatory_context",
+        "risk_factors"
+      ],
+      "reliability_score": 0.95,
+      "bias_risk": "low",
+      "license_status": "official_public",
+      "collection_method": "manual_download",
+      "active_status": "active_now",
+      "refresh_frequency": "event_driven",
+      "content_formats": [
+        "html",
+        "pdf"
+      ],
+      "ingestion_priority": 1,
+      "downstream_use": [
+        "risk_detection",
+        "evidence_extraction",
+        "watch_item_generation",
+        "confidence_scoring"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Use specific BIS pages after discovery.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_007",
+      "source_name": "Federal Register Export-Control Rules",
+      "source_family": "regulatory_policy",
+      "source_type": "government_rule",
+      "source_tier": 0,
+      "url": "https://www.federalregister.gov/documents/search?conditions%5Bterm%5D=advanced+computing+semiconductor+export+controls",
+      "root_domain": "www.federalregister.gov",
+      "purpose": "Official legal source for export-control rules affecting advanced computing and semiconductor supply chains.",
+      "associated_entities": [
+        "Nvidia",
+        "BIS",
+        "China"
+      ],
+      "themes": [
+        "export_controls",
+        "china_restrictions",
+        "regulatory_context",
+        "risk_factors"
+      ],
+      "reliability_score": 0.96,
+      "bias_risk": "low",
+      "license_status": "official_public",
+      "collection_method": "scripted_fetch",
+      "active_status": "active_now",
+      "refresh_frequency": "event_driven",
+      "content_formats": [
+        "html",
+        "pdf",
+        "xml"
+      ],
+      "ingestion_priority": 1,
+      "downstream_use": [
+        "risk_detection",
+        "evidence_extraction",
+        "watch_item_generation",
+        "confidence_scoring"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Search page; ingest exact rules after discovery.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_008",
+      "source_name": "Nvidia Quarterly Results",
+      "source_family": "company_investor",
+      "source_type": "quarterly_result",
+      "source_tier": 1,
+      "url": "https://investor.nvidia.com/financial-info/quarterly-results/default.aspx",
+      "root_domain": "investor.nvidia.com",
+      "purpose": "Official quarterly results for revenue mix, data center growth, margin commentary, guidance, and near-term signals.",
+      "associated_entities": [
+        "Nvidia"
+      ],
+      "themes": [
+        "financial_performance",
+        "data_center_growth",
+        "ai_accelerators",
+        "hyperscaler_demand"
+      ],
+      "reliability_score": 0.9,
+      "bias_risk": "low_medium",
+      "license_status": "official_public",
+      "collection_method": "manual_download",
+      "active_status": "active_now",
+      "refresh_frequency": "quarterly",
+      "content_formats": [
+        "html",
+        "pdf"
+      ],
+      "ingestion_priority": 1,
+      "downstream_use": [
+        "evidence_extraction",
+        "event_detection",
+        "dossier_generation"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "High signal for current performance.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_009",
+      "source_name": "Nvidia Financial Reports",
+      "source_family": "company_investor",
+      "source_type": "earnings_release",
+      "source_tier": 1,
+      "url": "https://investor.nvidia.com/financial-info/financial-reports/default.aspx",
+      "root_domain": "investor.nvidia.com",
+      "purpose": "Official earnings releases and financial reports for structured financial and segment-level evidence.",
+      "associated_entities": [
+        "Nvidia"
+      ],
+      "themes": [
+        "financial_performance",
+        "data_center_growth",
+        "ai_accelerators"
+      ],
+      "reliability_score": 0.9,
+      "bias_risk": "low_medium",
+      "license_status": "official_public",
+      "collection_method": "manual_download",
+      "active_status": "active_now",
+      "refresh_frequency": "quarterly",
+      "content_formats": [
+        "html",
+        "pdf"
+      ],
+      "ingestion_priority": 1,
+      "downstream_use": [
+        "evidence_extraction",
+        "event_detection",
+        "dossier_generation"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Use with quarterly results.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_010",
+      "source_name": "Nvidia Events and Presentations",
+      "source_family": "company_investor",
+      "source_type": "investor_presentation",
+      "source_tier": 1,
+      "url": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx",
+      "root_domain": "investor.nvidia.com",
+      "purpose": "Investor presentations and event materials for management messaging, product roadmap, and market positioning.",
+      "associated_entities": [
+        "Nvidia"
+      ],
+      "themes": [
+        "blackwell",
+        "data_center_growth",
+        "ai_accelerators",
+        "cuda_ecosystem",
+        "partnership"
+      ],
+      "reliability_score": 0.86,
+      "bias_risk": "medium",
+      "license_status": "official_public",
+      "collection_method": "manual_download",
+      "active_status": "active_now",
+      "refresh_frequency": "event_driven",
+      "content_formats": [
+        "html",
+        "pdf"
+      ],
+      "ingestion_priority": 1,
+      "downstream_use": [
+        "evidence_extraction",
+        "event_detection",
+        "relationship_discovery",
+        "dossier_generation"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Company-controlled but strategically useful.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_011",
+      "source_name": "Reuters Technology News",
+      "source_family": "market_news",
+      "source_type": "news_article",
+      "source_tier": 1,
+      "url": "https://www.reuters.com/technology/",
+      "root_domain": "www.reuters.com",
+      "purpose": "Trusted external news for validation of Nvidia, supplier, hyperscaler, export-control, and semiconductor events.",
+      "associated_entities": [
+        "Nvidia",
+        "TSMC",
+        "SK Hynix",
+        "Micron",
+        "AMD"
+      ],
+      "themes": [
+        "competitor_movement",
+        "supplier_dependency",
+        "hbm_supply",
+        "export_controls",
+        "industry_context"
+      ],
+      "reliability_score": 0.84,
+      "bias_risk": "medium",
+      "license_status": "licensed_required",
+      "collection_method": "restricted_manual_only",
+      "active_status": "restricted",
+      "refresh_frequency": "event_driven",
+      "content_formats": [
+        "html"
+      ],
+      "ingestion_priority": 4,
+      "downstream_use": [
+        "source_validation",
+        "event_detection",
+        "graph_context"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": true
+      },
+      "notes": "Do not scrape automatically unless licensed.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_012",
+      "source_name": "Nvidia Newsroom",
+      "source_family": "company_news",
+      "source_type": "company_newsroom",
+      "source_tier": 2,
+      "url": "https://nvidianews.nvidia.com/",
+      "root_domain": "nvidianews.nvidia.com",
+      "purpose": "Official Nvidia announcements, partnerships, launches, and company narrative for event discovery.",
+      "associated_entities": [
+        "Nvidia"
+      ],
+      "themes": [
+        "product_launch",
+        "partnership",
+        "blackwell",
+        "data_center_growth"
+      ],
+      "reliability_score": 0.78,
+      "bias_risk": "medium_high",
+      "license_status": "official_public",
+      "collection_method": "manual_download",
+      "active_status": "active_now",
+      "refresh_frequency": "event_driven",
+      "content_formats": [
+        "html"
+      ],
+      "ingestion_priority": 1,
+      "downstream_use": [
+        "evidence_extraction",
+        "event_detection",
+        "relationship_discovery",
+        "watch_item_generation"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Company-controlled; source weight lower than filings.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_013",
+      "source_name": "Nvidia Latest News",
+      "source_family": "company_news",
+      "source_type": "press_release",
+      "source_tier": 2,
+      "url": "https://nvidianews.nvidia.com/news/latest",
+      "root_domain": "nvidianews.nvidia.com",
+      "purpose": "Latest official Nvidia announcements for product, partnership, and ecosystem event detection.",
+      "associated_entities": [
+        "Nvidia"
+      ],
+      "themes": [
+        "product_launch",
+        "partnership",
+        "ai_accelerators",
+        "blackwell"
+      ],
+      "reliability_score": 0.78,
+      "bias_risk": "medium_high",
+      "license_status": "official_public",
+      "collection_method": "manual_download",
+      "active_status": "active_now",
+      "refresh_frequency": "event_driven",
+      "content_formats": [
+        "html"
+      ],
+      "ingestion_priority": 1,
+      "downstream_use": [
+        "evidence_extraction",
+        "event_detection",
+        "relationship_discovery",
+        "watch_item_generation"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Good for recent company-controlled signals.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_014",
+      "source_name": "Nvidia Blackwell Platform Announcement",
+      "source_family": "company_news",
+      "source_type": "press_release",
+      "source_tier": 2,
+      "url": "https://nvidianews.nvidia.com/news/nvidia-blackwell-platform-arrives-to-power-a-new-era-of-computing",
+      "root_domain": "nvidianews.nvidia.com",
+      "purpose": "Official Blackwell platform announcement for AI accelerator roadmap and product positioning evidence.",
+      "associated_entities": [
+        "Nvidia"
+      ],
+      "themes": [
+        "blackwell",
+        "ai_accelerators",
+        "product_launch",
+        "data_center_growth"
+      ],
+      "reliability_score": 0.78,
+      "bias_risk": "medium_high",
+      "license_status": "official_public",
+      "collection_method": "manual_download",
+      "active_status": "active_now",
+      "refresh_frequency": "event_driven",
+      "content_formats": [
+        "html"
+      ],
+      "ingestion_priority": 1,
+      "downstream_use": [
+        "evidence_extraction",
+        "event_detection",
+        "relationship_discovery"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Important product strategy source.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_015",
+      "source_name": "Nvidia Data Center Products",
+      "source_family": "company_product",
+      "source_type": "product_page",
+      "source_tier": 2,
+      "url": "https://www.nvidia.com/en-us/data-center/products/",
+      "root_domain": "www.nvidia.com",
+      "purpose": "Official data center product portfolio for mapping GPUs, systems, networking, and AI factory offerings.",
+      "associated_entities": [
+        "Nvidia"
+      ],
+      "themes": [
+        "data_center_growth",
+        "ai_accelerators",
+        "blackwell",
+        "product_launch"
+      ],
+      "reliability_score": 0.76,
+      "bias_risk": "medium_high",
+      "license_status": "official_public",
+      "collection_method": "manual_download",
+      "active_status": "active_now",
+      "refresh_frequency": "monthly",
+      "content_formats": [
+        "html"
+      ],
+      "ingestion_priority": 2,
+      "downstream_use": [
+        "evidence_extraction",
+        "relationship_discovery",
+        "graph_context"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Useful for product/entity mapping.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_016",
+      "source_name": "Nvidia CUDA Toolkit",
+      "source_family": "company_technical",
+      "source_type": "developer_docs",
+      "source_tier": 2,
+      "url": "https://developer.nvidia.com/cuda-toolkit",
+      "root_domain": "developer.nvidia.com",
+      "purpose": "Official CUDA source for software ecosystem, developer lock-in, and platform strength evidence.",
+      "associated_entities": [
+        "Nvidia"
+      ],
+      "themes": [
+        "cuda_ecosystem",
+        "ai_accelerators"
+      ],
+      "reliability_score": 0.76,
+      "bias_risk": "medium_high",
+      "license_status": "official_public",
+      "collection_method": "manual_download",
+      "active_status": "active_now",
+      "refresh_frequency": "monthly",
+      "content_formats": [
+        "html"
+      ],
+      "ingestion_priority": 2,
+      "downstream_use": [
+        "evidence_extraction",
+        "relationship_discovery",
+        "graph_context"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Important for Nvidia software moat.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_017",
+      "source_name": "Nvidia Documentation Hub",
+      "source_family": "company_technical",
+      "source_type": "developer_docs",
+      "source_tier": 2,
+      "url": "https://docs.nvidia.com/",
+      "root_domain": "docs.nvidia.com",
+      "purpose": "Official technical documentation hub for CUDA, networking, deployment, and product documentation.",
+      "associated_entities": [
+        "Nvidia"
+      ],
+      "themes": [
+        "cuda_ecosystem",
+        "ai_accelerators",
+        "blackwell"
+      ],
+      "reliability_score": 0.74,
+      "bias_risk": "medium_high",
+      "license_status": "official_public",
+      "collection_method": "manual_download",
+      "active_status": "active_later",
+      "refresh_frequency": "monthly",
+      "content_formats": [
+        "html"
+      ],
+      "ingestion_priority": 3,
+      "downstream_use": [
+        "graph_context",
+        "watch_item_generation",
+        "evidence_extraction"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Use selectively; too broad for first ingestion.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_018",
+      "source_name": "Nvidia Careers",
+      "source_family": "jobs_hiring",
+      "source_type": "job_postings",
+      "source_tier": 2,
+      "url": "https://www.nvidia.com/en-us/about-nvidia/careers/",
+      "root_domain": "www.nvidia.com",
+      "purpose": "Official hiring source for weak signals around supply chain, CUDA, systems, networking, and infrastructure focus.",
+      "associated_entities": [
+        "Nvidia"
+      ],
+      "themes": [
+        "hiring_signal",
+        "cuda_ecosystem",
+        "supplier_dependency"
+      ],
+      "reliability_score": 0.68,
+      "bias_risk": "medium_high",
+      "license_status": "official_public",
+      "collection_method": "web_snapshot",
+      "active_status": "active_later",
+      "refresh_frequency": "monthly",
+      "content_formats": [
+        "html"
+      ],
+      "ingestion_priority": 4,
+      "downstream_use": [
+        "watch_item_generation",
+        "graph_context"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": true
+      },
+      "notes": "Weak signal only.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_019",
+      "source_name": "TSMC Investor Relations",
+      "source_family": "supplier_ecosystem",
+      "source_type": "supplier_investor_relations",
+      "source_tier": 3,
+      "url": "https://investor.tsmc.com/english",
+      "root_domain": "investor.tsmc.com",
+      "purpose": "TSMC investor source for foundry capacity, capex, advanced nodes, and Nvidia manufacturing dependency context.",
+      "associated_entities": [
+        "TSMC",
+        "Nvidia"
+      ],
+      "themes": [
+        "foundry_dependency",
+        "advanced_packaging",
+        "supplier_dependency",
+        "financial_performance"
+      ],
+      "reliability_score": 0.86,
+      "bias_risk": "low_medium",
+      "license_status": "official_public",
+      "collection_method": "manual_download",
+      "active_status": "active_now",
+      "refresh_frequency": "quarterly",
+      "content_formats": [
+        "html",
+        "pdf"
+      ],
+      "ingestion_priority": 1,
+      "downstream_use": [
+        "evidence_extraction",
+        "relationship_discovery",
+        "event_detection",
+        "graph_context"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Critical supplier source.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_020",
+      "source_name": "TSMC CoWoS 3DFabric",
+      "source_family": "supplier_ecosystem",
+      "source_type": "supplier_newsroom",
+      "source_tier": 3,
+      "url": "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm",
+      "root_domain": "3dfabric.tsmc.com",
+      "purpose": "Official CoWoS technology source for advanced packaging and HBM integration context around AI accelerators.",
+      "associated_entities": [
+        "TSMC",
+        "Nvidia",
+        "HBM suppliers"
+      ],
+      "themes": [
+        "advanced_packaging",
+        "hbm_supply",
+        "foundry_dependency",
+        "ai_accelerators"
+      ],
+      "reliability_score": 0.84,
+      "bias_risk": "medium",
+      "license_status": "official_public",
+      "collection_method": "manual_download",
+      "active_status": "active_now",
+      "refresh_frequency": "monthly",
+      "content_formats": [
+        "html"
+      ],
+      "ingestion_priority": 1,
+      "downstream_use": [
+        "evidence_extraction",
+        "relationship_discovery",
+        "graph_context"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Critical for packaging dependency.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_021",
+      "source_name": "SK hynix Newsroom",
+      "source_family": "supplier_ecosystem",
+      "source_type": "supplier_newsroom",
+      "source_tier": 3,
+      "url": "https://news.skhynix.com/",
+      "root_domain": "news.skhynix.com",
+      "purpose": "Official SK hynix announcements for HBM supply, HBM3E/HBM4, memory roadmap, and AI demand.",
+      "associated_entities": [
+        "SK Hynix",
+        "Nvidia"
+      ],
+      "themes": [
+        "hbm_supply",
+        "supplier_dependency",
+        "ai_accelerators",
+        "partnership"
+      ],
+      "reliability_score": 0.84,
+      "bias_risk": "medium",
+      "license_status": "official_public",
+      "collection_method": "manual_download",
+      "active_status": "active_now",
+      "refresh_frequency": "event_driven",
+      "content_formats": [
+        "html"
+      ],
+      "ingestion_priority": 1,
+      "downstream_use": [
+        "evidence_extraction",
+        "relationship_discovery",
+        "event_detection",
+        "graph_context"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Critical HBM source.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_022",
+      "source_name": "Micron Investor Relations",
+      "source_family": "supplier_ecosystem",
+      "source_type": "supplier_investor_relations",
+      "source_tier": 3,
+      "url": "https://investors.micron.com/",
+      "root_domain": "investors.micron.com",
+      "purpose": "Micron investor source for HBM ramp, AI memory demand, capex, and supplier competition.",
+      "associated_entities": [
+        "Micron",
+        "Nvidia"
+      ],
+      "themes": [
+        "hbm_supply",
+        "supplier_dependency",
+        "financial_performance",
+        "competitor_movement"
+      ],
+      "reliability_score": 0.85,
+      "bias_risk": "low_medium",
+      "license_status": "official_public",
+      "collection_method": "manual_download",
+      "active_status": "active_now",
+      "refresh_frequency": "quarterly",
+      "content_formats": [
+        "html",
+        "pdf"
+      ],
+      "ingestion_priority": 1,
+      "downstream_use": [
+        "evidence_extraction",
+        "relationship_discovery",
+        "event_detection",
+        "graph_context"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Critical HBM supplier/competitor source.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_023",
+      "source_name": "Micron Newsroom",
+      "source_family": "supplier_ecosystem",
+      "source_type": "supplier_newsroom",
+      "source_tier": 3,
+      "url": "https://www.micron.com/about/press/news",
+      "root_domain": "www.micron.com",
+      "purpose": "Official Micron announcements for HBM, memory roadmap, product launches, and AI data center demand.",
+      "associated_entities": [
+        "Micron",
+        "Nvidia"
+      ],
+      "themes": [
+        "hbm_supply",
+        "product_launch",
+        "supplier_dependency",
+        "ai_accelerators"
+      ],
+      "reliability_score": 0.82,
+      "bias_risk": "medium",
+      "license_status": "official_public",
+      "collection_method": "manual_download",
+      "active_status": "active_now",
+      "refresh_frequency": "event_driven",
+      "content_formats": [
+        "html"
+      ],
+      "ingestion_priority": 2,
+      "downstream_use": [
+        "evidence_extraction",
+        "relationship_discovery",
+        "event_detection",
+        "graph_context"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Good for HBM movement.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_024",
+      "source_name": "Samsung Investor Relations",
+      "source_family": "supplier_ecosystem",
+      "source_type": "supplier_investor_relations",
+      "source_tier": 3,
+      "url": "https://www.samsung.com/global/ir/",
+      "root_domain": "www.samsung.com",
+      "purpose": "Samsung investor source for memory, foundry, capex, and supplier/competitor context.",
+      "associated_entities": [
+        "Samsung",
+        "Nvidia"
+      ],
+      "themes": [
+        "hbm_supply",
+        "foundry_dependency",
+        "competitor_movement",
+        "financial_performance"
+      ],
+      "reliability_score": 0.85,
+      "bias_risk": "low_medium",
+      "license_status": "official_public",
+      "collection_method": "manual_download",
+      "active_status": "active_now",
+      "refresh_frequency": "quarterly",
+      "content_formats": [
+        "html",
+        "pdf"
+      ],
+      "ingestion_priority": 1,
+      "downstream_use": [
+        "evidence_extraction",
+        "relationship_discovery",
+        "event_detection",
+        "graph_context"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Important memory/foundry source.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_025",
+      "source_name": "Samsung Semiconductor News",
+      "source_family": "supplier_ecosystem",
+      "source_type": "supplier_newsroom",
+      "source_tier": 3,
+      "url": "https://semiconductor.samsung.com/news-events/news/",
+      "root_domain": "semiconductor.samsung.com",
+      "purpose": "Samsung semiconductor announcements for HBM, foundry, advanced packaging, and AI memory movement.",
+      "associated_entities": [
+        "Samsung",
+        "Nvidia"
+      ],
+      "themes": [
+        "hbm_supply",
+        "foundry_dependency",
+        "advanced_packaging",
+        "product_launch"
+      ],
+      "reliability_score": 0.82,
+      "bias_risk": "medium",
+      "license_status": "official_public",
+      "collection_method": "manual_download",
+      "active_status": "active_later",
+      "refresh_frequency": "event_driven",
+      "content_formats": [
+        "html"
+      ],
+      "ingestion_priority": 2,
+      "downstream_use": [
+        "evidence_extraction",
+        "relationship_discovery",
+        "event_detection",
+        "graph_context"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Use after first HBM sources.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_026",
+      "source_name": "ASML Investor Relations",
+      "source_family": "supplier_ecosystem",
+      "source_type": "supplier_investor_relations",
+      "source_tier": 3,
+      "url": "https://www.asml.com/en/investors",
+      "root_domain": "www.asml.com",
+      "purpose": "ASML investor source for lithography capacity and semiconductor equipment constraints affecting advanced-node supply.",
+      "associated_entities": [
+        "ASML",
+        "TSMC",
+        "Samsung",
+        "Nvidia"
+      ],
+      "themes": [
+        "supplier_dependency",
+        "foundry_dependency",
+        "industry_context",
+        "financial_performance"
+      ],
+      "reliability_score": 0.86,
+      "bias_risk": "low_medium",
+      "license_status": "official_public",
+      "collection_method": "manual_download",
+      "active_status": "active_now",
+      "refresh_frequency": "quarterly",
+      "content_formats": [
+        "html",
+        "pdf"
+      ],
+      "ingestion_priority": 2,
+      "downstream_use": [
+        "evidence_extraction",
+        "relationship_discovery",
+        "event_detection",
+        "graph_context"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Useful for equipment bottleneck context.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_027",
+      "source_name": "ASE Technology Investor Relations",
+      "source_family": "supplier_ecosystem",
+      "source_type": "supplier_investor_relations",
+      "source_tier": 3,
+      "url": "https://ir.aseglobal.com/",
+      "root_domain": "ir.aseglobal.com",
+      "purpose": "ASE investor source for outsourced semiconductor assembly, test, and advanced packaging capacity context.",
+      "associated_entities": [
+        "ASE",
+        "Nvidia",
+        "TSMC"
+      ],
+      "themes": [
+        "advanced_packaging",
+        "supplier_dependency",
+        "financial_performance"
+      ],
+      "reliability_score": 0.82,
+      "bias_risk": "low_medium",
+      "license_status": "official_public",
+      "collection_method": "manual_download",
+      "active_status": "active_later",
+      "refresh_frequency": "quarterly",
+      "content_formats": [
+        "html",
+        "pdf"
+      ],
+      "ingestion_priority": 3,
+      "downstream_use": [
+        "relationship_discovery",
+        "graph_context",
+        "watch_item_generation"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Advanced packaging ecosystem source.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_028",
+      "source_name": "Amkor Investor Relations",
+      "source_family": "supplier_ecosystem",
+      "source_type": "supplier_investor_relations",
+      "source_tier": 3,
+      "url": "https://ir.amkor.com/",
+      "root_domain": "ir.amkor.com",
+      "purpose": "Amkor investor source for packaging and test capacity, advanced packaging, and OSAT industry signals.",
+      "associated_entities": [
+        "Amkor",
+        "Nvidia",
+        "TSMC"
+      ],
+      "themes": [
+        "advanced_packaging",
+        "supplier_dependency",
+        "financial_performance"
+      ],
+      "reliability_score": 0.82,
+      "bias_risk": "low_medium",
+      "license_status": "official_public",
+      "collection_method": "manual_download",
+      "active_status": "active_later",
+      "refresh_frequency": "quarterly",
+      "content_formats": [
+        "html",
+        "pdf"
+      ],
+      "ingestion_priority": 3,
+      "downstream_use": [
+        "relationship_discovery",
+        "graph_context",
+        "watch_item_generation"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Advanced packaging ecosystem source.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_029",
+      "source_name": "Broadcom Investor Relations",
+      "source_family": "supplier_ecosystem",
+      "source_type": "supplier_investor_relations",
+      "source_tier": 3,
+      "url": "https://investors.broadcom.com/",
+      "root_domain": "investors.broadcom.com",
+      "purpose": "Broadcom investor source for custom AI accelerator, networking ASIC, and competitive movement against Nvidia.",
+      "associated_entities": [
+        "Broadcom",
+        "Nvidia"
+      ],
+      "themes": [
+        "competitor_movement",
+        "ai_accelerators",
+        "data_center_growth",
+        "financial_performance"
+      ],
+      "reliability_score": 0.84,
+      "bias_risk": "low_medium",
+      "license_status": "official_public",
+      "collection_method": "manual_download",
+      "active_status": "active_later",
+      "refresh_frequency": "quarterly",
+      "content_formats": [
+        "html",
+        "pdf"
+      ],
+      "ingestion_priority": 2,
+      "downstream_use": [
+        "relationship_discovery",
+        "event_detection",
+        "graph_context"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Important competitor/custom silicon signal.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_030",
+      "source_name": "AMD Investor Relations",
+      "source_family": "supplier_ecosystem",
+      "source_type": "supplier_investor_relations",
+      "source_tier": 3,
+      "url": "https://ir.amd.com/",
+      "root_domain": "ir.amd.com",
+      "purpose": "AMD investor source for GPU accelerator competition, data center strategy, and market movement versus Nvidia.",
+      "associated_entities": [
+        "AMD",
+        "Nvidia"
+      ],
+      "themes": [
+        "competitor_movement",
+        "ai_accelerators",
+        "data_center_growth",
+        "financial_performance"
+      ],
+      "reliability_score": 0.84,
+      "bias_risk": "low_medium",
+      "license_status": "official_public",
+      "collection_method": "manual_download",
+      "active_status": "active_later",
+      "refresh_frequency": "quarterly",
+      "content_formats": [
+        "html",
+        "pdf"
+      ],
+      "ingestion_priority": 2,
+      "downstream_use": [
+        "relationship_discovery",
+        "event_detection",
+        "graph_context"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Main accelerator competitor.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_031",
+      "source_name": "AWS and Nvidia Strategic Collaboration",
+      "source_family": "customer_partner",
+      "source_type": "customer_partner_announcement",
+      "source_tier": 3,
+      "url": "https://nvidianews.nvidia.com/news/aws-nvidia-strategic-collaboration-for-generative-ai",
+      "root_domain": "nvidianews.nvidia.com",
+      "purpose": "Official AWS/Nvidia collaboration announcement for hyperscaler demand and partner relationship evidence.",
+      "associated_entities": [
+        "Nvidia",
+        "Amazon Web Services"
+      ],
+      "themes": [
+        "hyperscaler_demand",
+        "partnership",
+        "data_center_growth"
+      ],
+      "reliability_score": 0.82,
+      "bias_risk": "medium_high",
+      "license_status": "official_public",
+      "collection_method": "manual_download",
+      "active_status": "active_now",
+      "refresh_frequency": "event_driven",
+      "content_formats": [
+        "html"
+      ],
+      "ingestion_priority": 1,
+      "downstream_use": [
+        "relationship_discovery",
+        "event_detection",
+        "graph_context",
+        "watch_item_generation"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Useful for customer/partner graph.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_032",
+      "source_name": "Oracle Cloud and Nvidia",
+      "source_family": "customer_partner",
+      "source_type": "customer_partner_announcement",
+      "source_tier": 3,
+      "url": "https://www.oracle.com/cloud/nvidia/",
+      "root_domain": "www.oracle.com",
+      "purpose": "Oracle/Nvidia cloud partnership page for OCI GPU demand, deployment options, and customer ecosystem evidence.",
+      "associated_entities": [
+        "Oracle",
+        "Nvidia"
+      ],
+      "themes": [
+        "hyperscaler_demand",
+        "partnership",
+        "data_center_growth"
+      ],
+      "reliability_score": 0.8,
+      "bias_risk": "medium_high",
+      "license_status": "official_public",
+      "collection_method": "manual_download",
+      "active_status": "active_later",
+      "refresh_frequency": "monthly",
+      "content_formats": [
+        "html"
+      ],
+      "ingestion_priority": 2,
+      "downstream_use": [
+        "relationship_discovery",
+        "event_detection",
+        "graph_context"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Cloud customer/partner source.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_033",
+      "source_name": "Dell AI Factory with Nvidia",
+      "source_family": "customer_partner",
+      "source_type": "customer_partner_announcement",
+      "source_tier": 3,
+      "url": "https://www.dell.com/en-us/lp/dt/nvidia-ai",
+      "root_domain": "www.dell.com",
+      "purpose": "Dell/Nvidia AI Factory source for enterprise infrastructure channel and OEM/system integration relationships.",
+      "associated_entities": [
+        "Dell",
+        "Nvidia"
+      ],
+      "themes": [
+        "partnership",
+        "data_center_growth",
+        "hyperscaler_demand"
+      ],
+      "reliability_score": 0.78,
+      "bias_risk": "medium_high",
+      "license_status": "official_public",
+      "collection_method": "manual_download",
+      "active_status": "active_later",
+      "refresh_frequency": "monthly",
+      "content_formats": [
+        "html"
+      ],
+      "ingestion_priority": 3,
+      "downstream_use": [
+        "relationship_discovery",
+        "event_detection",
+        "graph_context"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "OEM/channel ecosystem source.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_034",
+      "source_name": "HPE Nvidia AI Computing",
+      "source_family": "customer_partner",
+      "source_type": "customer_partner_announcement",
+      "source_tier": 3,
+      "url": "https://www.hpe.com/us/en/solutions/artificial-intelligence/nvidia-collaboration.html",
+      "root_domain": "www.hpe.com",
+      "purpose": "HPE/Nvidia source for enterprise AI factory, private cloud AI, and OEM channel relationship evidence.",
+      "associated_entities": [
+        "HPE",
+        "Nvidia"
+      ],
+      "themes": [
+        "partnership",
+        "data_center_growth",
+        "hyperscaler_demand"
+      ],
+      "reliability_score": 0.78,
+      "bias_risk": "medium_high",
+      "license_status": "official_public",
+      "collection_method": "manual_download",
+      "active_status": "active_later",
+      "refresh_frequency": "monthly",
+      "content_formats": [
+        "html"
+      ],
+      "ingestion_priority": 3,
+      "downstream_use": [
+        "relationship_discovery",
+        "event_detection",
+        "graph_context"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "OEM/channel ecosystem source.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_035",
+      "source_name": "Supermicro Nvidia AI Factory",
+      "source_family": "customer_partner",
+      "source_type": "customer_partner_announcement",
+      "source_tier": 3,
+      "url": "https://www.supermicro.com/en/accelerators/nvidia/ai-factory",
+      "root_domain": "www.supermicro.com",
+      "purpose": "Supermicro/Nvidia AI factory source for server ecosystem, channel demand, and system-integration evidence.",
+      "associated_entities": [
+        "Supermicro",
+        "Nvidia"
+      ],
+      "themes": [
+        "partnership",
+        "data_center_growth",
+        "hyperscaler_demand"
+      ],
+      "reliability_score": 0.78,
+      "bias_risk": "medium_high",
+      "license_status": "official_public",
+      "collection_method": "manual_download",
+      "active_status": "active_later",
+      "refresh_frequency": "monthly",
+      "content_formats": [
+        "html"
+      ],
+      "ingestion_priority": 3,
+      "downstream_use": [
+        "relationship_discovery",
+        "event_detection",
+        "graph_context"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Server ecosystem source.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_036",
+      "source_name": "MLCommons MLPerf Training Benchmarks",
+      "source_family": "benchmark_technical",
+      "source_type": "benchmark",
+      "source_tier": 4,
+      "url": "https://mlcommons.org/benchmarks/training/",
+      "root_domain": "mlcommons.org",
+      "purpose": "Independent benchmark source for AI hardware performance comparisons and external validation of accelerator claims.",
+      "associated_entities": [
+        "Nvidia",
+        "AMD",
+        "Google",
+        "Intel"
+      ],
+      "themes": [
+        "benchmark_performance",
+        "ai_accelerators",
+        "competitor_movement"
+      ],
+      "reliability_score": 0.78,
+      "bias_risk": "low_medium",
+      "license_status": "public",
+      "collection_method": "manual_download",
+      "active_status": "active_later",
+      "refresh_frequency": "event_driven",
+      "content_formats": [
+        "html",
+        "csv"
+      ],
+      "ingestion_priority": 3,
+      "downstream_use": [
+        "graph_context",
+        "source_validation",
+        "watch_item_generation",
+        "evidence_extraction"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Benchmark context; not business evidence alone.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_037",
+      "source_name": "Google Patents Advanced Search",
+      "source_family": "patent_research",
+      "source_type": "patent_database",
+      "source_tier": 4,
+      "url": "https://patents.google.com/advanced",
+      "root_domain": "patents.google.com",
+      "purpose": "Patent search source for Nvidia technology direction and R&D signals, used carefully as weak signal evidence.",
+      "associated_entities": [
+        "Nvidia"
+      ],
+      "themes": [
+        "patents_r_and_d",
+        "ai_accelerators",
+        "cuda_ecosystem"
+      ],
+      "reliability_score": 0.7,
+      "bias_risk": "medium",
+      "license_status": "public",
+      "collection_method": "manual_only",
+      "active_status": "manual_only",
+      "refresh_frequency": "manual",
+      "content_formats": [
+        "html"
+      ],
+      "ingestion_priority": 5,
+      "downstream_use": [
+        "graph_context",
+        "watch_item_generation"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": true
+      },
+      "notes": "Manual-only until patent search strategy is defined.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_038",
+      "source_name": "USPTO Patent Public Search",
+      "source_family": "patent_research",
+      "source_type": "patent_database",
+      "source_tier": 4,
+      "url": "https://ppubs.uspto.gov/pubwebapp/static/pages/landing.html",
+      "root_domain": "ppubs.uspto.gov",
+      "purpose": "Official patent source for Nvidia-assigned patents and R&D direction.",
+      "associated_entities": [
+        "Nvidia"
+      ],
+      "themes": [
+        "patents_r_and_d",
+        "ai_accelerators"
+      ],
+      "reliability_score": 0.76,
+      "bias_risk": "low_medium",
+      "license_status": "public",
+      "collection_method": "manual_only",
+      "active_status": "manual_only",
+      "refresh_frequency": "manual",
+      "content_formats": [
+        "html"
+      ],
+      "ingestion_priority": 5,
+      "downstream_use": [
+        "graph_context",
+        "watch_item_generation"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": true
+      },
+      "notes": "Manual-only for now.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_039",
+      "source_name": "Semiconductor Industry Association Supply Chain Investments",
+      "source_family": "industry_context",
+      "source_type": "industry_association",
+      "source_tier": 4,
+      "url": "https://www.semiconductors.org/chip-supply-chain-investments/",
+      "root_domain": "www.semiconductors.org",
+      "purpose": "Industry association context for semiconductor supply-chain investments, CHIPS Act context, and ecosystem mapping.",
+      "associated_entities": [
+        "Nvidia",
+        "Semiconductor Industry"
+      ],
+      "themes": [
+        "industry_context",
+        "supplier_dependency",
+        "foundry_dependency"
+      ],
+      "reliability_score": 0.74,
+      "bias_risk": "medium",
+      "license_status": "public",
+      "collection_method": "manual_download",
+      "active_status": "active_later",
+      "refresh_frequency": "monthly",
+      "content_formats": [
+        "html"
+      ],
+      "ingestion_priority": 4,
+      "downstream_use": [
+        "graph_context",
+        "source_validation",
+        "watch_item_generation"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Context only.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_040",
+      "source_name": "JEDEC HBM Standards",
+      "source_family": "benchmark_technical",
+      "source_type": "industry_association",
+      "source_tier": 4,
+      "url": "https://www.jedec.org/standards-documents/focus/memory/hbm-high-bandwidth-memory-dram",
+      "root_domain": "www.jedec.org",
+      "purpose": "Standards context for HBM specifications, useful for interpreting memory roadmap and benchmark claims.",
+      "associated_entities": [
+        "JEDEC",
+        "HBM suppliers",
+        "Nvidia"
+      ],
+      "themes": [
+        "hbm_supply",
+        "benchmark_performance",
+        "industry_context"
+      ],
+      "reliability_score": 0.75,
+      "bias_risk": "low_medium",
+      "license_status": "public",
+      "collection_method": "manual_download",
+      "active_status": "active_later",
+      "refresh_frequency": "monthly",
+      "content_formats": [
+        "html",
+        "pdf"
+      ],
+      "ingestion_priority": 4,
+      "downstream_use": [
+        "graph_context",
+        "source_validation",
+        "watch_item_generation"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Technical context source.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_041",
+      "source_name": "Tom's Hardware Semiconductor Coverage",
+      "source_family": "market_news",
+      "source_type": "trade_publication",
+      "source_tier": 4,
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors",
+      "root_domain": "www.tomshardware.com",
+      "purpose": "Technology trade publication for context on chips, GPUs, memory, packaging, and competitor movement.",
+      "associated_entities": [
+        "Nvidia",
+        "AMD",
+        "Intel",
+        "TSMC"
+      ],
+      "themes": [
+        "competitor_movement",
+        "industry_context",
+        "hbm_supply"
+      ],
+      "reliability_score": 0.62,
+      "bias_risk": "medium_high",
+      "license_status": "public",
+      "collection_method": "manual_download",
+      "active_status": "active_later",
+      "refresh_frequency": "event_driven",
+      "content_formats": [
+        "html"
+      ],
+      "ingestion_priority": 5,
+      "downstream_use": [
+        "graph_context",
+        "source_validation",
+        "watch_item_generation"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": true
+      },
+      "notes": "Secondary context only.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_042",
+      "source_name": "Manual Uploads - Saved Documents",
+      "source_family": "manual_upload",
+      "source_type": "manual_document",
+      "source_tier": 5,
+      "url": "file://data/raw/manual_uploads",
+      "root_domain": "file:",
+      "purpose": "Local manually uploaded documents such as permitted PDFs, transcripts, articles, or analyst notes for controlled POC ingestion.",
+      "associated_entities": [
+        "Nvidia"
+      ],
+      "themes": [
+        "industry_context",
+        "risk_factors",
+        "supplier_dependency",
+        "competitor_movement"
+      ],
+      "reliability_score": 0.6,
+      "bias_risk": "unknown",
+      "license_status": "manual_only",
+      "collection_method": "manual_upload",
+      "active_status": "manual_only",
+      "refresh_frequency": "manual",
+      "content_formats": [
+        "pdf",
+        "txt",
+        "html"
+      ],
+      "ingestion_priority": 3,
+      "downstream_use": [
+        "graph_context",
+        "watch_item_generation"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": true
+      },
+      "notes": "Manual-only. Requires human review.",
+      "last_reviewed_date": "2026-06-20"
+    },
+    {
+      "source_id": "src_043",
+      "source_name": "Manual Uploads - Earnings Call Transcripts",
+      "source_family": "manual_upload",
+      "source_type": "earnings_call_transcript",
+      "source_tier": 5,
+      "url": "file://data/raw/transcripts",
+      "root_domain": "file:",
+      "purpose": "Manually saved earnings call transcripts when official or licensed transcript access is available.",
+      "associated_entities": [
+        "Nvidia",
+        "TSMC",
+        "SK Hynix",
+        "Micron",
+        "AMD"
+      ],
+      "themes": [
+        "financial_performance",
+        "data_center_growth",
+        "hbm_supply",
+        "competitor_movement"
+      ],
+      "reliability_score": 0.7,
+      "bias_risk": "unknown",
+      "license_status": "manual_only",
+      "collection_method": "manual_upload",
+      "active_status": "manual_only",
+      "refresh_frequency": "quarterly",
+      "content_formats": [
+        "txt",
+        "transcript",
+        "pdf"
+      ],
+      "ingestion_priority": 3,
+      "downstream_use": [
+        "evidence_extraction",
+        "relationship_discovery",
+        "event_detection"
+      ],
+      "quality_controls": {
+        "requires_snapshot": true,
+        "requires_metadata": true,
+        "requires_deduplication": true,
+        "allow_llm_extraction": true,
+        "requires_human_review": false
+      },
+      "notes": "Only use if transcript rights are clear.",
+      "last_reviewed_date": "2026-06-20"
+    }
+  ]
+}
