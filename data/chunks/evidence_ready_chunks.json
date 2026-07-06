@@ -1,0 +1,755 @@
+{
+  "generated_at": "2026-07-06T17:57:52.993751+00:00",
+  "input_chunks": 53,
+  "kept_chunks": 21,
+  "chunks": [
+    {
+      "chunk_id": "chunk_doc_src_020_001",
+      "document_id": "doc_src_020",
+      "source_id": "src_020",
+      "source_name": "TSMC CoWoS 3DFabric",
+      "source_family": "supplier_ecosystem",
+      "source_type": "supplier_newsroom",
+      "source_tier": 3,
+      "url": "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm",
+      "themes": [
+        "advanced_packaging",
+        "hbm_supply",
+        "foundry_dependency",
+        "ai_accelerators"
+      ],
+      "associated_entities": [
+        "TSMC",
+        "Nvidia",
+        "HBM suppliers"
+      ],
+      "reliability_score": 0.84,
+      "bias_risk": "medium",
+      "license_status": "official_public",
+      "chunk_index": 1,
+      "chunk_word_count": 1000,
+      "text": "CoWoS® - Taiwan Semiconductor Manufacturing Company Limited Dedicated IC Foundry Dedicated IC Foundry Overview Technology Overview Logic Technology Specialty Technology 3DFabric Technology Platforms Future R&D Plans Manufacturing Overview Fab Locations Fab Capacity GIGAFAB ® Facilities Engineering Performance Optimization Agile and Intelligent Operations Open Innovation Platform ® Overview IP Alliance EDA Alliance Design Center Alliance Cloud Alliance Value Chain Aggregator TSMC 3DFabric™ Alliance Services Overview Advanced Packaging Mask Services eFoundry ® CyberShuttle ® University FinFET Program Grand Alliance Overview Innovation Zone Investors Investors Overview Financials Fundamentals Quarterly Results Annual Reports Monthly Revenue Historical Information SEC Filings Financial Reports Financial Calendar Credit Rating Corporate Governance Overview Board of Directors Committees Corporate Governance Officer Major Internal Policies NYSE Section 303A Internal Audit Risk Management Shareholder Services Stock Quotes Shareholders' Meeting Dividend TSE Market Observation Post System TSMC Material Information Prospectuses Contacts FAQ Press Center Press Center Overview Press Releases Latest News News Archives Events All Events Investor Meetings TSMC Events Industry Events Multimedia Gallery Fabs: Outside Fabs: Inside Executives Videos Corporate Information About TSMC Financial Results Corporate Social Responsibility Careers Careers Overview Explore Career Browse & Apply Application Process Resources at TSMC Core Values Relocation to Headquarters Life at TSMC Working Environment Inclusive Workplace ESG Research Research Overview Research Areas Overview Logic Interconnect Memory Artificial Intelligence Collaborations Collaboration Programs Events Careers Openings Core Values Vision and Mission Inclusive Workplace About TSMC About TSMC Overview Company Info Overview Vision and Mission Values and Business Philosophy Organization Executives Board of Directors Document Center Foundation & Museum TSMC Museum of Innovation TSMC Charity Foundation TSMC Education and Culture Foundation Policy Human Rights Policy Quality Policy Risk Management Policy TSMC Fabs Subsidiaries Business Contacts Investor Relations, Public Relations, ESG Contacts Procurement Contacts Career Contact Business Conduct English ç¹ä¸­ ç®ä¸­ æ¥æ¬èª Home Dedicated IC Foundry Technology 3DFabric CoWoS ® CoWoS ® CoWoS ® -S CoWoS ® -R CoWoS ® -L TSMCâs Chip on Wafer on Substrate with Silicon Interposer (CoWoS ® -S) provides best-in-class package technology for ultra-high performance computing applications, such as artificial intelligence (AI) and supercomputing. Wafer-level system integration provides high-density interconnects and deep trench capacitors over a large silicon interposer area to accommodate various functional top die, including logic chiplets, with high-bandwidth memory (HBM) cubes stacked over it. CoWoS ® -S can accommodate an interposer up to 3.3X-reticle size (or ~2700mm 2 ). CoWoS ® -L or CoWoS ® -R are recommended for larger than 3.3X-reticle interposer sizes. A variety of interconnect options provide integration flexibility to meet performance target. Chip on Wafer on Substrate with Redistribution Layer Interposer (CoWoS ® -R) technology service achieves heterogeneous integration by using a redistribution layer (RDL) interposer as the interconnect between System on Chip (SoC) and/or high-bandwidth memory (HBM). An RDL interposer is comprised of polymer and copper traces and is relatively flexible. This enhances C4 joint integrity and allows the package to scale to meet very complex functional demands. Key CoWoS ® -R features include: An RDL interposer for routing, with a minimum 4Î¼m pitch (2Î¼m line width/spacing). An RDL interconnect offers good signal and power integrity with a lower RC value routing line to achieve a high data transmission rate. The co-planar Ground-Signal-Ground-Signal-Ground (GSGSG) and interlayer ground shielding with RDL interconnections offer superior electrical performance. RDL layer and C4/underfill (UF) layers provide an excellent buffer thanks to the coefficient of thermal expansion (CTE) mismatch between an SoC and the corresponding substrate. The strain energy density is greatly reduced in C4 bump area. CoWoS ® -L technology service, combining Chip on Wafer on Substrate with RDL-based interposer and embedded local silicon interconnect (LSI), improves product design flexibility by integrating a variety of embedded chips. LSI with higher routing density and embedded deep trench capacitor (eDTC) enables larger-sized HPC products. CoWoS ® -L features include: LSI chips for a high routing density die-to-die interconnect through multiple layers of sub-micron copper lines. LSI chips can feature a variety of connection architectures, e.g., System on Chip (SoC)-to-SoC, SoC-to-chiplet, SoC-to-high-bandwidth memory (HBM), within each product, and can be used repeatedly in multiple products. The corresponding metal types, layer counts, and pitches align with the offering from CoWoS ® -S A molding-based interposer with a wide pitch of RDL layers on the front-side and back-side that delivers signal and power provides a low loss of high frequency signals during high-speed transmission The ability to integrate additional elements, such as stand-alone eDTCs underneath the SoC die to improve power management The Chronicle of CoWoS 2024 News Release 2024/01/10 GUC Taped Out UCIe 32G IP using TSMC's 3nm and CoWoS Technology LEARN MORE 2023 News Release 2023/04/06 GUC Taped Out 3nm 8.6Gbps HBM3 and 5Tbps/mm GLink-2.5D IP using TSMC Advanced Packaging Technology LEARN MORE 2022 News Release 2022/07/07 GUC Demonstrate World's First HBM3 PHY, Controller, and CoWoS Platform at 7.2 Gbps LEARN MORE 2022/03/10 GUC announces 2.5D and 3D multi-die APT platform for AI, HPC, networking ASICs LEARN MORE 2021 Industry Publication ECTC 2021 Wafer Level System Integration of the Fifth Generation CoWoS ® -S with High Performance Si Interposer at 2500 mm 2 LEARN MORE News Release 2021/08/31 GUC Announces Industry Highest Bandwidth and Power Efficient Die-to-Die (GLink 2.0) Total Solution LEARN MORE 2021/06/08 GUC Tapes Out AI/HPC/Networking Platform on TSMC CoWoS ® Technology Validating 7.2 Gbps HBM3 Controller and PHY, GLink-2.5D and 112G-LR SerDes IPs LEARN MORE 2020 Industry Publication ECTC 2020 Design and Analysis of Logic-HBM2E Power Delivery System on CoWoS ® Platform with Deep Trench Capacitor LEARN MORE News Release 2020/11/17 GUC Die-to-Die (D2D) Total Solution Opening the New Era of Flagship SoC LEARN MORE 2020/09/09 Rambus Advances HBM2E Performance to 4.0 Gbps for AI/ML Training Applications LEARN MORE 2020/03/03 TSMC and Broadcom Enhance the CoWoS Platform with Worldâs First 2X Reticle Size Interposer LEARN MORE 2019 Industry Publication IEDM 2019 Integrated Deep Trench Capacitor in Si Interposer for CoWoS Heterogeneous Integration LEARN MORE Production Milestone More than 60 product tape-outs are in production or in development as of Aug. 2019 Customer Product Industry 1 st 7nm GPU",
+      "created_at": "2026-07-06T17:50:32.385327+00:00",
+      "filtered_at": "2026-07-06T17:57:52.944014+00:00",
+      "quality": {
+        "word_count": 1000,
+        "blocklist_hits": 0,
+        "nav_noise_hits": 1,
+        "strategic_signal_hits": 11,
+        "quality_status": "kept",
+        "filter_reasons": []
+      }
+    },
+    {
+      "chunk_id": "chunk_doc_src_020_002",
+      "document_id": "doc_src_020",
+      "source_id": "src_020",
+      "source_name": "TSMC CoWoS 3DFabric",
+      "source_family": "supplier_ecosystem",
+      "source_type": "supplier_newsroom",
+      "source_tier": 3,
+      "url": "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm",
+      "themes": [
+        "advanced_packaging",
+        "hbm_supply",
+        "foundry_dependency",
+        "ai_accelerators"
+      ],
+      "associated_entities": [
+        "TSMC",
+        "Nvidia",
+        "HBM suppliers"
+      ],
+      "reliability_score": 0.84,
+      "bias_risk": "medium",
+      "license_status": "official_public",
+      "chunk_index": 2,
+      "chunk_word_count": 593,
+      "text": "Highest Bandwidth and Power Efficient Die-to-Die (GLink 2.0) Total Solution LEARN MORE 2021/06/08 GUC Tapes Out AI/HPC/Networking Platform on TSMC CoWoS ® Technology Validating 7.2 Gbps HBM3 Controller and PHY, GLink-2.5D and 112G-LR SerDes IPs LEARN MORE 2020 Industry Publication ECTC 2020 Design and Analysis of Logic-HBM2E Power Delivery System on CoWoS ® Platform with Deep Trench Capacitor LEARN MORE News Release 2020/11/17 GUC Die-to-Die (D2D) Total Solution Opening the New Era of Flagship SoC LEARN MORE 2020/09/09 Rambus Advances HBM2E Performance to 4.0 Gbps for AI/ML Training Applications LEARN MORE 2020/03/03 TSMC and Broadcom Enhance the CoWoS Platform with Worldâs First 2X Reticle Size Interposer LEARN MORE 2019 Industry Publication IEDM 2019 Integrated Deep Trench Capacitor in Si Interposer for CoWoS Heterogeneous Integration LEARN MORE Production Milestone More than 60 product tape-outs are in production or in development as of Aug. 2019 Customer Product Industry 1 st 7nm GPU w/ deep learning accelerator 1TB/s in BW 4 HBM2 1X reticle interposer AI training accelerator w/ 1.2TB/s in BW N16+ 4 HBM2 1.5X reticle interposer 2018 Customer Product Fujitsu A64FX LEARN MORE Build your 56G Enterprise Networking ASICs with MediaTek LEARN MORE 2017 Customer Product Broadcom Announces Industry's First Silicon-Proven 7nm IP for ASICs in Deep Learning and Networking Applications LEARN MORE NEC \"Aurora\" Vector Engine vector processor LEARN MORE Nvidia TESLA GV100 LEARN MORE Industry Publication IEEE Transaction on electronics devices 2017 Wafer-Level Integration of an Advanced Logic-Memory System Through the Second-Generation CoWoS Technology LEARN MORE IEDM 2017 Advanced Heterogeneous Integration Technology Trend for Cloud and Edge LEARN MORE 2016 Customer Product Nvidia TESLA GP100 LEARN MORE Industry's first ASIC based AI accelerator from learning only to learning+inference Industry Publication SEMICON Taiwan 2016 Interposer Technology: Past, Now, and Future LEARN MORE SEMICON Taiwan 2016 WLSI Extends Si Processing and Supports Moore's Law LEARN MORE 2015 Customer Product Xilinx XCVU440 LEARN MORE 2014 Customer Product HiSilicon Hi1616 LEARN MORE Industry Publication IEDM 2014 A manufacturable interposer MIM decoupling capacitor with robust thin high-K dielectric for heterogeneous 3D IC CoWoS wafer level system integration LEARN MORE IEDM 2014 Wafer Level System Integration for SiP LEARN MORE CICC 2014 New System-in-Package (SiP) Integration technologies LEARN MORE 2013 Industry Publication VLSI 2013 Manufacturability Optimization and Design Validation Studies for FPGA-Based, 3D Integrated Circuits LEARN MORE IITC 2013 Innovative Wafer-based Interconnect Enabling System Integration and Semiconductor Paradigm Shifts LEARN MORE ECTC 2013 Reliability Evaluation of a CoWoS-enabled 3D IC Package LEARN MORE 2012 Customer Product Xilinx 7V2000T/7V580T LEARN MORE Industry Publication VLSI 2012 An ultra-thin interposer utilizing 3D TSV technology LEARN MORE 2011 Industry Publication ECTC 2011 Advanced Reliability Study of TSV Interposers and Interconnects for the 28nm Technology FPGA LEARN MORE Related Information Business Contacts Fab Locations Technology Platforms TSMC-Online™ Online information and transaction for our customers TSMC-Supply Online The web-based portal for smarter supplier interactions Document Center Find more information about TSMC Dedicated IC Foundry Overview Technology Manufacturing Open Innovation Platform ® Services Grand Alliance Investors Overview Financials Corporate Governance Shareholder Services FAQ Press Center Overview Press Releases Events Multimedia Gallery Corporate Information Careers Overview Browse & Apply Application Process Core Values Relocation to Headquarter Working Environment Inclusive Workplace ESG An Innovation Pioneer A Responsible Purchaser A Practitioner of Green Power An Admired Employer Power to Change Society Research Research Areas Collaborations Careers About TSMC Overview TSMC Museum of Innovation TSMC Charity Foundation TSMC Education and Culture Foundation Legal Notice & Trademark Information | | Sitemap | Taiwan Semiconductor Manufacturing Company Limited 2010- , .",
+      "created_at": "2026-07-06T17:50:32.385342+00:00",
+      "filtered_at": "2026-07-06T17:57:52.944757+00:00",
+      "quality": {
+        "word_count": 593,
+        "blocklist_hits": 0,
+        "nav_noise_hits": 5,
+        "strategic_signal_hits": 10,
+        "quality_status": "kept",
+        "filter_reasons": []
+      }
+    },
+    {
+      "chunk_id": "chunk_doc_src_014_001",
+      "document_id": "doc_src_014",
+      "source_id": "src_014",
+      "source_name": "Nvidia Blackwell Platform Announcement",
+      "source_family": "company_news",
+      "source_type": "press_release",
+      "source_tier": 2,
+      "url": "https://nvidianews.nvidia.com/news/nvidia-blackwell-platform-arrives-to-power-a-new-era-of-computing",
+      "themes": [
+        "blackwell",
+        "ai_accelerators",
+        "product_launch",
+        "data_center_growth"
+      ],
+      "associated_entities": [
+        "Nvidia"
+      ],
+      "reliability_score": 0.78,
+      "bias_risk": "medium_high",
+      "license_status": "official_public",
+      "chunk_index": 1,
+      "chunk_word_count": 1000,
+      "text": "NVIDIA Blackwell Platform Arrives to Power a New Era of Computing | NVIDIA Newsroom PLATFORMS Autonomous Machines Cloud & Data Center Deep Learning & Ai Design & Pro Visualization Healthcare High Performance Computing Self-Driving Cars Gaming & Entertainment other links Developers Industries Shop Drivers Support About NVIDIA View All Products GPU TECHNOLOGY CONFERENCE NVIDIA Blog Community Careers TECHNOLOGIES Newsroom NVIDIA in Brief Exec Bios NVIDIA Blog Podcast Media Assets In the News Press Contacts Online Press Kits NVIDIA in Brief Exec Bios NVIDIA Blog Podcast Media Assets In the News Press Contacts Online Press Kits Press Release Share Tweet Twitter Share LinkedIn Share Facebook Email NVIDIA Blackwell Platform Arrives to Power a New Era of Computing March 18, 2024 New Blackwell GPU, NVLink and Resilience Technologies Enable Trillion-Parameter-Scale AI Models New Tensor Cores and TensorRT- LLM Compiler Reduce LLM Inference Operating Cost and Energy by up to 25x New Accelerators Enable Breakthroughs in Data Processing, Engineering Simulation, Electronic Design Automation, Computer-Aided Drug Design and Quantum Computing Widespread Adoption by Every Major Cloud Provider, Server Maker and Leading AI Company GTC— Powering a new era of computing, NVIDIA today announced that the NVIDIA Blackwell platform has arrived — enabling organizations everywhere to build and run real-time generative AI on trillion-parameter large language models at up to 25x less cost and energy consumption than its predecessor. The Blackwell GPU architecture features six transformative technologies for accelerated computing, which will help unlock breakthroughs in data processing, engineering simulation, electronic design automation, computer-aided drug design, quantum computing and generative AI — all emerging industry opportunities for NVIDIA. “For three decades we’ve pursued accelerated computing, with the goal of enabling transformative breakthroughs like deep learning and AI,” said Jensen Huang, founder and CEO of NVIDIA. “Generative AI is the defining technology of our time. Blackwell is the engine to power this new industrial revolution. Working with the most dynamic companies in the world, we will realize the promise of AI for every industry.” Among the many organizations expected to adopt Blackwell are Amazon Web Services, Dell Technologies, Google, Meta, Microsoft, OpenAI, Oracle, Tesla and xAI. Sundar Pichai, CEO of Alphabet and Google: “Scaling services like Search and Gmail to billions of users has taught us a lot about managing compute infrastructure. As we enter the AI platform shift, we continue to invest deeply in infrastructure for our own products and services, and for our Cloud customers. We are fortunate to have a longstanding partnership with NVIDIA, and look forward to bringing the breakthrough capabilities of the Blackwell GPU to our Cloud customers and teams across Google, including Google DeepMind, to accelerate future discoveries.” Andy Jassy, president and CEO of Amazon: “Our deep collaboration with NVIDIA goes back more than 13 years, when we launched the world’s first GPU cloud instance on AWS. Today we offer the widest range of GPU solutions available anywhere in the cloud, supporting the world’s most technologically advanced accelerated workloads. It's why the new NVIDIA Blackwell GPU will run so well on AWS and the reason that NVIDIA chose AWS to co-develop Project Ceiba, combining NVIDIA’s next-generation Grace Blackwell Superchips with the AWS Nitro System's advanced virtualization and ultra-fast Elastic Fabric Adapter networking, for NVIDIA's own AI research and development. Through this joint effort between AWS and NVIDIA engineers, we're continuing to innovate together to make AWS the best place for anyone to run NVIDIA GPUs in the cloud.” Michael Dell, founder and CEO of Dell Technologies: “Generative AI is critical to creating smarter, more reliable and efficient systems. Dell Technologies and NVIDIA are working together to shape the future of technology. With the launch of Blackwell, we will continue to deliver the next-generation of accelerated products and services to our customers, providing them with the tools they need to drive innovation across industries.” Demis Hassabis, cofounder and CEO of Google DeepMind: “The transformative potential of AI is incredible, and it will help us solve some of the world’s most important scientific problems. Blackwell’s breakthrough technological capabilities will provide the critical compute needed to help the world’s brightest minds chart new scientific discoveries.” Mark Zuckerberg, founder and CEO of Meta: “AI already powers everything from our large language models to our content recommendations, ads, and safety systems, and it's only going to get more important in the future. We're looking forward to using NVIDIA's Blackwell to help train our open-source Llama models and build the next generation of Meta AI and consumer products.” Satya Nadella, executive chairman and CEO of Microsoft: “We are committed to offering our customers the most advanced infrastructure to power their AI workloads. By bringing the GB200 Grace Blackwell processor to our datacenters globally, we are building on our long-standing history of optimizing NVIDIA GPUs for our cloud, as we make the promise of AI real for organizations everywhere.” Sam Altman, CEO of OpenAI: “Blackwell offers massive performance leaps, and will accelerate our ability to deliver leading-edge models. We’re excited to continue working with NVIDIA to enhance AI compute.” Larry Ellison, chairman and CTO of Oracle: \"Oracle’s close collaboration with NVIDIA will enable qualitative and quantitative breakthroughs in AI, machine learning and data analytics. In order for customers to uncover more actionable insights, an even more powerful engine like Blackwell is needed, which is purpose-built for accelerated computing and generative AI.” Elon Musk, CEO of Tesla and xAI: “There is currently nothing better than NVIDIA hardware for AI.” Named in honor of David Harold Blackwell — a mathematician who specialized in game theory and statistics, and the first Black scholar inducted into the National Academy of Sciences — the new architecture succeeds the NVIDIA Hopper™ architecture, launched two years ago. Blackwell Innovations to Fuel Accelerated Computing and Generative AI Blackwell’s six revolutionary technologies, which together enable AI training and real-time LLM inference for models scaling up to 10 trillion parameters, include: World’s Most Powerful Chip — Packed with 208 billion transistors, Blackwell-architecture GPUs are manufactured using a custom-built 4NP TSMC process with two-reticle limit GPU dies connected",
+      "created_at": "2026-07-06T17:50:32.385523+00:00",
+      "filtered_at": "2026-07-06T17:57:52.947059+00:00",
+      "quality": {
+        "word_count": 1000,
+        "blocklist_hits": 0,
+        "nav_noise_hits": 0,
+        "strategic_signal_hits": 9,
+        "quality_status": "kept",
+        "filter_reasons": []
+      }
+    },
+    {
+      "chunk_id": "chunk_doc_src_014_002",
+      "document_id": "doc_src_014",
+      "source_id": "src_014",
+      "source_name": "Nvidia Blackwell Platform Announcement",
+      "source_family": "company_news",
+      "source_type": "press_release",
+      "source_tier": 2,
+      "url": "https://nvidianews.nvidia.com/news/nvidia-blackwell-platform-arrives-to-power-a-new-era-of-computing",
+      "themes": [
+        "blackwell",
+        "ai_accelerators",
+        "product_launch",
+        "data_center_growth"
+      ],
+      "associated_entities": [
+        "Nvidia"
+      ],
+      "reliability_score": 0.78,
+      "bias_risk": "medium_high",
+      "license_status": "official_public",
+      "chunk_index": 2,
+      "chunk_word_count": 1000,
+      "text": "in AI, machine learning and data analytics. In order for customers to uncover more actionable insights, an even more powerful engine like Blackwell is needed, which is purpose-built for accelerated computing and generative AI.” Elon Musk, CEO of Tesla and xAI: “There is currently nothing better than NVIDIA hardware for AI.” Named in honor of David Harold Blackwell — a mathematician who specialized in game theory and statistics, and the first Black scholar inducted into the National Academy of Sciences — the new architecture succeeds the NVIDIA Hopper™ architecture, launched two years ago. Blackwell Innovations to Fuel Accelerated Computing and Generative AI Blackwell’s six revolutionary technologies, which together enable AI training and real-time LLM inference for models scaling up to 10 trillion parameters, include: World’s Most Powerful Chip — Packed with 208 billion transistors, Blackwell-architecture GPUs are manufactured using a custom-built 4NP TSMC process with two-reticle limit GPU dies connected by 10 TB/second chip-to-chip link into a single, unified GPU. Second-Generation Transformer Engine — Fueled by new micro-tensor scaling support and NVIDIA’s advanced dynamic range management algorithms integrated into NVIDIA TensorRT™-LLM and NeMo Megatron frameworks, Blackwell will support double the compute and model sizes with new 4-bit floating point AI inference capabilities. Fifth-Generation NVLink — To accelerate performance for multitrillion-parameter and mixture-of-experts AI models, the latest iteration of NVIDIA NVLink® delivers groundbreaking 1.8TB/s bidirectional throughput per GPU, ensuring seamless high-speed communication among up to 576 GPUs for the most complex LLMs. RAS Engine — Blackwell-powered GPUs include a dedicated engine for reliability, availability and serviceability. Additionally, the Blackwell architecture adds capabilities at the chip level to utilize AI-based preventative maintenance to run diagnostics and forecast reliability issues. This maximizes system uptime and improves resiliency for massive-scale AI deployments to run uninterrupted for weeks or even months at a time and to reduce operating costs. Secure AI — Advanced confidential computing capabilities protect AI models and customer data without compromising performance, with support for new native interface encryption protocols, which are critical for privacy-sensitive industries like healthcare and financial services. Decompression Engine — A dedicated decompression engine supports the latest formats, accelerating database queries to deliver the highest performance in data analytics and data science. In the coming years, data processing, on which companies spend tens of billions of dollars annually, will be increasingly GPU-accelerated. A Massive Superchip The NVIDIA GB200 Grace Blackwell Superchip connects two NVIDIA B200 Tensor Core GPUs to the NVIDIA Grace CPU over a 900GB/s ultra-low-power NVLink chip-to-chip interconnect. For the highest AI performance, GB200-powered systems can be connected with the NVIDIA Quantum-X800 InfiniBand and Spectrum™-X800 Ethernet platforms, also announced today , which deliver advanced networking at speeds up to 800Gb/s. The GB200 is a key component of the NVIDIA GB200 NVL72 , a multi-node, liquid-cooled, rack-scale system for the most compute-intensive workloads. It combines 36 Grace Blackwell Superchips, which include 72 Blackwell GPUs and 36 Grace CPUs interconnected by fifth-generation NVLink. Additionally, GB200 NVL72 includes NVIDIA BlueField®-3 data processing units to enable cloud network acceleration, composable storage, zero-trust security and GPU compute elasticity in hyperscale AI clouds. The GB200 NVL72 provides up to a 30x performance increase compared to the same number of NVIDIA H100 Tensor Core GPUs for LLM inference workloads, and reduces cost and energy consumption by up to 25x. The platform acts as a single GPU with 1.4 exaflops of AI performance and 30TB of fast memory, and is a building block for the newest DGX SuperPOD. NVIDIA offers the HGX B200 , a server board that links eight B200 GPUs through NVLink to support x86-based generative AI platforms. HGX B200 supports networking speeds up to 400Gb/s through the NVIDIA Quantum-2 InfiniBand and Spectrum-X Ethernet networking platforms. Global Network of Blackwell Partners Blackwell-based products will be available from partners starting later this year. AWS , Google Cloud , Microsoft Azure and Oracle Cloud Infrastructure will be among the first cloud service providers to offer Blackwell-powered instances, as will NVIDIA Cloud Partner program companies Applied Digital, CoreWeave, Crusoe, IBM Cloud, Lambda and Nebius . Sovereign AI clouds will also provide Blackwell-based cloud services and infrastructure, including Indosat Ooredoo Hutchinson, Nexgen Cloud, Oracle EU Sovereign Cloud, the Oracle US, UK, and Australian Government Clouds, Scaleway, Singtel , Northern Data Group's Taiga Cloud, Yotta Data Services’ Shakti Cloud and YTL Power International . GB200 will also be available on NVIDIA DGX™ Cloud , an AI platform co-engineered with leading cloud service providers that gives enterprise developers dedicated access to the infrastructure and software needed to build and deploy advanced generative AI models. AWS, Google Cloud and Oracle Cloud Infrastructure plan to host new NVIDIA Grace Blackwell-based instances later this year. Cisco, Dell , Hewlett Packard Enterprise , Lenovo and Supermicro are expected to deliver a wide range of servers based on Blackwell products, as are Aivres, ASRock Rack , ASUS , Eviden, Foxconn , GIGABYTE , Inventec , Pegatron , QCT , Wistron, Wiwynn and ZT Systems. Additionally, a growing network of software makers, including Ansys , Cadence and Synopsys — global leaders in engineering simulation — will use Blackwell-based processors to accelerate their software for designing and simulating electrical, mechanical and manufacturing systems and parts. Their customers can use generative AI and accelerated computing to bring products to market faster, at lower cost and with higher energy efficiency. NVIDIA Software Support The Blackwell product portfolio is supported by NVIDIA AI Enterprise , the end-to-end operating system for production-grade AI. NVIDIA AI Enterprise includes NVIDIA NIM™ inference microservices — also announced today — as well as AI frameworks, libraries and tools that enterprises can deploy on NVIDIA-accelerated clouds, data centers and workstations. To learn more about the NVIDIA Blackwell platform, watch the GTC keynote and register to attend sessions from NVIDIA and industry leaders at GTC, which runs through March 21. About NVIDIA Since its founding in 1993, NVIDIA (NASDAQ: NVDA) has been a pioneer in accelerated computing. The company’s invention of the GPU in 1999 sparked the growth of the PC gaming market, redefined computer",
+      "created_at": "2026-07-06T17:50:32.385547+00:00",
+      "filtered_at": "2026-07-06T17:57:52.948186+00:00",
+      "quality": {
+        "word_count": 1000,
+        "blocklist_hits": 0,
+        "nav_noise_hits": 0,
+        "strategic_signal_hits": 8,
+        "quality_status": "kept",
+        "filter_reasons": []
+      }
+    },
+    {
+      "chunk_id": "chunk_doc_src_014_003",
+      "document_id": "doc_src_014",
+      "source_id": "src_014",
+      "source_name": "Nvidia Blackwell Platform Announcement",
+      "source_family": "company_news",
+      "source_type": "press_release",
+      "source_tier": 2,
+      "url": "https://nvidianews.nvidia.com/news/nvidia-blackwell-platform-arrives-to-power-a-new-era-of-computing",
+      "themes": [
+        "blackwell",
+        "ai_accelerators",
+        "product_launch",
+        "data_center_growth"
+      ],
+      "associated_entities": [
+        "Nvidia"
+      ],
+      "reliability_score": 0.78,
+      "bias_risk": "medium_high",
+      "license_status": "official_public",
+      "chunk_index": 3,
+      "chunk_word_count": 1000,
+      "text": "designing and simulating electrical, mechanical and manufacturing systems and parts. Their customers can use generative AI and accelerated computing to bring products to market faster, at lower cost and with higher energy efficiency. NVIDIA Software Support The Blackwell product portfolio is supported by NVIDIA AI Enterprise , the end-to-end operating system for production-grade AI. NVIDIA AI Enterprise includes NVIDIA NIM™ inference microservices — also announced today — as well as AI frameworks, libraries and tools that enterprises can deploy on NVIDIA-accelerated clouds, data centers and workstations. To learn more about the NVIDIA Blackwell platform, watch the GTC keynote and register to attend sessions from NVIDIA and industry leaders at GTC, which runs through March 21. About NVIDIA Since its founding in 1993, NVIDIA (NASDAQ: NVDA) has been a pioneer in accelerated computing. The company’s invention of the GPU in 1999 sparked the growth of the PC gaming market, redefined computer graphics, ignited the era of modern AI and is fueling industrial digitalization across markets. NVIDIA is now a full-stack computing infrastructure company with data-center-scale offerings that are reshaping industry. More information at https://nvidianews.nvidia.com/ . Certain statements in this press release including, but not limited to, statements as to: the benefits, impact, performance, features, and availability of NVIDIA’s products and technologies, including NVIDIA Blackwell platform, Blackwell GPU architecture, Resilience Technologies, Custom Tensor Core technology, NVIDIA TensorRT-LLM, NeMo Megatron framework, NVLink, NVIDIA GB200 Grace Blackwell Superchip, B200 Tensor Core GPUs, NVIDIA Grace CPU, NVIDIA H100 Tensor Core GPU, NVIDIA Quantum-X800 InfiniBand and Spectrum-X800 Ethernet platforms, NVIDIA GB200 NVL72, NVIDIA BlueField-3 data processing units, DGX SuperPOD, HGX B200, Quantum-2 InfiniBand and Spectrum-X Ethernet platforms, BlueField-3 DPUs, NVIDIA DGX Cloud, NVIDIA AI Enterprise, and NVIDIA NIM inference microservices; our goal of enabling transformative breakthroughs like deep learning and AI; Blackwell GPUs being the engine to power a new industrial revolution; our ability to realize the promise of AI for every industry as we working with the most dynamic companies in the world; our collaborations and partnerships with third parties and the benefits and impacts thereof; third parties who will offer or use our products, services and infrastructures and who will deliver servers based on our products; and the ability of the customers of global leaders in engineering simulation to use generative AI and accelerated computing to bring products to market faster, at lower cost and with higher energy efficiency are forward-looking statements that are subject to risks and uncertainties that could cause results to be materially different than expectations. Important factors that could cause actual results to differ materially include: global economic conditions; our reliance on third parties to manufacture, assemble, package and test our products; the impact of technological development and competition; development of new products and technologies or enhancements to our existing product and technologies; market acceptance of our products or our partners' products; design, manufacturing or software defects; changes in consumer preferences or demands; changes in industry standards and interfaces; unexpected loss of performance of our products or technologies when integrated into systems; as well as other factors detailed from time to time in the most recent reports NVIDIA files with the Securities and Exchange Commission, or SEC, including, but not limited to, its annual report on Form 10-K and quarterly reports on Form 10-Q. Copies of reports filed with the SEC are posted on the company's website and are available from NVIDIA without charge. These forward-looking statements are not guarantees of future performance and speak only as of the date hereof, and, except as required by law, NVIDIA disclaims any obligation to update these forward-looking statements to reflect future events or circumstances. © 2024 NVIDIA Corporation. . NVIDIA, the NVIDIA logo, BlueField, DGX, NVIDIA HGX, NVIDIA Hopper, NVIDIA NeMo, NVIDIA NIM, NVIDIA Spectrum, NVLink, and TensorRT are trademarks and/or registered trademarks of NVIDIA Corporation in the U.S. and other countries. Other company and product names may be trademarks of the respective companies with which they are associated. Features, pricing, availability and specifications are subject to change without notice. Media Contacts Kristin Uchiyama Corporate Communications NVIDIA Corporation press@nvidia.com Downloads Download Press Release Download Attachments More Images NVIDIA Blackwell Download / File Link NVIDIA GB200 NVL72 Download / File Link NVIDIA GB200 Grace Blackwell Superchip Download / File Link More News NVIDIA Announces BioNeMo Agent Toolkit — Tools for Agents to Accelerate Scientific Discovery June 23, 2026 NVIDIA Announces Halos for Robotics, the Industry’s First Full-Stack Safety System for Physical AI June 22, 2026 Europe Unveils a Record 35 New NVIDIA AI Supercomputers June 22, 2026 NVIDIA Vera Rubin Delivers World-Class Supercomputers for Science June 22, 2026 NVIDIA Stockholder Meeting Set for June 24; Individuals Can Participate Online June 11, 2026 About NVIDIA Since its founding in 1993, NVIDIA (NASDAQ: NVDA) has been a pioneer in accelerated computing. The company’s invention of the GPU in 1999 sparked the growth of the PC gaming market, redefined computer graphics, ignited the era of modern AI and is fueling industrial digitalization across markets. NVIDIA is now a full-stack computing infrastructure company with data-center-scale offerings that are reshaping industry. More information at https://nvidianews.nvidia.com/ . Certain statements in this press release including, but not limited to, statements as to: the benefits, impact, performance, features, and availability of NVIDIA’s products and technologies, including NVIDIA Blackwell platform, Blackwell GPU architecture, Resilience Technologies, Custom Tensor Core technology, NVIDIA TensorRT-LLM, NeMo Megatron framework, NVLink, NVIDIA GB200 Grace Blackwell Superchip, B200 Tensor Core GPUs, NVIDIA Grace CPU, NVIDIA H100 Tensor Core GPU, NVIDIA Quantum-X800 InfiniBand and Spectrum-X800 Ethernet platforms, NVIDIA GB200 NVL72, NVIDIA BlueField-3 data processing units, DGX SuperPOD, HGX B200, Quantum-2 InfiniBand and Spectrum-X Ethernet platforms, BlueField-3 DPUs, NVIDIA DGX Cloud, NVIDIA AI Enterprise, and NVIDIA NIM inference microservices; our goal of enabling transformative breakthroughs like deep learning and AI; Blackwell GPUs being the engine to power a new industrial revolution; our ability to realize the promise of AI for every industry as we working with the most dynamic companies in the world; our collaborations and partnerships with third",
+      "created_at": "2026-07-06T17:50:32.385567+00:00",
+      "filtered_at": "2026-07-06T17:57:52.949296+00:00",
+      "quality": {
+        "word_count": 1000,
+        "blocklist_hits": 0,
+        "nav_noise_hits": 1,
+        "strategic_signal_hits": 9,
+        "quality_status": "kept",
+        "filter_reasons": []
+      }
+    },
+    {
+      "chunk_id": "chunk_doc_src_021_001",
+      "document_id": "doc_src_021",
+      "source_id": "src_021",
+      "source_name": "SK hynix Newsroom",
+      "source_family": "supplier_ecosystem",
+      "source_type": "supplier_newsroom",
+      "source_tier": 3,
+      "url": "https://news.skhynix.com/",
+      "themes": [
+        "hbm_supply",
+        "supplier_dependency",
+        "ai_accelerators",
+        "partnership"
+      ],
+      "associated_entities": [
+        "SK Hynix",
+        "Nvidia"
+      ],
+      "reliability_score": 0.84,
+      "bias_risk": "medium",
+      "license_status": "official_public",
+      "chunk_index": 1,
+      "chunk_word_count": 549,
+      "text": "Main - SK hynix Newsroom FACT PRESS TECH&AI STORY IR Select Page English Chinese(中文) Korean(한국어) FACT PRESS TECH&AI STORY IR ENG 中文 KOR #AI Memory #CXL #DRAM #eSSD #HBM3E #HBM4 #NAND [Expert POV] From AI semiconductors to AI services The arrival of the AI era is not only reshaping the role of the semiconductor industry but also expanding the boundaries of the ecosystem itself. Why advanced memory matters in the AI infrastructure era The landscape of AI competition is expanding. For years, the industry has focused on larger models, faster accelerators, and higher compute performance, SK hynix Announces Investment Plan for Chungcheong Region SK hynix CEO Kwak Noh-Jung announced a Cheongju-based investment plan to strengthen Korea’s future competitiveness SK hynix Announces Investment Plan for Southwestern Region SK hynix President & CEO Kwak Noh-Jung announced the company’s vision for 'Semiconductor and AI Investment in the Southwestern Region' Explainer: SK hynix’s Mid-to-Long-Term Investment Strategy SK hynix announces a KRW 1,100 trillion investment strategy encompassing Yongin, Cheongju, and a new Southwestern hub to lead the AI memory market 1 / 6 PRESS PRESS SK hynix Ships Samples of 12-Layer Next-Gen ‘HBM4E’ June 18, 2026 PRESS SK hynix and NVIDIA Announce Multi-year Technology Partnership to Advance Memory for AI Factories June 7, 2026 PRESS SK hynix unveils ‘iHBM’ thermal solution to boost AI performance May 26, 2026 PRESS SK hynix received 2026 IEEE Corporate Innovation Award for Driving AI Computing Expansion with HBM April 25, 2026 PRESS SK hynix Announces 1Q26 Financial Results April 22, 2026 PRESS SK hynix Begins Mass Production of 192GB SOCAMM2 ‘Setting a New Standard for AI Server Memory Performance’ April 19, 2026 TECH&AI TECH&AI [Expert POV] From AI semiconductors to AI services: How the ecosystem is evolving July 6, 2026 TECH&AI Why advanced memory matters in the AI infrastructure era July 3, 2026 TECH&AI [Expert POV] The real battleground in the AI semiconductor race: Capital and energy infrastructure June 24, 2026 TECH&AI Five things you need to know about SK hynix and the future of AI memory June 23, 2026 TECH&AI SK hynix Showcases Tech Leadership as ‘Full Stack AI Memory Creator’ at HPED 2026, Reaffirming Strong Partnership with HPE June 19, 2026 TECH&AI [SOD’s Review] COMPUTEX 2026: SK hynix beyond memory – how the AI factory era is reshaping the company’s identity June 11, 2026 Latest STORY Me~eh~eh~mory! The secret behind the flock leading the AI era — Behind the scenes of SK hynix’s new ad, “The Memory Shepherd” June 10, 2026 STORY SK hynix and the Ministry of Climate, Energy and Environment Co-host ‘AI for Green Impact, Inspiring Young Minds to Shape a Greener Future June 5, 2026 STORY SK hynix Honored with Gold Tower Order and Presidential Citation at the 61st Invention Day Ceremony, Proving AI Memory Technological Leadership May 20, 2026 STORY SK hynix Vice President Woopyo Jeong Receives Order of Science and Technology Merit, Doyak Medal at National Science and Information and Communications Day Ceremony April 21, 2026 STORY “Shaping the AI Era Together,” SK hynix Unveils Shared Growth Strategy with Partner Companies April 20, 2026 STORY SK hynix Hosts 2026 Happiness Sharing Fund Donation Ceremony, Reaffirming the Value of Sharing Through Running Together April 15, 2026 SK hynix.com Careers Terms of Use SK HYNIX INC. .",
+      "created_at": "2026-07-06T17:50:32.385619+00:00",
+      "filtered_at": "2026-07-06T17:57:52.950604+00:00",
+      "quality": {
+        "word_count": 549,
+        "blocklist_hits": 0,
+        "nav_noise_hits": 3,
+        "strategic_signal_hits": 6,
+        "quality_status": "kept",
+        "filter_reasons": []
+      }
+    },
+    {
+      "chunk_id": "chunk_doc_src_006_001",
+      "document_id": "doc_src_006",
+      "source_id": "src_006",
+      "source_name": "BIS Export Controls",
+      "source_family": "regulatory_policy",
+      "source_type": "regulatory_export_control",
+      "source_tier": 0,
+      "url": "https://www.bis.gov/",
+      "themes": [
+        "export_controls",
+        "china_restrictions",
+        "regulatory_context",
+        "risk_factors"
+      ],
+      "associated_entities": [
+        "Nvidia",
+        "BIS",
+        "China"
+      ],
+      "reliability_score": 0.95,
+      "bias_risk": "low",
+      "license_status": "official_public",
+      "chunk_index": 1,
+      "chunk_word_count": 740,
+      "text": "Homepage | Bureau of Industry and Security An official website of the United States government Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( ) or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites. Bureau of Industry and Security U.S. Department of Commerce Homepage Email notifications Regulations Licensing Learn & Support News & Updates Enforcement About BIS Regulations Licensing Learn & Support News & Updates Enforcement About BIS Advancing national security through technology leadership and vigilant export controls Learn About BIS Quick links Export Administration Regulations Classify your item Country guidance Submit a confidential lead or tip Consolidated Screening List Office of Information and Communications Technology and Services (OICTS) Special Issues Guidance Regarding Enforcement of License Requirements for Advanced Computing Items for Entities Headquartered in Country Group D:5 and Macau The Department of Commerce, Bureau of Industry and Security (BIS) is issuing this guidance to clarify that a license is required to export advanced computing items to entities headquartered in Country Group D:5 (see supplement no. 1 to part 740 of the Export Administration Regulations (EAR) (15 CFR parts 730-774)) or Macau or with an ultimate parent company headquartered in Country Group D:5 or Macau – even if the entities themselves are located outside Country Group D:5 or Macau. Guidance on Advanced Computing Items (May 2026) Frequently Asked Questions BIS Extends Timeline for Authorized IC Designers On January 16, 2025, BIS published a rule titled \"Implementation of Additional Due Diligence Measures for Advanced Computing Integrated Circuits; Amendments and Clarifications; and Extension of Comment Period\", which included a timeline during which certain companies are considered authorized integrated circuit (IC) designers who can overcome a presumption of certain license requirements. On April 7, 2026, BIS extended this timeline until December 31, 2026. This extension will allow more time for companies to submit Approved IC Designer applications and allow BIS additional time to process these applications. The text of the rule can be viewed here . Section 232 Investigations The Secretary of Commerce initiated investigations under Section 232 of the Trade Expansion Act of 1962 to determine the effects on the national security of imports of the following: Copper Timber and Lumber Semiconductors Pharmaceuticals Trucks Critical Minerals Commercial Aircraft Polysilicon Unmanned Aircraft Systems Wind Turbines Medical Products Robotics and Industrial Machinery The posted Section 232 Inclusion Requests and their requested HTSUS Classifications can be found on Docket BIS-2025-0023 on Regulations.gov. Section 232 Investigations Homepage Section 232 Inclusions Processes Read the latest News & Updates Robert Bosch GmbH (Bosch) To Pay $36 Million Penalty to BIS for Violations Pertaining to Shipments to Huawei June 17, 2026 BIS Reaches Administrative Enforcement Settlement with Coastal PVA Technology, Inc. April 14, 2026 BIS Reaches Administrative Enforcement Settlement with Solventum Corporation Order March 27, 2026 BIS Reaches Administrative Enforcement Settlement with Teledyne FLIR LLC and its affiliates, FLIR Optoelectronic Technology (Shanghai) Co. Ltd. and Teledyne FLIR Commercial Systems Inc. February 26, 2026 BIS Reaches Administrative Enforcement Settlement with Vizicom ICT February 25, 2026 Bulgarian National Sentenced in Austin for Scheme to Illegally Export U.S.-Origin Sensitive Microelectronics to Russia February 19, 2026 See more News & Updates Bureau of Industry and Security Share to YouTube Share to Twitter Share to LinkedIn Advancing U.S. national security, foreign policy, and economic objectives by ensuring an effective export control and treaty compliance system and promoting continued U.S. strategic technology leadership. Regulations Export Administration Regulations (EAR) Chemical Weapons Convention Regulations (CWCR) Federal Register Notices Licensing About Licensing Determine what is subject to the EAR Classify your item Country guidance Guidance on end-use and end-user controls and U.S. person controls Apply for licenses (SNAP-R) Track applications (STELA) License exceptions BIS forms Learn & Support About Learn & Support Events Training videos Decision tools Chemical and biological controls Deemed exports Encryption controls Export Compliance Programs (ECPs) Reexports and exports from abroad Guidance & Frequently Asked Questions Advisory Opinions News & Updates News & Updates Enforcement About Export Enforcement Don't Let This Happen To You Offices & leadership Voluntary Self-Disclosure About BIS About BIS Guiding principles Leadership Offices Technical Advisory Committees (TAC) Annual reports Freedom of Information Act Program Website updates FOIA Disclaimer SORN Information Quality Department of Commerce USA.gov Accessibility Small Business Fairness System Use Notice",
+      "created_at": "2026-07-06T17:50:32.385655+00:00",
+      "filtered_at": "2026-07-06T17:57:52.951572+00:00",
+      "quality": {
+        "word_count": 740,
+        "blocklist_hits": 0,
+        "nav_noise_hits": 3,
+        "strategic_signal_hits": 2,
+        "quality_status": "kept",
+        "filter_reasons": []
+      }
+    },
+    {
+      "chunk_id": "chunk_doc_src_016_001",
+      "document_id": "doc_src_016",
+      "source_id": "src_016",
+      "source_name": "Nvidia CUDA Toolkit",
+      "source_family": "company_technical",
+      "source_type": "developer_docs",
+      "source_tier": 2,
+      "url": "https://developer.nvidia.com/cuda-toolkit",
+      "themes": [
+        "cuda_ecosystem",
+        "ai_accelerators"
+      ],
+      "associated_entities": [
+        "Nvidia"
+      ],
+      "reliability_score": 0.76,
+      "bias_risk": "medium_high",
+      "license_status": "official_public",
+      "chunk_index": 1,
+      "chunk_word_count": 669,
+      "text": "CUDA Toolkit - Free Tools and Training | NVIDIA Developer NVIDIA CUDA Toolkit The NVIDIA® CUDA® Toolkit provides a development environment for creating high-performance, GPU-accelerated applications. With it, you can develop, optimize, and deploy your applications on GPU-accelerated embedded systems, desktop workstations, enterprise data centers, cloud-based platforms, and supercomputers. The toolkit includes GPU-accelerated libraries , debugging and optimization tools, a C/C++ compiler, and a runtime library. Download Now CUDA Features Tile Programming in CUDA Tile C++ CUDA Tile C++ is an expression of the CUDA Tile programming model in C++. It’s built on top of the CUDA Tile IR specification and allows you to write tile kernels in C++. Learn More About CUDA Tile C++ New Release, New Benefits CUDA 13.2 enhances GPU kernel development by extending CUDA Tile support to Ampere and Ada architectures, introducing new constructs such as closures and recursion into cuTile Python, and unifying the ARM ecosystem into a single CUDA toolkit for seamless deployment from data center to edge. Learn More About CUDA Toolkit 13.3 Tile Programming in Python cuTile Python is an expression of the CUDA Tile programming model in Python. It is built on top of the CUDA Tile IR specification and allows you to write tile kernels in Python. Learn More About cuTile Python Tutorials Explore essential video tutorials covering CUDA Toolkit installation on Windows and WSL, ensuring compatibility, upgrading Jetson™ devices, and optimizing applications through profiling and debugging. Accelerating Applications With Parallel Algorithms | CUDA C++ Watch Video (2:05:26) CUDA Upgrades for Jetson Devices Watch Video (19:05) Profiling and Debugging Applications Watch Video (10:30) Installing CUDA Toolkit on Windows and WSL Watch Video (2:56) GTC Digital Webinars Dive deeper into the latest CUDA features. What’s CUDA All About Anyway? Learn about the CUDA ecosystem that helps developers solve real-world challenges. Watch Now CUDA—New Features and Beyond Learn what's new in the CUDA Toolkit, including the latest and greatest features in the CUDA language, compiler, libraries, and tools—and get a sneak peek at what's coming up over the next year. Watch Now How to Write a CUDA Program: The Parallel Programming Edition Learn more about how to write CUDA programs. Watch Now See All Featured Blogs See More Latest News See More Free Tools and Trainings for Developers Get exclusive access to hundreds of SDKs, technical trainings, and opportunities to connect with millions of like-minded developers, researchers, and students. Learn More Resources CUDA Documentation and Release Notes Documentation library containing in-depth technical information on the CUDA Toolkit. Learn More About CUDA Toolkit Accelerated Computing Hub The Accelerated Computing Hub provides essential best practices, optimization guides, and developer tools to maximize the performance of your CUDA-accelerated applications. Learn More About Accelerated Computing Hub CUDA Toolkit in the NGC Catalog CUDA containers are available to download from NGC™—along with other NVIDIA GPU-accelerated SDKs and AI models—to help accelerate your applications. Learn More About CUDA Containers CUDA Technical Blogs An archive of CUDA technical blogs covering key features and capabilities, written by engineers for engineers. Learn More About CUDA Tech Blogs CUDA-X™ Libraries A suite of AI, data science, and math libraries developed to help developers accelerate their applications. Learn More About CUDA-X Libraries Training Self-paced or instructor-led CUDA training courses for developers through the NVIDIA Deep Learning Institute (DLI). Learn More About Accelerated Computing - Training Nsight Developer Tools NVIDIA Nsight Compute and Nsight System suite of tools designed to help developers optimize and increase performance of their applications. Learn More About Nsight Tools Sample CUDA Code GitHub repository of sample CUDA code to help developers learn and ramp up development of their GPU-accelerated applications. Learn More About CUDA Samples NVIDIA Developer Forums An information exchange to help developers get answers to their technical questions directly from NVIDIA engineers. Learn More About Developer Forums Bug Submission NVIDIA Engineering’s own bug tracking tool and database where developers can submit technical bugs. Learn More About Bug Submission Tool Get The Latest CUDA News Sign up for developer news, announcements, and more from NVIDIA. Sign Up",
+      "created_at": "2026-07-06T17:50:32.385755+00:00",
+      "filtered_at": "2026-07-06T17:57:52.954173+00:00",
+      "quality": {
+        "word_count": 669,
+        "blocklist_hits": 0,
+        "nav_noise_hits": 0,
+        "strategic_signal_hits": 6,
+        "quality_status": "kept",
+        "filter_reasons": []
+      }
+    },
+    {
+      "chunk_id": "chunk_doc_src_015_001",
+      "document_id": "doc_src_015",
+      "source_id": "src_015",
+      "source_name": "Nvidia Data Center Products",
+      "source_family": "company_product",
+      "source_type": "product_page",
+      "source_tier": 2,
+      "url": "https://www.nvidia.com/en-us/data-center/products/",
+      "themes": [
+        "data_center_growth",
+        "ai_accelerators",
+        "blackwell",
+        "product_launch"
+      ],
+      "associated_entities": [
+        "Nvidia"
+      ],
+      "reliability_score": 0.76,
+      "bias_risk": "medium_high",
+      "license_status": "official_public",
+      "chunk_index": 1,
+      "chunk_word_count": 1000,
+      "text": "Accelerating the Next Wave of AI Innovation | NVIDIA Data Center Products Visit your regional NVIDIA website for local content, pricing, and where to buy partners specific to your country. Argentina Australia België (Belgium) Belgique (Belgium) Brasil (Brazil) Canada Česká Republika (Czech Republic) Chile Colombia Danmark (Denmark) Deutschland (Germany) España (Spain) France India Italia (Italy) México (Mexico) Middle East Nederland (Netherlands) Norge (Norway) Österreich (Austria) Peru Polska (Poland) Rest of Europe România (Romania) Singapore Suomi (Finland) Sverige (Sweden) Türkiye (Turkey) United Kingdom United States 대한민국 (South Korea) 中国大陆 (Mainland China) 台灣 (Taiwan) 日本 (Japan) Continue Cloud and Data Center Solutions Solutions Accelerated Computing Accelerate enterprise IT and AI workloads with data center solutions AI Data Platform for Enterprise Unify and accelerate enterprise AI workloads with a full-stack data platform AI Factory Accelerate and deploy large-scale AI with full-stack factory solutions Cloud Computing Unleash enterprise AI and HPC with scalable accelerated cloud solutions Edge Computing Accelerate AI, robotics, and IoT with scalable edge computing High Performance Computing Advance discovery with energy‑efficient high‑performance computing Sustainable Computing Save energy and reduce costs with sustainable, efficient computing MLOps Scale AI solutions with enterprise MLOps tools, automation, and software Networking Networking for high-performance, scalable, and secure AI data centers DGX Platform Build next-generation AI factories for enterprises DGX Cloud NVIDIA’s AI factory in the cloud Products Products Overview Accelerate AI, machine learning, and HPC with advanced data center platforms Vera Rubin NVL72 Rack-Scale Agentic AI Supercomputer LPX Fast inference with full intelligence at scale DGX SuperPOD Full-stack blueprint for gigascale AI infrastructure GB300 NVL72 GB300 NVL72 rack-scale system built for the age of AI reasoning HGX HGX platform specs for multi‑GPU AI, HPC, and simulation workloads CPU Architecture for data centers that transform data into intelligence GB200 NVL72 GB200 NVL72 for scalable LLM inference and advanced AI data center needs RTX PRO Server Universal data center platform for enterprise AI and industrial AI RTX PRO 6000 Blackwell RTX PRO 6000 specs for professional AI, graphics, and visual computing tasks DGX BasePOD Reference architecture for building and scaling AI infrastructure DSX Platform Build AI factories optimized for lowest cost tokens per megawatt Software Software AI Enterprise Suite Enterprise AI software suite for data center deployments Base Command Manager Centralized platform to manage and monitor AI workloads in data centers CUDA-X GPU-accelerated libraries and tools for AI, HPC, and data processing Virtualization GPU virtualization software to accelerate and manage virtualized environments Accelerated Apps Catalog Browse DPU- and GPU-accelerated apps, tools, and services Mission Control Powers AI factory operations from developer workloads to infrastructure NVIDIA Run:ai AI Workload and GPU Orchestration Architectures Architectures Vera Rubin Platform Infrastructure for scalable AI reasoning Blackwell Architecture The GPU architecture powering AI factories for the age of AI reasoning Hopper Architecture Supercharging AI and HPC workloads for every data center Ada Lovelace Architecture Real-time ray tracing and AI for advanced design and visualization MGX Reference Architecture Modular reference architecture for building accelerated data center servers Technologies Technologies NVLink and NVLink Switch High-speed interconnect for multi-GPU communication and large AI models NVLink Fusion Semi-custom AI infrastructure with industry-proven AI scale-up performance Tensor Cores Specialized GPU cores that speed up AI and HPC math workloads Multi-Instance GPUs GPU partitioning to securely share one GPU across workloads Confidential Computing Secure data and AI models in use Resources Resources Resource Hub Resources to build and optimize AI-ready data centers and factories Data Center GPU Line Card Guide to selecting data center GPUs and networking for AI workloads Data Center GPUs Resource Center Documentation and guides for NVIDIA data center GPU products MLPerf Benchmarks MLPerf training and inference results for the NVIDIA AI platform NVIDIA-Certified Systems Accelerated partner systems delivering certified performance and scale Qualified System Catalog Catalog of qualified servers built with NVIDIA data center GPUs US Sign In NVIDIA Account Logout Log In LogOut 0 US Sign In NVIDIA Account Logout Login LogOut Cloud and Data Center Solutions Accelerated Computing Accelerate enterprise IT and AI workloads with data center solutions AI Data Platform for Enterprise Unify and accelerate enterprise AI workloads with a full-stack data platform AI Factory Accelerate and deploy large-scale AI with full-stack factory solutions Cloud Computing Unleash enterprise AI and HPC with scalable accelerated cloud solutions Edge Computing Accelerate AI, robotics, and IoT with scalable edge computing High Performance Computing Advance discovery with energy‑efficient high‑performance computing Sustainable Computing Save energy and reduce costs with sustainable, efficient computing MLOps Scale AI solutions with enterprise MLOps tools, automation, and software Networking Networking for high-performance, scalable, and secure AI data centers DGX Platform Build next-generation AI factories for enterprises DGX Cloud NVIDIA’s AI factory in the cloud Products Overview Accelerate AI, machine learning, and HPC with advanced data center platforms Vera Rubin NVL72 Rack-Scale Agentic AI Supercomputer LPX Fast inference with full intelligence at scale DGX SuperPOD Full-stack blueprint for gigascale AI infrastructure GB300 NVL72 GB300 NVL72 rack-scale system built for the age of AI reasoning HGX HGX platform specs for multi‑GPU AI, HPC, and simulation workloads CPU Architecture for data centers that transform data into intelligence GB200 NVL72 GB200 NVL72 for scalable LLM inference and advanced AI data center needs RTX PRO Server Universal data center platform for enterprise AI and industrial AI RTX PRO 6000 Blackwell RTX PRO 6000 specs for professional AI, graphics, and visual computing tasks DGX BasePOD Reference architecture for building and scaling AI infrastructure DSX Platform Build AI factories optimized for lowest cost tokens per megawatt Software AI Enterprise Suite Enterprise AI software suite for data center deployments Base Command Manager Centralized platform to manage and monitor AI workloads in data centers CUDA-X GPU-accelerated libraries and tools for AI, HPC, and data processing Virtualization GPU virtualization software to accelerate and manage virtualized environments Accelerated Apps Catalog Browse DPU- and GPU-accelerated apps, tools, and services Mission Control Powers AI factory operations from developer workloads to infrastructure NVIDIA Run:ai AI Workload and GPU Orchestration Architectures Vera Rubin Platform Infrastructure for scalable AI reasoning",
+      "created_at": "2026-07-06T17:50:32.385848+00:00",
+      "filtered_at": "2026-07-06T17:57:52.955394+00:00",
+      "quality": {
+        "word_count": 1000,
+        "blocklist_hits": 0,
+        "nav_noise_hits": 1,
+        "strategic_signal_hits": 7,
+        "quality_status": "kept",
+        "filter_reasons": []
+      }
+    },
+    {
+      "chunk_id": "chunk_doc_src_015_002",
+      "document_id": "doc_src_015",
+      "source_id": "src_015",
+      "source_name": "Nvidia Data Center Products",
+      "source_family": "company_product",
+      "source_type": "product_page",
+      "source_tier": 2,
+      "url": "https://www.nvidia.com/en-us/data-center/products/",
+      "themes": [
+        "data_center_growth",
+        "ai_accelerators",
+        "blackwell",
+        "product_launch"
+      ],
+      "associated_entities": [
+        "Nvidia"
+      ],
+      "reliability_score": 0.76,
+      "bias_risk": "medium_high",
+      "license_status": "official_public",
+      "chunk_index": 2,
+      "chunk_word_count": 1000,
+      "text": "GB200 NVL72 GB200 NVL72 for scalable LLM inference and advanced AI data center needs RTX PRO Server Universal data center platform for enterprise AI and industrial AI RTX PRO 6000 Blackwell RTX PRO 6000 specs for professional AI, graphics, and visual computing tasks DGX BasePOD Reference architecture for building and scaling AI infrastructure DSX Platform Build AI factories optimized for lowest cost tokens per megawatt Software AI Enterprise Suite Enterprise AI software suite for data center deployments Base Command Manager Centralized platform to manage and monitor AI workloads in data centers CUDA-X GPU-accelerated libraries and tools for AI, HPC, and data processing Virtualization GPU virtualization software to accelerate and manage virtualized environments Accelerated Apps Catalog Browse DPU- and GPU-accelerated apps, tools, and services Mission Control Powers AI factory operations from developer workloads to infrastructure NVIDIA Run:ai AI Workload and GPU Orchestration Architectures Vera Rubin Platform Infrastructure for scalable AI reasoning Blackwell Architecture The GPU architecture powering AI factories for the age of AI reasoning Hopper Architecture Supercharging AI and HPC workloads for every data center Ada Lovelace Architecture Real-time ray tracing and AI for advanced design and visualization MGX Reference Architecture Modular reference architecture for building accelerated data center servers Technologies NVLink and NVLink Switch High-speed interconnect for multi-GPU communication and large AI models NVLink Fusion Semi-custom AI infrastructure with industry-proven AI scale-up performance Tensor Cores Specialized GPU cores that speed up AI and HPC math workloads Multi-Instance GPUs GPU partitioning to securely share one GPU across workloads Confidential Computing Secure data and AI models in use Resources Resource Hub Resources to build and optimize AI-ready data centers and factories Data Center GPU Line Card Guide to selecting data center GPUs and networking for AI workloads Data Center GPUs Resource Center Documentation and guides for NVIDIA data center GPU products MLPerf Benchmarks MLPerf training and inference results for the NVIDIA AI platform NVIDIA-Certified Systems Accelerated partner systems delivering certified performance and scale Qualified System Catalog Catalog of qualified servers built with NVIDIA data center GPUs Cloud and Data Center Solutions Data Center Products Accelerating the next wave of AI innovation. Products Architectures Platforms FAQs Get Started Products Architectures Platforms FAQs Get Started Products Architectures Platforms FAQs Get Started Products NVIDIA Vera Rubin NVL72 NVIDIA Vera Rubin NVL72 unifies 72 NVIDIA Rubin GPUs, 36 NVIDIA Vera CPUs, NVIDIA® ConnectX®-9 SuperNICs, and NVIDIA BlueField®-4 DPUs. It scales up intelligence in a rack-scale platform with the sixth-generation NVIDIA NVLink™ and NVLink Switch and scales out with NVIDIA Quantum-X800 InfiniBand and NVIDIA Spectrum-X™ Ethernet to power the AI industrial revolution at scale. Learn More NVIDIA Groq 3 LPX NVIDIA Groq 3 LPX™ is the inference accelerator for NVIDIA Vera Rubin, designed to meet the low-latency and large-context demands of agentic systems. NVIDIA Vera Rubin and LPX unite the extreme performance of NVIDIA Rubin GPUs and LPUs through a co-designed architecture. LPX features 256 LPUs with 128 gigabytes (GB) of SRAM, 40 petabytes per second (PB/s) of memory bandwidth, and 640 terabytes per second (TB/s) of scale-up bandwidth per rack. Learn More NVIDIA DGX Vera Rubin NVL72 NVIDIA DGX™ Vera Rubin NVL72 provides enterprises with a turnkey, ready-to-deploy AI infrastructure solution built upon the NVIDIA Rubin platform, purpose-built to be deployed at scale to accelerate the most complex AI models. Learn More NVIDIA HGX Rubin NVL8 The NVIDIA HGX™ platform brings together the full power of NVIDIA GPUs, NVIDIA NVLink, NVIDIA networking, and fully optimized AI and high-performance computing (HPC) software stacks to drive the highest application performance and the fastest time to insights for every data center. Learn More NVIDIA DGX Rubin NVL8 NVIDIA DGX Rubin NVL8 is a liquid-cooled AI system eight NVIDIA Rubin GPUs and sixth-generation NVLink, purpose-built to accelerate training, inference, and post-training for every AI workload. Learn More NVIDIA Vera CPU NVIDIA Vera is built for reinforcement learning and agentic AI, powering the code, tools, and data workflows that operate beyond the model. As the host CPU in GPU-accelerated systems, Vera pairs seamlessly with NVIDIA GPUs, directing data movement, managing memory, and orchestrating system control to keep AI pipelines running at full speed. Learn More NVIDIA GB300 NVL72 The NVIDIA GB300 NVL72 connects 36 NVIDIA Grace™ CPUs and 72 NVIDIA Blackwell Ultra GPUs in a rack-scale design, supercharging inference, training, and data processing. The GB300 NVL72 is built for AI reasoning and delivers breakthrough performance, enabling large-scale reasoning applications to efficiently handle user requests at scale. Learn More NVIDIA GB200 NVL72 The NVIDIA GB200 NVL72 connects 36 NVIDIA Grace CPUs and 72 NVIDIA Blackwell GPUs in a rack-scale design, supercharging generative AI, data processing, and high-performance computing. The GB200 NVL72 is a liquid-cooled, rack-scale solution that boasts a 72-GPU NVLink domain, NVIDIA Mission Control™, that acts as a single massive GPU and delivers 30x faster inference for trillion-parameter large language models (LLMs). Learn More NVIDIA RTX PRO 4500 Blackwell Server Edition The NVIDIA RTX PRO™ 4500 Blackwell Server Edition GPU, based on the revolutionary NVIDIA Blackwell architecture, is an energy-efficient, multi-workload accelerator designed to deliver breakthrough performance across a broad range of enterprise workloads, from AI inference, data science, and processing to video and high-end visual computing. Learn More NVIDIA RTX PRO 6000 Blackwell Server Edition The NVIDIA RTX PRO 6000 Blackwell Server Edition GPU delivers a powerful combination of AI and visual computing capabilities to accelerate enterprise data center workloads. Equipped with 96 GB of ultra-fast GDDR7 memory, the RTX PRO 6000 Blackwell provides unparalleled performance and flexibility to accelerate a broad range of use cases, from agentic AI, physical AI, and scientific computing to rendering, 3D graphics, and video. Learn More Architectures NVIDIA Vera Rubin NVIDIA Vera Rubin is built for the next generation of AI, supercharging agentic AI and AI reasoning. With extreme co-design across seven chips, Vera Rubin delivers flexible deployment options while slashing training and inference token costs, dramatically lowering the total cost of AI deployment. Learn More NVIDIA Blackwell NVIDIA Blackwell is defining the next chapter in generative AI and",
+      "created_at": "2026-07-06T17:50:32.385868+00:00",
+      "filtered_at": "2026-07-06T17:57:52.956490+00:00",
+      "quality": {
+        "word_count": 1000,
+        "blocklist_hits": 0,
+        "nav_noise_hits": 1,
+        "strategic_signal_hits": 10,
+        "quality_status": "kept",
+        "filter_reasons": []
+      }
+    },
+    {
+      "chunk_id": "chunk_doc_src_015_003",
+      "document_id": "doc_src_015",
+      "source_id": "src_015",
+      "source_name": "Nvidia Data Center Products",
+      "source_family": "company_product",
+      "source_type": "product_page",
+      "source_tier": 2,
+      "url": "https://www.nvidia.com/en-us/data-center/products/",
+      "themes": [
+        "data_center_growth",
+        "ai_accelerators",
+        "blackwell",
+        "product_launch"
+      ],
+      "associated_entities": [
+        "Nvidia"
+      ],
+      "reliability_score": 0.76,
+      "bias_risk": "medium_high",
+      "license_status": "official_public",
+      "chunk_index": 3,
+      "chunk_word_count": 831,
+      "text": "inference, data science, and processing to video and high-end visual computing. Learn More NVIDIA RTX PRO 6000 Blackwell Server Edition The NVIDIA RTX PRO 6000 Blackwell Server Edition GPU delivers a powerful combination of AI and visual computing capabilities to accelerate enterprise data center workloads. Equipped with 96 GB of ultra-fast GDDR7 memory, the RTX PRO 6000 Blackwell provides unparalleled performance and flexibility to accelerate a broad range of use cases, from agentic AI, physical AI, and scientific computing to rendering, 3D graphics, and video. Learn More Architectures NVIDIA Vera Rubin NVIDIA Vera Rubin is built for the next generation of AI, supercharging agentic AI and AI reasoning. With extreme co-design across seven chips, Vera Rubin delivers flexible deployment options while slashing training and inference token costs, dramatically lowering the total cost of AI deployment. Learn More NVIDIA Blackwell NVIDIA Blackwell is defining the next chapter in generative AI and accelerated computing with unparalleled performance, efficiency, and scale. NVIDIA Blackwell features six transformative technologies that unlock breakthroughs in data processing, electronic design automation, computer-aided engineering, and quantum computing. Learn More NVIDIA MGX NVIDIA MGX™ is a modular reference architecture for accelerated computing that supports hundreds of GPU, DPU, CPU, storage, and networking combinations for AI, high-performance computing, and NVIDIA Omniverse™ workloads. Learn More NVIDIA STX By leveraging the NVIDIA Vera Rubin architecture, BlueField-4, and Spectrum-X networking, the NVIDIA STX reference architecture provides the foundation for building a universal data engine that accelerates the full AI lifecycle, from training and analytics to real-time agentic inference. Learn More Platforms NVIDIA DGX Built from the ground up for enterprise AI, the NVIDIA DGX platform incorporates the best of NVIDIA software, infrastructure, and expertise in a modern, unified AI development solution that spans from the cloud to on-premises data centers. Learn More NVIDIA HGX The NVIDIA HGX platform brings together the full power of NVIDIA GPUs, NVLink, networking, and fully optimized AI and high-performance computing software stacks to drive the highest application performance and the fastest time to insights for every data center. Learn More NVIDIA Spectrum-X Ethernet The NVIDIA Spectrum-X Ethernet networking platform delivers the highest performance for AI. It connects compute fabrics within the data center and scales across multiple AI data centers with Spectrum-XGS Ethernet technology to form massive AI super-factories capable of gigascale intelligence. Learn More NVIDIA RTX PRO NVIDIA RTX PRO™ Servers from global system partners leverage the breakthrough performance and energy efficiency of the NVIDIA Blackwell architecture, enabling enterprises to build AI factories and accelerate a wide range of enterprise workloads, from agentic AI and LLM inference to industrial AI and digital twins. Learn More Networking Purpose-Built for AI Factories Explore the full-stack networking fabric for gigascale AI factories, from NVIDIA Spectrum-X Ethernet to NVIDIA BlueField DPUs. Learn More FAQs What is NVIDIA Vera Rubin? The NVIDIA Vera Rubin platform is built for the age of agentic AI and reasoning, engineered to master multi-step problem-solving and massive long-context workflows at scale. By eliminating critical bottlenecks in communication and memory movement, the platform supercharges inference to deliver more tokens per watt and lower cost per token versus the NVIDIA Blackwell architecture generation. Has anything changed in the NVIDIA Vera Rubin NVL72 rack design compared to NVIDIA GB200 NVL72? NVIDIA Vera Rubin NVL72 features our third-generation MGX NVL72 rack, which preserves the same rack footprint as NVIDIA Blackwell while introducing new mechanical, cooling, and power enhancements. What's new in DGX Vera Rubin NVL72 compared to DGX GB300 NVL72? NVIDIA DGX Vera Rubin NVL72 is the next iteration of NVIDIA's rack-scale system architecture. These systems are built using the NVIDIA Rubin architecture, combining 72 NVIDIA Rubin GPUs and 36 NVIDIA Vera CPUs with sixth-generation NVLink to create a massive shared memory space capable of accelerating the world's most complex models. DGX Vera Rubin NVL72 also leverages the latest innovations in NVIDIA networking, equipped with ConnectX-9 SuperNICs, BlueField-4 DPUs, and Spectrum–X Ethernet. Get Started Ready to Get Started? NVIDIA data center solutions are available through select NVIDIA Partner Network (NPN) partners. Explore flexible, affordable options for accessing the latest NVIDIA data center technologies through our partners. Browse NVIDIA Marketplace Get the Latest Data Center News Sign up for enterprise news, announcements, and more from NVIDIA. Stay Informed Products Data Center GPUs NVIDIA DGX Platform NVIDIA HGX Platform Networking Products Virtual GPUs Technologies NVIDIA Blackwell Architecture NVIDIA Hopper Architecture MGX Confidential Computing Multi-Instance GPU NVLink-C2C NVLink/NVSwitch Tensor Cores Resources Accelerated Apps Catalog Blackwell Resources Center Data Center GPUs Data Center GPU Line Card Data Center GPUs Resource Center Data Center Product Performance Deep Learning Institute Energy Efficiency Calculator GPU Cloud Computing MLPerf Benchmarks NGC Catalog NVIDIA-Certified Systems NVIDIA Data Center Corporate Blogs NVIDIA Data Center Technical Blogs Qualified System Catalog Where to Buy Company Info About Us Company Overview Investors Venture Capital (NVentures) NVIDIA Foundation Research Social Responsibility Technologies Careers Follow Data Center United States Your Privacy Choices Accessibility Corporate Policies Product Security Contact 2026 NVIDIA Corporation",
+      "created_at": "2026-07-06T17:50:32.385885+00:00",
+      "filtered_at": "2026-07-06T17:57:52.957436+00:00",
+      "quality": {
+        "word_count": 831,
+        "blocklist_hits": 0,
+        "nav_noise_hits": 3,
+        "strategic_signal_hits": 7,
+        "quality_status": "kept",
+        "filter_reasons": []
+      }
+    },
+    {
+      "chunk_id": "chunk_doc_src_013_001",
+      "document_id": "doc_src_013",
+      "source_id": "src_013",
+      "source_name": "Nvidia Latest News",
+      "source_family": "company_news",
+      "source_type": "press_release",
+      "source_tier": 2,
+      "url": "https://nvidianews.nvidia.com/news/latest",
+      "themes": [
+        "product_launch",
+        "partnership",
+        "ai_accelerators",
+        "blackwell"
+      ],
+      "associated_entities": [
+        "Nvidia"
+      ],
+      "reliability_score": 0.78,
+      "bias_risk": "medium_high",
+      "license_status": "official_public",
+      "chunk_index": 1,
+      "chunk_word_count": 1000,
+      "text": "Latest News | NVIDIA Newsroom PLATFORMS Autonomous Machines Cloud & Data Center Deep Learning & Ai Design & Pro Visualization Healthcare High Performance Computing Self-Driving Cars Gaming & Entertainment other links Developers Industries Shop Drivers Support About NVIDIA View All Products GPU TECHNOLOGY CONFERENCE NVIDIA Blog Community Careers TECHNOLOGIES Newsroom NVIDIA in Brief Exec Bios NVIDIA Blog Podcast Media Assets In the News Press Contacts Online Press Kits NVIDIA in Brief Exec Bios NVIDIA Blog Podcast Media Assets In the News Press Contacts Online Press Kits Latest News Sort By: Press releases Blog Year: All Years 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 2015 2014 2013 2012 2011 2010 July 06, 2026 How Open Models Are Driving AI Research Every year, the International Conference on Machine Learning (ICML) reveals where thousands of AI researchers have decided to put their work. This year’s accepted papers reveal a clear direction: open frontier models and open AI infrastructure have ... Read Blog July 06, 2026 How Nations Are Deploying AI for Strategic Priorities Nations have long invested in domestic infrastructure to advance their economies, protect and use their data, and take advantage of technology opportunities in areas such as transportation, communications, commerce, entertainment and healthcare. AI, ... Read Blog July 02, 2026 Joyride Through July With 12 Games Coming to GeForce NOW Summer is heating up — and GeForce NOW is taking players along for the ride. Start the month with Monopoly: Star Wars Heroes vs. Villains, bringing a galaxy far, far away to the iconic board-game franchise, alongside 12 new games joining the cloud ... Read Blog July 01, 2026 NVIDIA Unlocks AI Compute at Scale, Inviting Capital Partners to Power the AI Infrastructure Buildout As AI moves from model development to production inference, compute demand is accelerating and shifting toward continuously operating AI factories that generate tokens at scale. This shift requires access to large‑scale, multi‑tenant accelerated ... Read Blog July 01, 2026 NVIDIA and Partners Build in America, for America NVIDIA and its partners are investing in American manufacturing, supply chains, energy grids and skilled workforces so the U.S. can produce the infrastructure needed for better healthcare, breakthrough scientific discovery, stronger industrial ... Read Blog June 30, 2026 NVIDIA BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences Researchers in Claude Science Life sciences has entered an era of computational scale, and for more than a decade, NVIDIA has built the full GPU-accelerated computing stack — spanning hardware, frameworks, libraries, models, microservices and domain-specific tools — to help ... Read Blog June 30, 2026 How NVIDIA’s Inference Software Stack Powers the Lowest Token Cost As organizations move from AI pilots to production AI factories, infrastructure decisions have shifted from peak chip specifications to cost per token: how many useful tokens they can deliver per dollar, per watt and within required latency targets. ... Read Blog June 30, 2026 How Jaiveer Singh Is Helping Robots — and Developers — Move Faster When Jaiveer Singh talks about robots, he doesn’t begin with spectacle. He begins with infrastructure: the boards inside machines, the software that lets developers see through a robot’s cameras and the engineering required before a robot can leave ... Read Blog June 30, 2026 Into the Omniverse: Three Workflows for Improving Vision AI Agent Accuracy With Synthetic Data and Fine-Tuning Editor’s note: This post is part of Into the Omniverse, a series focused on how developers, 3D practitioners, and enterprises can transform their workflows using the latest advances in OpenUSD and NVIDIA Omniverse. Vision AI agents are becoming a ... Read Blog June 29, 2026 Claude Meets Blackwell Ultra: Anthropic’s Models Now Run on NVIDIA GB300 in Azure Anthropic’s Claude models in Microsoft Foundry — hosted on Microsoft Azure and running on NVIDIA GB300 Blackwell Ultra GPUs — are now generally available, giving Azure-native enterprises a powerful new way to build autonomous and domain-specific AI ... Read Blog June 29, 2026 Firefly Aerospace Operates NVIDIA Jetson in Lunar Orbit for the First Time The NVIDIA Inception member’s Ocula moon imaging service will harness the NVIDIA Jetson platform for edge AI, running inference directly in space to significantly accelerate insights compared with downlinking all data back down to Earth. Read Blog June 29, 2026 Open Models, Closed Environments: Palantir Brings Secure AI to US Agencies With NVIDIA Nemotron Showcasing the importance of open source innovation in American AI, Palantir’s new intelligent engine — introduced today — uses NVIDIA Nemotron open models to serve the needs of U.S. government agencies. Open source software has long been a pillar ... Read Blog June 25, 2026 The Ultimate Summer Sale Pairing: Steam Sale Meets GeForce NOW Discounts Summer savings are heating up. From the Steam Summer Sale to GeForce NOW membership discounts, this week’s GFN Thursday delivers double the deals and more ways to get the most value from cloud gaming. Plus, Dark Scrolls joins the growing Devolver ... Read Blog June 23, 2026 NVIDIA and AWS Collaborate to Bring AI to Production at Scale Building AI systems at scale is demanding, requiring low-latency inference, fast vector search, strong GPU price-performance and infrastructure that can grow without multiplying operational complexity. NVIDIA’s latest work with Amazon Web Services ... Read Blog June 23, 2026 How Businesses Are Building Specialized AI They Can Trust Companies are asking how to build specialized AI that fits with the way their workflows actually run. The first wave of enterprise AI was about access. Companies experimented with new frontier and open models, ran pilots and explored how AI can ... Read Blog June 23, 2026 NVIDIA Announces BioNeMo Agent Toolkit — Tools for Agents to Accelerate Scientific Discovery NVIDIA today announced NVIDIA BioNeMo Agent Toolkit, which provides domain-specific tools and skills for the agentic life sciences era. Read Press Release June 23, 2026 NVIDIA Powers Over 400 of the World’s 500 Fastest Supercomputers News Highlights: NVIDIA technology runs 81% of the TOP500 and 90% of the systems new to the list. 26 systems on the TOP500",
+      "created_at": "2026-07-06T17:50:32.385954+00:00",
+      "filtered_at": "2026-07-06T17:57:52.958504+00:00",
+      "quality": {
+        "word_count": 1000,
+        "blocklist_hits": 0,
+        "nav_noise_hits": 0,
+        "strategic_signal_hits": 9,
+        "quality_status": "kept",
+        "filter_reasons": []
+      }
+    },
+    {
+      "chunk_id": "chunk_doc_src_019_001",
+      "document_id": "doc_src_019",
+      "source_id": "src_019",
+      "source_name": "TSMC Investor Relations",
+      "source_family": "supplier_ecosystem",
+      "source_type": "supplier_investor_relations",
+      "source_tier": 3,
+      "url": "https://investor.tsmc.com/english",
+      "themes": [
+        "foundry_dependency",
+        "advanced_packaging",
+        "supplier_dependency",
+        "financial_performance"
+      ],
+      "associated_entities": [
+        "TSMC",
+        "Nvidia"
+      ],
+      "reliability_score": 0.86,
+      "bias_risk": "low_medium",
+      "license_status": "official_public",
+      "chunk_index": 1,
+      "chunk_word_count": 1000,
+      "text": "Investors - Taiwan Semiconductor Manufacturing Company Limited English 繁中 简中 日本語 Dedicated IC Foundry Dedicated IC Foundry Overview Technology Overview Logic Technology Specialty Technology 3DFabric Technology Platforms Future R&D Plans Manufacturing Overview Fab Locations Fab Capacity GIGAFAB® Facilities Engineering Performance Optimization Agile and Intelligent Operations Open Innovation Platform® Overview IP Alliance EDA Alliance Design Center Alliance Cloud Alliance Value Chain Aggregator TSMC 3DFabric® Alliance Services Overview Advanced Packaging Mask Services eFoundry® CyberShuttle® University FinFET Program Grand Alliance Overview Innovate with TSMC! Investors Investors Overview Financials Fundamentals Quarterly Results Annual Reports Monthly Revenue Historical Information SEC Filings Financial Reports Financial Calendar Credit Rating Corporate Governance Overview Board of Directors Committees Corporate Governance Officer Major Internal Policies NYSE Section 303A Internal Audit Risk Management Shareholder Services Stock Quotes Shareholders' Meeting Dividend TWSE Market Observation Post System TSMC Material Information Prospectuses Contacts FAQ Press Center Press Center Overview Press Releases Latest News News Archives Events All Events Investor Meetings TSMC Events Industry Events Multimedia Gallery Fabs: Outside Fabs: Inside Executives Videos Corporate Information About TSMC Financial Results ESG Careers Careers Overview Explore Career Browse & Apply Application Process Resources at TSMC Core Values Relocation to Headquarters Life at TSMC Working Environment Inclusive Workplace ESG Research Research Overview Research Areas Overview Logic Interconnect Memory Artificial Intelligence Collaborations Collaboration Programs Events Careers Openings Core Values Vision and Mission Inclusive Workplace About TSMC About TSMC Overview Company Info Overview Vision and Mission Values and Business Philosophy Organization Executives Board of Directors Document Center Foundation & Museum TSMC Museum of Innovation TSMC Charity Foundation TSMC Education and Culture Foundation Policy Human Rights Policy Quality Policy Risk Management Policy TSMC Fabs Subsidiaries Business Contacts Investor Relations, Public Relations, ESG Contacts Procurement Contacts Career Contact Business Conduct Dedicated IC Foundry Overview Technology Overview Logic Technology Specialty Technology 3DFabric Technology Platforms Future R&D Plans Manufacturing Overview Fab Locations Fab Capacity GIGAFAB® Facilities Engineering Performance Optimization Agile and Intelligent Operations Open Innovation Platform® Overview IP Alliance EDA Alliance Design Center Alliance Cloud Alliance Value Chain Aggregator TSMC 3DFabric® Alliance Services Overview Advanced Packaging Mask Services eFoundry® CyberShuttle® University FinFET Program Grand Alliance Overview Innovate with TSMC! Investors Overview Financials Fundamentals Quarterly Results Annual Reports Monthly Revenue Historical Information SEC Filings Financial Reports Financial Calendar Credit Rating Corporate Governance Overview Board of Directors Committees Corporate Governance Officer Major Internal Policies NYSE Section 303A Internal Audit Risk Management Shareholder Services Stock Quotes Shareholders' Meeting Dividend TWSE Market Observation Post System TSMC Material Information Prospectuses Contacts FAQ Press Center Overview Press Releases Latest News News Archives Events All Events Investor Meetings TSMC Events Industry Events Multimedia Gallery Fabs: Outside Fabs: Inside Executives Videos Corporate Information About TSMC Financial Results ESG Careers Overview Explore Career Browse & Apply Application Process Resources at TSMC Core Values Relocation to Headquarters Life at TSMC Working Environment Inclusive Workplace ESG Research Overview Research Areas Overview Logic Interconnect Memory Artificial Intelligence Collaborations Collaboration Programs Events Careers Openings Core Values Vision and Mission Inclusive Workplace About TSMC Overview Company Info Overview Vision and Mission Values and Business Philosophy Organization Executives Board of Directors Document Center Foundation & Museum TSMC Museum of Innovation TSMC Charity Foundation TSMC Education and Culture Foundation Policy Human Rights Policy Quality Policy Risk Management Policy TSMC Fabs Subsidiaries Business Contacts Investor Relations, Public Relations, ESG Contacts Procurement Contacts Career Contact Business Conduct Search English 繁中 简中 日本語 Search Home Investors Investors \"Best Overall Investor Relations\" – IR Magazine TSMC Shares Are an Attractive Investment for Semiconductor Innovations A World Leading Semiconductor Foundry Pioneered the dedicated semiconductor foundry business model, enabled fabless IC design industry to flourish and unleashed innovations with all Logic IC designers Built the world's largest semiconductor design ecosystem, Open Innovation Platform ® , and collaborated with its customers/partners to form the most powerful force of semiconductor innovations – about 85% of worldwide semiconductor start-up product prototypes were enabled by TSMC Produced 12,682 different products using 305 different process technologies to serve hundreds of customers with the world's largest logic capacity of >17 million 12\"-equivalent wafers in 2025 Excellent Financial Performance The only foundry that consistently delivers excellent financial results . Delivered 18.6% revenue CAGR and 18.7% earnings CAGR since listing in 1994 Strategic financial objectives (2024 to 2029): (1) revenue CAGR to approach 25% in U.S. dollar terms; (2) gross margin to be 56% and higher and ROE to be high-20s% through the cycle Fortress balance sheet with semiconductor industry's highest credit rating (S&P: AA-, Moody's Aa3) Have relied only on internally generated funds to finance organic growth Highly disciplined in mergers and acquisitions Commit to Sustainable Cash Dividends and Paid US$15.0bn in 2025 Started paying cash dividends from 2004, and have never reduced dividend per share Committed to sustainable cash dividends on both annual and quarterly basis An Ethical Company with Integrity Core values of Integrity, Commitment, Innovation, and Customer Trust (ICIC) Management follow 10 business philosophy Sustainability Leader Actively fulfill corporate social responsibilities and develop positive relationships with all stakeholders including employees, shareholders, customers, suppliers, and society Set our sustainability focuses on driving green manufacturing , building a responsible supply chain , creating an inclusive workplace, developing talent , and caring for the underprivileged Included in the Dow Jones Sustainability Indices (DJSI) for 24 consecutive years in 2024; received a rating of \"Low ESG Risk\" from the Sustainalytics ESG Risk Ratings; included in both MSCI ESG Leaders Indexes/SRI Indexes (with “AAA” rating) and FTSE4Good All-world index/Emerging Index/TIP Taiwan ESG Index; awarded ISS ESG's “Prime” status in the ESG Corporate Rating; membership in the Corporate Knights & As You Sow Carbon Clean 200 TM List for 2024; awarded “The Most Prestigious Sustainability Award - Top Ten Domestic Corporate” by Taiwan Institute for Sustainable Energy for 9th conservative years Trinity of Strengths Enables TSMC to be Everyone's Foundry Lead in technology , manufacturing excellence and customers' trust, which enable the Company to be everyone's foundry READ MORE + LATEST NEWS RECENT FINANCIAL EVENTS TSMC 2Q'26 Earnings",
+      "created_at": "2026-07-06T17:50:32.386050+00:00",
+      "filtered_at": "2026-07-06T17:57:52.960510+00:00",
+      "quality": {
+        "word_count": 1000,
+        "blocklist_hits": 0,
+        "nav_noise_hits": 2,
+        "strategic_signal_hits": 9,
+        "quality_status": "kept",
+        "filter_reasons": []
+      }
+    },
+    {
+      "chunk_id": "chunk_doc_src_019_002",
+      "document_id": "doc_src_019",
+      "source_id": "src_019",
+      "source_name": "TSMC Investor Relations",
+      "source_family": "supplier_ecosystem",
+      "source_type": "supplier_investor_relations",
+      "source_tier": 3,
+      "url": "https://investor.tsmc.com/english",
+      "themes": [
+        "foundry_dependency",
+        "advanced_packaging",
+        "supplier_dependency",
+        "financial_performance"
+      ],
+      "associated_entities": [
+        "TSMC",
+        "Nvidia"
+      ],
+      "reliability_score": 0.86,
+      "bias_risk": "low_medium",
+      "license_status": "official_public",
+      "chunk_index": 2,
+      "chunk_word_count": 578,
+      "text": "manufacturing , building a responsible supply chain , creating an inclusive workplace, developing talent , and caring for the underprivileged Included in the Dow Jones Sustainability Indices (DJSI) for 24 consecutive years in 2024; received a rating of \"Low ESG Risk\" from the Sustainalytics ESG Risk Ratings; included in both MSCI ESG Leaders Indexes/SRI Indexes (with “AAA” rating) and FTSE4Good All-world index/Emerging Index/TIP Taiwan ESG Index; awarded ISS ESG's “Prime” status in the ESG Corporate Rating; membership in the Corporate Knights & As You Sow Carbon Clean 200 TM List for 2024; awarded “The Most Prestigious Sustainability Award - Top Ten Domestic Corporate” by Taiwan Institute for Sustainable Energy for 9th conservative years Trinity of Strengths Enables TSMC to be Everyone's Foundry Lead in technology , manufacturing excellence and customers' trust, which enable the Company to be everyone's foundry READ MORE + LATEST NEWS RECENT FINANCIAL EVENTS TSMC 2Q'26 Earnings Conference and Conference Call (2026/7/16) May 2026 Monthly Revenue Quarterly Results Annual Reports Monthly Revenue Dividend Payment Financials Fundamentals Quarterly Results Annual Reports Monthly Revenue Historical Information SEC Filings Financial Reports Financial Calendar Credit Rating Corporate Governance Board of Directors Committees NYSE Section 303A Internal Audit Major Internal Policies Shareholder Services Stock Quotes Shareholders' Meeting Dividend TSE Market Observation Post System TSMC Material Information Contacts FAQ 2Q'26 Earnings Conference Earnings Conference, Conference Call and Live Webcast July 16th, 2026 VIEW MORE INVESTOR RESOURCES Major Resolutions of Board Meetings Shareholders' Meeting Shareholder Contacts INVESTOR RELATIONS For more information or to provide feedback on our investor relations, please at Email: invest@tsmc.com TSMC-Online™ Online information and transaction for our customers TSMC-SUPPLY ONLINE 360 The web-based portal for TSMC suppliers Document Center Find more information about TSMC Dedicated IC Foundry Overview Technology Manufacturing Open Innovation Platform® Services Grand Alliance Investors Overview Financials Corporate Governance Shareholder Services FAQ Press Center Overview Press Releases Events Multimedia Gallery Corporate Information Careers Overview Browse & Apply Application Process Core Values Relocation to Headquarter Working Environment Inclusive Workplace ESG An Innovation Pioneer A Responsible Purchaser A Practitioner of Green Power An Admired Employer Power to Change Society Research Research Areas Collaborations Careers About TSMC Overview TSMC Museum of Innovation TSMC Charity Foundation TSMC Education and Culture Foundation Legal Notice & Trademark Information | | Sitemap | | Copyright© Taiwan Semiconductor Manufacturing Company Limited 2010-2026, . Hyperlinked-Disclaimer × You are now leaving our web site. The web site you wish to link to is owned or operated by an entity other than Taiwan Semiconductor Manufacturing Company, Ltd.. We do not control this third party web site. We are providing this link for your convenience only and we are not responsible for the availability of or the content located on or through this third party web site, the accuracy, completeness, timeliness, or legality of any information contained in this third party web site, and any opinions expressed therein, nor for any link contained in this third party web site. This third party web site is not investigated, monitored, or checked for accuracy, completeness, timeliness, or legality, by Taiwan Semiconductor Manufacturing Company, Ltd.. The link from our web site to this third party web site does not imply that we approve of, endorse, or recommend this third party web site. We expressly disclaim all warranties, express or implied, as to the accuracy, legality, reliability, timeliness, quality, or validity of any content on this third party web site. : CONTINUE CLOSE",
+      "created_at": "2026-07-06T17:50:32.386063+00:00",
+      "filtered_at": "2026-07-06T17:57:52.961175+00:00",
+      "quality": {
+        "word_count": 578,
+        "blocklist_hits": 0,
+        "nav_noise_hits": 4,
+        "strategic_signal_hits": 6,
+        "quality_status": "kept",
+        "filter_reasons": []
+      }
+    },
+    {
+      "chunk_id": "chunk_doc_src_031_001",
+      "document_id": "doc_src_031",
+      "source_id": "src_031",
+      "source_name": "AWS and Nvidia Strategic Collaboration",
+      "source_family": "customer_partner",
+      "source_type": "customer_partner_announcement",
+      "source_tier": 3,
+      "url": "https://nvidianews.nvidia.com/news/aws-nvidia-strategic-collaboration-for-generative-ai",
+      "themes": [
+        "hyperscaler_demand",
+        "partnership",
+        "data_center_growth"
+      ],
+      "associated_entities": [
+        "Nvidia",
+        "Amazon Web Services"
+      ],
+      "reliability_score": 0.82,
+      "bias_risk": "medium_high",
+      "license_status": "official_public",
+      "chunk_index": 1,
+      "chunk_word_count": 1000,
+      "text": "AWS and NVIDIA Announce Strategic Collaboration to Offer New Supercomputing Infrastructure, Software and Services for Generative AI | NVIDIA Newsroom PLATFORMS Autonomous Machines Cloud & Data Center Deep Learning & Ai Design & Pro Visualization Healthcare High Performance Computing Self-Driving Cars Gaming & Entertainment other links Developers Industries Shop Drivers Support About NVIDIA View All Products GPU TECHNOLOGY CONFERENCE NVIDIA Blog Community Careers TECHNOLOGIES Newsroom NVIDIA in Brief Exec Bios NVIDIA Blog Podcast Media Assets In the News Press Contacts Online Press Kits NVIDIA in Brief Exec Bios NVIDIA Blog Podcast Media Assets In the News Press Contacts Online Press Kits Press Release Share Tweet Twitter Share LinkedIn Share Facebook Email AWS and NVIDIA Announce Strategic Collaboration to Offer New Supercomputing Infrastructure, Software and Services for Generative AI November 28, 2023 AWS to offer first cloud AI supercomputer with NVIDIA Grace Hopper Superchip and AWS UltraCluster scalability NVIDIA DGX Cloud — first to feature NVIDIA GH200 NVL32 — coming to AWS Companies partner on Project Ceiba—the world’s fastest GPU-powered AI supercomputer and newest NVIDIA DGX Cloud supercomputer for NVIDIA AI R&D and custom model development New Amazon EC2 instances NVIDIA GH200, H200, L40S and L4 GPUs supercharge generative AI, HPC, design and simulation workloads NVIDIA software on AWS — NeMo LLM framework, NeMo Retriever and BioNeMo — to boost generative AI development for custom models, semantic retrieval and drug discovery AWS re:Invent— Amazon Web Services, Inc. (AWS), an Amazon.com, Inc. company (NASDAQ: AMZN), and NVIDIA (NASDAQ: NVDA) today announced an expansion of their strategic collaboration to deliver the most-advanced infrastructure, software and services to power customers’ generative artificial intelligence (AI) innovations. The companies will bring together the best of NVIDIA and AWS technologies—from NVIDIA’s newest multi-node systems featuring next-generation GPUs, CPUs and AI software, to AWS Nitro System advanced virtualization and security, Elastic Fabric Adapter (EFA) interconnect, and UltraCluster scalability—that are ideal for training foundation models and building generative AI applications. The expanded collaboration builds on a longstanding relationship that has fueled the generative AI era by offering early machine learning (ML) pioneers the compute performance required to advance the state-of-the-art in these technologies. As part of the expanded collaboration to supercharge generative AI across all industries: AWS will be the first cloud provider to bring NVIDIA® GH200 Grace Hopper Superchips with new multi-node NVLink™ technology to the cloud. The new NVIDIA GH200 NVL32 multi-node platform connects 32 Grace Hopper Superchips with NVIDIA NVLink and NVSwitch™ technologies into one instance. The platform will be available on Amazon Elastic Compute Cloud (Amazon EC2) instances connected with Amazon’s powerful networking (EFA), supported by advanced virtualization (AWS Nitro System), and hyper-scale clustering (Amazon EC2 UltraClusters), enabling joint customers to scale to thousands of GH200 Superchips. NVIDIA and AWS will collaborate to host NVIDIA DGX™ Cloud —NVIDIA’s AI-training-as-a-service—on AWS. It will be the first DGX Cloud featuring GH200 NVL32, providing developers the largest shared memory in a single instance. DGX Cloud on AWS will accelerate training of cutting-edge generative AI and large language models that can reach beyond 1 trillion parameters. NVIDIA and AWS are partnering on Project Ceiba to design the world’s fastest GPU-powered AI supercomputer—an at-scale system with GH200 NVL32 and Amazon EFA interconnect hosted by AWS for NVIDIA’s own research and development team. This first-of-its-kind supercomputer—featuring 16,384 NVIDIA GH200 Superchips and capable of processing 65 exaflops of AI—will be used by NVIDIA to propel its next wave of generative AI innovation. AWS will introduce three additional new Amazon EC2 instances: P5e instances, NVIDIA H200 Tensor Core GPUs , for large-scale and cutting-edge generative AI and HPC workloads, and G6 and G6e instances, NVIDIA L4 GPUs and NVIDIA L40S GPUs , respectively, for a wide set of applications such as AI fine-tuning, inference, graphics and video workloads. G6e instances are particularly suitable for developing 3D workflows, digital twins and other applications using NVIDIA Omniverse™ , a platform for connecting and building generative AI-enabled 3D applications. “AWS and NVIDIA have collaborated for more than 13 years, beginning with the world’s first GPU cloud instance. Today, we offer the widest range of NVIDIA GPU solutions for workloads including graphics, gaming, high performance computing, machine learning, and now, generative AI,” said Adam Selipsky, CEO at AWS. “We continue to innovate with NVIDIA to make AWS the best place to run GPUs, combining next-gen NVIDIA Grace Hopper Superchips with AWS’s EFA powerful networking, EC2 UltraClusters’ hyper-scale clustering, and Nitro’s advanced virtualization capabilities.” “Generative AI is transforming cloud workloads and putting accelerated computing at the foundation of diverse content generation,” said Jensen Huang, founder and CEO of NVIDIA. “Driven by a common mission to deliver cost-effective state-of-the-art generative AI to every customer, NVIDIA and AWS are collaborating across the entire computing stack, spanning AI infrastructure, acceleration libraries, foundation models, to generative AI services.” New Amazon EC2 Instances Combine State-of-the-Art from NVIDIA and AWS AWS will be the first cloud provider to offer NVIDIA GH200 Grace Hopper Superchips with multi-node NVLink technology. Each GH200 Superchip combines an Arm-based Grace CPU with an NVIDIA Hopper™ architecture GPU on the same module. A single Amazon EC2 instance with GH200 NVL32 can provide up to 20 TB of shared memory to power terabyte-scale workloads. These instances will take advantage of AWS’s third-generation Elastic Fabric Adapter (EFA) interconnect, providing up to 400 Gbps per Superchip of low-latency, high-bandwidth networking throughput, enabling customers to scale to thousands of GH200 Superchips in EC2 UltraClusters. AWS instances with GH200 NVL32 will provide customers on-demand access to supercomputer-class performance, which is critical for large-scale AI/ML workloads that need to be distributed across multiple nodes for complex generative AI workloads—spanning FMs, recommender systems, and vector databases. NVIDIA GH200-powered EC2 instances will feature 4.5 TB of HBM3e memory—a 7.2x increase compared to current generation H100-powered EC2 P5d instances—allowing customers to run larger models, while improving training performance. Additionally, CPU-to-GPU memory interconnect provides up to 7x higher bandwidth than PCIe, enabling chip-to-chip communications that extend the total memory available for applications. AWS instances",
+      "created_at": "2026-07-06T17:50:32.386209+00:00",
+      "filtered_at": "2026-07-06T17:57:52.963051+00:00",
+      "quality": {
+        "word_count": 1000,
+        "blocklist_hits": 0,
+        "nav_noise_hits": 1,
+        "strategic_signal_hits": 8,
+        "quality_status": "kept",
+        "filter_reasons": []
+      }
+    },
+    {
+      "chunk_id": "chunk_doc_src_031_002",
+      "document_id": "doc_src_031",
+      "source_id": "src_031",
+      "source_name": "AWS and Nvidia Strategic Collaboration",
+      "source_family": "customer_partner",
+      "source_type": "customer_partner_announcement",
+      "source_tier": 3,
+      "url": "https://nvidianews.nvidia.com/news/aws-nvidia-strategic-collaboration-for-generative-ai",
+      "themes": [
+        "hyperscaler_demand",
+        "partnership",
+        "data_center_growth"
+      ],
+      "associated_entities": [
+        "Nvidia",
+        "Amazon Web Services"
+      ],
+      "reliability_score": 0.82,
+      "bias_risk": "medium_high",
+      "license_status": "official_public",
+      "chunk_index": 2,
+      "chunk_word_count": 1000,
+      "text": "Amazon EC2 instance with GH200 NVL32 can provide up to 20 TB of shared memory to power terabyte-scale workloads. These instances will take advantage of AWS’s third-generation Elastic Fabric Adapter (EFA) interconnect, providing up to 400 Gbps per Superchip of low-latency, high-bandwidth networking throughput, enabling customers to scale to thousands of GH200 Superchips in EC2 UltraClusters. AWS instances with GH200 NVL32 will provide customers on-demand access to supercomputer-class performance, which is critical for large-scale AI/ML workloads that need to be distributed across multiple nodes for complex generative AI workloads—spanning FMs, recommender systems, and vector databases. NVIDIA GH200-powered EC2 instances will feature 4.5 TB of HBM3e memory—a 7.2x increase compared to current generation H100-powered EC2 P5d instances—allowing customers to run larger models, while improving training performance. Additionally, CPU-to-GPU memory interconnect provides up to 7x higher bandwidth than PCIe, enabling chip-to-chip communications that extend the total memory available for applications. AWS instances with GH200 NVL32 will be the first AI infrastructure on AWS to feature liquid cooling to help ensure densely-packed server racks can efficiently operate at maximum performance. EC2 instances with GH200 NVL32 will also benefit from the AWS Nitro System, the underlying platform for next-generation EC2 instances. The Nitro System offloads I/O for functions from the host CPU/GPU to specialized hardware to deliver more consistent performance, while its enhanced security protects customer code and data during processing. AWS First to Host NVIDIA DGX Cloud Grace Hopper AWS will team up with NVIDIA to host NVIDIA DGX Cloud GH200 NVL32 NVLink infrastructure. NVIDIA DGX Cloud is an AI supercomputing service that gives enterprises fast access to multi-node supercomputing for training the most complex LLM and generative AI models, with integrated NVIDIA AI Enterprise software, and direct access to NVIDIA AI experts. Massive Project Ceiba Supercomputer to Supercharge NVIDIA’s AI Development The Project Ceiba supercomputer that AWS and NVIDIA are collaborating on will be integrated with AWS services, such as Amazon Virtual Private Cloud (VPC) encrypted networking and Amazon Elastic Block Store high-performance block storage, giving NVIDIA access to a comprehensive set of AWS capabilities. NVIDIA will use the supercomputer for research and development to advance AI for LLMs, graphics and simulation, digital biology, robotics, self-driving cars, Earth-2 climate prediction and more. NVIDIA and AWS Supercharge Generative AI, HPC, Design and Simulation To power the development, training and inference of the largest LLMs, AWS P5e instances will feature NVIDIA’s latest H200 GPUs that offer 141 GB of HBM3e GPU memory, which is 1.8x larger and 1.4x faster than H100 GPUs. This boost in GPU memory, along with up to 3,200 Gbps of EFA networking enabled by the AWS Nitro System, will enable customers to continue to build, train and deploy their cutting-edge models on AWS. To deliver cost-effective, energy-efficient solutions for video, AI and graphics workloads, AWS announced new Amazon EC2 G6e instances featuring NVIDIA L40S GPUs and G6 instances L4 GPUs. The new offerings can help startups, enterprises and researchers meet their AI and high-fidelity graphics needs. G6e instances are built to handle complex workloads such as generative AI and digital twin applications. Using NVIDIA Omniverse, photorealistic 3D simulations can be developed, contextualized and enhanced using real-time data from services such as AWS IoT TwinMaker, intelligent chatbots, assistants, search and summarization. Amazon Robotics and Amazon Fulfillment Centers will be able to integrate digital twins built with NVIDIA Omniverse and AWS IoT TwinMaker to optimize warehouse design and flow, train more intelligent robot assistants and improve deliveries to customers. L40S GPUs deliver up to 1.45 petaflops of FP8 performance and feature Ray Tracing cores that offer up to 209 teraflops of ray-tracing performance. L4 GPUs featured in G6 instances will deliver a lower-cost, energy-efficient solution for deploying AI models for natural language processing, language translation, AI video and image analysis, speech recognition, and personalization. L40S GPUs also accelerate graphics workloads, such as creating and rendering real-time, cinematic-quality graphics and game streaming. All three instances will be available in the coming year. NVIDIA Software on AWS Boosts Generative AI Development In addition, NVIDIA announced software on AWS to boost generative AI development. NVIDIA NeMo™ Retriever microservice offers new tools to create highly accurate chatbots and summarization tools using accelerated semantic retrieval. NVIDIA BioNeMo™, available on Amazon SageMaker now and coming to AWS on NVIDIA DGX Cloud, enables pharmaceutical companies to speed drug discovery by simplifying and accelerating the training of models using their own data. NVIDIA software on AWS is helping Amazon bring new innovations to its services and operations. A WS is using the NVIDIA NeMo framework to train select next-generation Amazon Titan LLMs. Amazon Robotics has begun leveraging NVIDIA Omniverse Isaac to build digital twins for automating, optimizing and planning its autonomous warehouses in virtual environments before deploying them into the real world. About NVIDIA Since its founding in 1993, NVIDIA (NASDAQ: NVDA) has been a pioneer in accelerated computing. The company’s invention of the GPU in 1999 sparked the growth of the PC gaming market, redefined computer graphics, ignited the era of modern AI and is fueling the creation of the metaverse. NVIDIA is now a full-stack computing company with data-center-scale offerings that are reshaping industry. More information at https://nvidianews.nvidia.com/ . About Amazon Web Services Since 2006, Amazon Web Services has been the world’s most comprehensive and broadly adopted cloud. AWS has been continually expanding its services to support virtually any workload, and it now has more than 240 fully featured services for compute, storage, databases, networking, analytics, machine learning and artificial intelligence (AI), Internet of Things (IoT), mobile, security, hybrid, virtual and augmented reality (VR and AR), media, and application development, deployment, and management from 102 Availability Zones within 32 geographic regions, with announced plans for 15 more Availability Zones and five more AWS Regions in Canada, Germany, Malaysia, New Zealand, and Thailand. Millions of customers—including the fastest-growing startups, largest enterprises, and leading government agencies—trust AWS to power their infrastructure, become more agile, and lower costs. To learn more about AWS, visit aws.amazon.com",
+      "created_at": "2026-07-06T17:50:32.386234+00:00",
+      "filtered_at": "2026-07-06T17:57:52.964196+00:00",
+      "quality": {
+        "word_count": 1000,
+        "blocklist_hits": 0,
+        "nav_noise_hits": 1,
+        "strategic_signal_hits": 7,
+        "quality_status": "kept",
+        "filter_reasons": []
+      }
+    },
+    {
+      "chunk_id": "chunk_doc_src_031_003",
+      "document_id": "doc_src_031",
+      "source_id": "src_031",
+      "source_name": "AWS and Nvidia Strategic Collaboration",
+      "source_family": "customer_partner",
+      "source_type": "customer_partner_announcement",
+      "source_tier": 3,
+      "url": "https://nvidianews.nvidia.com/news/aws-nvidia-strategic-collaboration-for-generative-ai",
+      "themes": [
+        "hyperscaler_demand",
+        "partnership",
+        "data_center_growth"
+      ],
+      "associated_entities": [
+        "Nvidia",
+        "Amazon Web Services"
+      ],
+      "reliability_score": 0.82,
+      "bias_risk": "medium_high",
+      "license_status": "official_public",
+      "chunk_index": 3,
+      "chunk_word_count": 1000,
+      "text": "now a full-stack computing company with data-center-scale offerings that are reshaping industry. More information at https://nvidianews.nvidia.com/ . About Amazon Web Services Since 2006, Amazon Web Services has been the world’s most comprehensive and broadly adopted cloud. AWS has been continually expanding its services to support virtually any workload, and it now has more than 240 fully featured services for compute, storage, databases, networking, analytics, machine learning and artificial intelligence (AI), Internet of Things (IoT), mobile, security, hybrid, virtual and augmented reality (VR and AR), media, and application development, deployment, and management from 102 Availability Zones within 32 geographic regions, with announced plans for 15 more Availability Zones and five more AWS Regions in Canada, Germany, Malaysia, New Zealand, and Thailand. Millions of customers—including the fastest-growing startups, largest enterprises, and leading government agencies—trust AWS to power their infrastructure, become more agile, and lower costs. To learn more about AWS, visit aws.amazon.com . Certain statements in this press release including, but not limited to, statements as to: the benefits, impact, performance, features, and availability of NVIDIA’s products and technologies, including NVIDIA GH200 Grace Hopper Superchips, NVL32, H200, NeMo Retriever, NVLink, NVSwitch, NVIDIA DGX Cloud, NVIDIA L40S, NVIDIA Omniverse, NVIDIA L4, NVIDIA NeMo, NVIDIA BioNeMo, and NVIDIA AI Enterprise; the benefits and impact of the expanded collaboration between AWS and NVIDIA, including Project Ceiba, and the availability of its services and offerings; and generative AI transforming cloud workloads and putting accelerated computing at the foundation of diverse content generation are forward-looking statements that are subject to risks and uncertainties that could cause results to be materially different than expectations. Important factors that could cause actual results to differ materially include: global economic conditions; our reliance on third parties to manufacture, assemble, package and test our products; the impact of technological development and competition; development of new products and technologies or enhancements to our existing product and technologies; market acceptance of our products or our partners’ products; design, manufacturing or software defects; changes in consumer preferences or demands; changes in industry standards and interfaces; and unexpected loss of performance of our products or technologies when integrated into systems, as well as other factors detailed from time to time in the most recent reports NVIDIA files with the Securities and Exchange Commission, or SEC, including, but not limited to, its annual report on Form 10-K and quarterly reports on Form 10-Q. Copies of reports filed with the SEC are posted on the company’s website and are available from NVIDIA without charge. These forward-looking statements are not guarantees of future performance and speak only as of the date hereof, and, except as required by law, NVIDIA disclaims any obligation to update these forward-looking statements to reflect future events or circumstances. © 2023 NVIDIA Corporation. . NVIDIA, the NVIDIA logo, BioNeMo, DGX, NeMo, NVIDIA Omniverse, NVLink, and NVSwitch are trademarks and/or registered trademarks of NVIDIA Corporation in the U.S. and/or other countries. Other company and product names may be trademarks of the respective companies with which they are associated. Features, pricing, availability, and specifications are subject to change without notice. Media Contacts Kristin Uchiyama Corporate Communications NVIDIA Corporation press@nvidia.com Downloads Download Press Release Download Attachments More Images NVIDIA DGX Cloud Download / File Link More News How Open Models Are Driving AI Research July 6, 2026 How Nations Are Deploying AI for Strategic Priorities July 6, 2026 Joyride Through July With 12 Games Coming to GeForce NOW July 2, 2026 NVIDIA Unlocks AI Compute at Scale, Inviting Capital Partners to Power the AI Infrastructure Buildout July 1, 2026 NVIDIA and Partners Build in America, for America July 1, 2026 About NVIDIA Since its founding in 1993, NVIDIA (NASDAQ: NVDA) has been a pioneer in accelerated computing. The company’s invention of the GPU in 1999 sparked the growth of the PC gaming market, redefined computer graphics, ignited the era of modern AI and is fueling the creation of the metaverse. NVIDIA is now a full-stack computing company with data-center-scale offerings that are reshaping industry. More information at https://nvidianews.nvidia.com/ . About Amazon Web Services Since 2006, Amazon Web Services has been the world’s most comprehensive and broadly adopted cloud. AWS has been continually expanding its services to support virtually any workload, and it now has more than 240 fully featured services for compute, storage, databases, networking, analytics, machine learning and artificial intelligence (AI), Internet of Things (IoT), mobile, security, hybrid, virtual and augmented reality (VR and AR), media, and application development, deployment, and management from 102 Availability Zones within 32 geographic regions, with announced plans for 15 more Availability Zones and five more AWS Regions in Canada, Germany, Malaysia, New Zealand, and Thailand. Millions of customers—including the fastest-growing startups, largest enterprises, and leading government agencies—trust AWS to power their infrastructure, become more agile, and lower costs. To learn more about AWS, visit aws.amazon.com . Certain statements in this press release including, but not limited to, statements as to: the benefits, impact, performance, features, and availability of NVIDIA’s products and technologies, including NVIDIA GH200 Grace Hopper Superchips, NVL32, H200, NeMo Retriever, NVLink, NVSwitch, NVIDIA DGX Cloud, NVIDIA L40S, NVIDIA Omniverse, NVIDIA L4, NVIDIA NeMo, NVIDIA BioNeMo, and NVIDIA AI Enterprise; the benefits and impact of the expanded collaboration between AWS and NVIDIA, including Project Ceiba, and the availability of its services and offerings; and generative AI transforming cloud workloads and putting accelerated computing at the foundation of diverse content generation are forward-looking statements that are subject to risks and uncertainties that could cause results to be materially different than expectations. Important factors that could cause actual results to differ materially include: global economic conditions; our reliance on third parties to manufacture, assemble, package and test our products; the impact of technological development and competition; development of new products and technologies or enhancements to our existing product and technologies; market acceptance of our products or our partners’ products; design, manufacturing or software defects; changes in consumer preferences or demands; changes in industry standards and interfaces; and unexpected loss of",
+      "created_at": "2026-07-06T17:50:32.386257+00:00",
+      "filtered_at": "2026-07-06T17:57:52.965327+00:00",
+      "quality": {
+        "word_count": 1000,
+        "blocklist_hits": 0,
+        "nav_noise_hits": 1,
+        "strategic_signal_hits": 6,
+        "quality_status": "kept",
+        "filter_reasons": []
+      }
+    },
+    {
+      "chunk_id": "chunk_doc_src_002_001",
+      "document_id": "doc_src_002",
+      "source_id": "src_002",
+      "source_name": "Nvidia Annual Reports and Proxies",
+      "source_family": "primary_regulatory",
+      "source_type": "annual_report",
+      "source_tier": 0,
+      "url": "https://investor.nvidia.com/financial-info/annual-reports-and-proxies/default.aspx",
+      "themes": [
+        "risk_factors",
+        "financial_performance",
+        "data_center_growth",
+        "supplier_dependency",
+        "export_controls"
+      ],
+      "associated_entities": [
+        "Nvidia"
+      ],
+      "reliability_score": 0.96,
+      "bias_risk": "low_medium",
+      "license_status": "official_public",
+      "chunk_index": 1,
+      "chunk_word_count": 1000,
+      "text": "NVIDIA Corporation - Financial Info - Annual Reports and Proxies News Events & Presentations Events & Presentations Presentations Stock Info Stock Quote & Chart Historical Price Lookup Investment Calculator Fundamentals Analyst Coverage Financial Info Financial Reports SEC Filings Quarterly Results Annual Reports and Proxies Annual Meeting Governance Management Team Board of Directors Governance Documents Committee Composition Contact the Board Investor Resources Download Library Contact Investor Relations Request Information FAQs RSS Application Catalog News Events & Presentations Events & Presentations Presentations Stock Info Stock Quote & Chart Historical Price Lookup Investment Calculator Fundamentals Analyst Coverage Financial Info Financial Reports SEC Filings Quarterly Results Annual Reports and Proxies Annual Meeting Governance Management Team Board of Directors Governance Documents Committee Composition Contact the Board Investor Resources Download Library Contact Investor Relations Request Information FAQs RSS Application Catalog Annual Reports and Proxies News Events & Presentations Events & Presentations Presentations Stock Info Stock Quote & Chart Historical Price Lookup Investment Calculator Fundamentals Analyst Coverage Financial Info Financial Reports SEC Filings Quarterly Results Annual Reports and Proxies Annual Meeting Governance Management Team Board of Directors Governance Documents Committee Composition Contact the Board Investor Resources Download Library Contact Investor Relations Request Information FAQs RSS Application Catalog AnnualQuarterly Files on this page are PDF. Download Acrobat Reader (opens in new window) free of charge. 2027 2026 Annual Report PDF Format Download (opens in new window) PDF 15.48 MB 2025 Annual Report PDF Format Download (opens in new window) PDF 48.80 MB 2024 Annual Report PDF Format Download (opens in new window) PDF 53.25 MB 2023 Annual Report PDF Format Download (opens in new window) PDF 48.26 MB 2022 Annual Report PDF Format Download (opens in new window) PDF 37.29 MB 2021 Annual Report PDF Format Download (opens in new window) PDF 44.10 MB 2020 Annual Report PDF Format Download (opens in new window) PDF 23.27 MB 2019 Annual Report PDF Format Download (opens in new window) PDF 26.17 MB 2018 Annual Report PDF Format Download (opens in new window) PDF 19.64 MB 2017 Annual Report PDF Format Download (opens in new window) PDF 22.43 MB 2016 Annual Report PDF Format Download (opens in new window) PDF 14.98 MB Proxy Statement PDF Format Download (opens in new window) PDF 1.00 MB 2015 Annual Report PDF Format Download (opens in new window) PDF 30.06 MB Proxy Statement PDF Format Download (opens in new window) PDF 1.15 MB 2014 Annual Report PDF Format Download (opens in new window) PDF 20.62 MB Proxy Statement PDF Format Download (opens in new window) PDF 1.97 MB 2013 Annual Report PDF Format Download (opens in new window) PDF 105.00 MB Proxy Statement PDF Format Download (opens in new window) PDF 2.85 MB 2012 Annual Report PDF Format Download (opens in new window) PDF 3.53 MB Proxy Statement PDF Format Download (opens in new window) PDF 2.76 MB 2011 Annual Report PDF Format Download (opens in new window) PDF 12.61 MB Proxy Statement PDF Format Download (opens in new window) PDF 1.79 MB 2010 Proxy Statement PDF Format Download (opens in new window) PDF 740 KB 2009 Proxy Statement PDF Format Download (opens in new window) PDF 582 KB 2008 Proxy Statement PDF Format Download (opens in new window) PDF 437 KB 2007 Proxy Statement PDF Format Download (opens in new window) PDF 558 KB 2006 Proxy Statement PDF Format Download (opens in new window) PDF 744 KB 2005 Proxy Statement PDF Format Download (opens in new window) PDF 458 KB 2004 Proxy Statement PDF Format Download (opens in new window) PDF 312 KB 2003 Proxy Statement PDF Format Download (opens in new window) PDF 304 KB 2002 Proxy Statement PDF Format Download (opens in new window) PDF 351 KB 2001 Proxy Statement PDF Format Download (opens in new window) PDF 287 KB 2000 Proxy Statement PDF Format Download (opens in new window) PDF 182 KB 1999 Proxy Statement PDF Format Download (opens in new window) PDF 145 KB 1998 Proxy Statement PDF Format Download (opens in new window) PDF 196 KB Quick Links RSS Request Printed Materials Download Library To receive notifications via email, enter your email address and select at least one subscription below. After submitting your information, you will receive an email. You must click the link in the email to activate your subscription. You can sign up for additional subscriptions at any time. * Required Email Address * Investor Alert Options Mailing Lists * SEC Filing Presentation Event End of Day Stock Quote Enter the code shown above. Email Alert Sign Up Confirmation Investor Contact 2788 San Tomas Expressway Santa Clara, CA 95051 Contact Investor Relations Investor Resources Download Library Request Information FAQs RSS Stock Info Stock Quote & Chart Historical Price Lookup Investment Calculator Fundamentals Analyst Coverage Governance Management Team Board of Directors Governance Documents Committee Composition Contact the Board Corporate Sustainability News News Events & Presentations Events & Presentations Financial Info Financial Reports SEC Filings Quarterly Results Annual Reports and Proxies Sign up for NVIDIA News Investors and others should note that we announce material financial information to our investors using our investor relations website, press releases, SEC filings and public conference calls and webcasts. We intend to use our @NVIDIA Twitter account, NVIDIA Facebook page, NVIDIA LinkedIn page and company blog as a means of disclosing information about our company, our services and other matters and for complying with our disclosure obligations under Regulation FD. The information we post through these social media channels may be deemed material. Accordingly, investors should monitor these accounts and the blog, in addition to following our press releases, SEC filings and public conference calls and webcasts. This list may be updated from time to time. USA - United States Your Privacy Choices Accessibility Corporate Policies 2026 NVIDIA Corporation Q4 Inc. 5.182.1.3 (opens in new window) (Opens in new",
+      "created_at": "2026-07-06T17:50:32.386352+00:00",
+      "filtered_at": "2026-07-06T17:57:52.967432+00:00",
+      "quality": {
+        "word_count": 1000,
+        "blocklist_hits": 0,
+        "nav_noise_hits": 9,
+        "strategic_signal_hits": 2,
+        "quality_status": "kept",
+        "filter_reasons": []
+      }
+    },
+    {
+      "chunk_id": "chunk_doc_src_026_001",
+      "document_id": "doc_src_026",
+      "source_id": "src_026",
+      "source_name": "ASML Investor Relations",
+      "source_family": "supplier_ecosystem",
+      "source_type": "supplier_investor_relations",
+      "source_tier": 3,
+      "url": "https://www.asml.com/en/investors",
+      "themes": [
+        "supplier_dependency",
+        "foundry_dependency",
+        "industry_context",
+        "financial_performance"
+      ],
+      "associated_entities": [
+        "ASML",
+        "TSMC",
+        "Samsung",
+        "Nvidia"
+      ],
+      "reliability_score": 0.86,
+      "bias_risk": "low_medium",
+      "license_status": "official_public",
+      "chunk_index": 1,
+      "chunk_word_count": 689,
+      "text": "Investors | ASML - Supplying the semiconductor industry Saved jobs We saved your job Company Back Company overview About ASML Back About ASML overview Vision & mission Organization History Locations Governance Back Governance overview Board of Management Supervisory Board Shareholders Code of Conduct How we manage risk Auditors Governance downloads Sustainability Community engagement Back Community engagement overview Education Culture Local outreach Careers Back Careers overview Search jobs Interviewing at ASML Working at ASML Back Working at ASML overview The Netherlands United States Taiwan South Korea China Japan Germany Technical fields Teams Students & graduates Back Students & graduates overview Early careers The Netherlands United States Taiwan South Korea China Technology Back Technology overview All about chips Back All about chips overview The basics How microchips are made Moore's Law Lithography principles Back Lithography principles overview The Rayleigh criterion Light & lasers Lenses & mirrors Mechanics & mechatronics Measuring accuracy Pushing k1 further How we innovate Back How we innovate overview Fellows Software Products Back Products overview EUV lithography DUV lithography Refurbished systems Metrology & inspection Computational lithography Customer support News Back News overview Press releases & announcements Stories Share buyback Media library Contact Media Relations News alerts Investors Back Investors overview Why invest in ASML Back Why invest in ASML overview Fact Sheet Financial strategy Capital return & financing Share buyback Annual reports Financial results Back Financial results overview Q2 2026 Q1 2026 Q4 2025 Q3 2025 Q2 2025 Q1 2025 Financial overview Shares Back Shares overview Share price SEC filings Analyst coverage Shareholder meetings Investor days Financial calendar Contact Investor Relations SupplierNet CustomerNet Search Search Investors Our investors help us make the impossible possible 01 / 23 Explore our financial results, share information, and strategy for growth as a leader in the competitive semiconductor industry. Fact Sheet Annual reports ASML files its annual report with the US Securities Exchange Commission each year. Explore the results and download the complete report. Latest financial results We release annual and quarterly financial results to ensure investors, both current and potential, are kept informed. Financial strategy ASML plans for the road ahead. Read about our long-term financial strategy and expectations for growth in the industry. Financial calendar Join ASML at one of our many financial events throughout the year, learning more about our place in the industry and how we're growing in it. Capital return and financing Read about our capital return policy as well as our current outstanding publicly traded bonds, credit ratings and standby facility. Share buyback ASML returns cash to shareholders on a regular basis through share buybacks or capital repayment. Shareholder meetings Information and downloads from our most recent AGMs. Investor days At our investor days, we keep current shareholders and prospective investors informed about the future of our industry and our role in it. Share price Data from our Euronext and NASDAQ listings. Analyst coverage Find out which sell-side analysts currently follow ASML. Contact Investor Relations Find out who to contact for Investor Relations related questions in Europe, Asia, and the Americas. Why invest in ASML? We're technology trailblazers and strategic thinkers, creating value and new opportunities Learn more Sign up for news alerts Related content Locations Three continents, 16 countries and regions, 60 locations. Find out more about what it’s like working at a world leader in the semiconductor industry. Sustainability Find out what sustainability means to us at ASML and what concrete actions we are taking together with our customers, suppliers and partners. Latest press releases May 16, 2026 Tata Electronics and ASML Announce Strategic Partnership to Advance the Semiconductor Manufacturing Ecosystem in India May 5, 2026 ASML CEO Christophe Fouquet co-signed opinion piece with European technology companies April 22, 2026 ASML discloses 2026 AGM results Home Investors / Learn History Products Technology Sustainability News Work At ASML Job search Careers Organization Locations Invest Why invest in ASML Annual report Financial results Investor days Shares Get in touch Contact information Contact Media Relations Contact Investor Relations CustomerNet SupplierNet Social Media 2019-2026 (ASML) Terms of use Privacy Cookies Terms & conditions Accessibility",
+      "created_at": "2026-07-06T17:50:32.386395+00:00",
+      "filtered_at": "2026-07-06T17:57:52.968480+00:00",
+      "quality": {
+        "word_count": 689,
+        "blocklist_hits": 0,
+        "nav_noise_hits": 5,
+        "strategic_signal_hits": 4,
+        "quality_status": "kept",
+        "filter_reasons": []
+      }
+    },
+    {
+      "chunk_id": "chunk_doc_src_023_001",
+      "document_id": "doc_src_023",
+      "source_id": "src_023",
+      "source_name": "Micron Newsroom",
+      "source_family": "supplier_ecosystem",
+      "source_type": "supplier_newsroom",
+      "source_tier": 3,
+      "url": "https://www.micron.com/about/press/news",
+      "themes": [
+        "hbm_supply",
+        "product_launch",
+        "supplier_dependency",
+        "ai_accelerators"
+      ],
+      "associated_entities": [
+        "Micron",
+        "Nvidia"
+      ],
+      "reliability_score": 0.82,
+      "bias_risk": "medium",
+      "license_status": "official_public",
+      "chunk_index": 1,
+      "chunk_word_count": 1000,
+      "text": "Newsroom | Micron Technology Inc. close close close close Sign in / Register Welcome to Micron.com, please Log in or Register an account to continue. Enter your email address check_circle_two_tone Please enter a valid email address Restricted email domain. Please enter your registered work email address. Unexpected Error, please try after some time The email address you provided is not registered. Please register prior to logging in This account currently does not meet compliance standards due to incomplete information and requires a review. Please click on the registration link below to update your details. This email address is not registered. Please register prior to logging in. Your Sign in information is managed by your organization. Please get in touch with your organization's administrator to reset your password. Your registration request has been denied. If you believe this is a mistake, please reach out to our Web Support using the form. Sign in Forgot Password? New Account ? Register Here Unable to Sign In? Visit Support close AI Design Tools Blog Investors Careers language clear Sign in keyboard_arrow_down Products Market & Industries Partners Sales & Support About Search Micron Technology search search Suggested Search See all Recent Search search menu clear Products Memory HBM DRAM components DRAM modules LPDDR components LPDDR modules GDDR Data center Storage Data center SSDs Client SSD Automotive and industrial SSD All SSDs Managed NAND NAND flash NOR flash Memory cards Multichip packages e.MMC-based MCP uMCP NAND-based MCP Technology leadership 1γ DRAM technology G9 NAND technology Design tools FBGA and part decoder DRAM power calculators NAND power calculator Simulation models Chipset compatibility guide Serial presence-detect tool Cross-reference tools UFSparm SSD firmware Software and drivers Storage Executive software Obsolete part catalogs Search for, filter and download Micron data sheets SEARCH DATA SHEETS Market & Industries AI AI data center Edge AI Automotive Functional safety for automotive Client PC Consumer Data center and servers Cloud solutions Data center storage insights High-performance computing Customer and partner storage success Industrial IoT Aerospace and defense​ Video security Mobile Network infrastructure Learn about AI Partners Partner networks Become a partner Channel partners Chipset partners Design IP partners Industrial quotient partners Partner login Sales network Storage ecosystem partners Suppliers Verification IP partners Technology enablement programs DDR5 TEP resources SOCAMM2 TEP resources AVL status by platform AIC ASRock ASUS Giga Computing Mitac Learn about and enroll in Micron's Technology Enablement Program (TEP) Visit TEP Sales & Support Customer Support Customer trust center FAQs Obsolete part catalogs Quality Technical support contact Sales Authorized distributors Order samples Sales network Sales support contact Surplus Downloads and tech docs Compatibility guides Data sheets Firmware Software and drivers Technical notes White papers All downloads and tech docs Contact Micron's sales support Sales support About Company Company timeline Customer trust center Educator Hub Global affairs and public policy Leadership Micron brand Opportunity for all Product security center Quality Security Suppliers Ventures Sustainability Compliance and ethics Corporate governance Global culture and workforce Micron Gives Responsible sourcing Sustainability report Sustainability resources Careers Locations Search jobs Featured opportunities Press Image gallery Media relations and resources Newsroom Trademark and usage guidelines U.S. expansion Idaho New York Virginia Awards and recognition Events Micron blog Micron glossary Sign in keyboard_arrow_right | language chevron_left Back US - English China - 简体中文 India - English Japan - 日本語 Malaysia - English Singapore - English Taiwan – 繁體中文 chevron_left Back Enter your email address check_circle_two_tone Please enter a valid email address Restricted email domain. Please enter your registered work email address. Unexpected Error, please try after some time The email address you provided is not registered. Please register prior to logging in This account currently does not meet compliance standards due to incomplete information and requires a review. Please click on the registration link below to update your details. This email address is not registered. Please register prior to logging in. Your Sign in information is managed by your organization. Please get in touch with your organization's administrator to reset your password. Your registration request has been denied. If you believe this is a mistake, please reach out to our Web Support using the form. Sign in Forgot Password? New Account? Register Here Unable to Sign In? Visit Support My Micron Dashboard Logout Home About Press Newsroom Press Newsroom Stay current on all of the latest news, activities and other developments from Micron Technology Latest news Micron and Ford Sign Strategic Agreement to Strengthen Long-Term Memory Supply and Industry Resilience July 6, 2026 Read article Micron and General Motors Sign Strategic Agreement to Secure Supply and Accelerate Innovation July 1, 2026 Read article Micron Announces $250 Million Investment in Trump Accounts Reaching 1 Million Children, Families and the Future Workforce June 30, 2026 Read article Micron Technology, Inc. Reports Record Results for the Third Quarter of Fiscal 2026 June 24, 2026 Read article Micron and Anthropic Announce Strategic Agreement to Scale Next-Generation AI Infrastructure June 22, 2026 Read article Micron Selects Bechtel as Construction Partner for Historic New York Semiconductor Project June 10, 2026 Read article Micron Appoints Alexis Black Björlin to Board of Directors June 09, 2026 Read article Micron Powers AI Everywhere at COMPUTEX 2026 June 1, 2026 Read article Micron Technology to Report Fiscal Third Quarter Results on June 24, 2026 May 27, 2026 Read article Micron Advances Made-in-America Memory With Manufacturing Expansion in Virginia May 22, 2026 Read article Micron Redefines AI Performance With Sampling of 256GB DDR5 Server Module May 12, 2026 Read article Industry-Leading 245TB Micron 6600 ION Data Center SSD Now Shipping May 5, 2026 Read article View all news Media relations contacts Corporate Product & Technology Media resources Image gallery Our image galleries provide photographs of company officers, manufacturing, products, logos and locations. View image gallery Media kits Our media kits provide key information and resources including press releases, supporting documents, links to our image galleries, corporate information and more. Learn more Trademark and usage guidelines Our trademarks, service marks, and logos, whether registered",
+      "created_at": "2026-07-06T17:50:32.387274+00:00",
+      "filtered_at": "2026-07-06T17:57:52.992761+00:00",
+      "quality": {
+        "word_count": 1000,
+        "blocklist_hits": 0,
+        "nav_noise_hits": 2,
+        "strategic_signal_hits": 6,
+        "quality_status": "kept",
+        "filter_reasons": []
+      }
+    },
+    {
+      "chunk_id": "chunk_doc_src_023_002",
+      "document_id": "doc_src_023",
+      "source_id": "src_023",
+      "source_name": "Micron Newsroom",
+      "source_family": "supplier_ecosystem",
+      "source_type": "supplier_newsroom",
+      "source_tier": 3,
+      "url": "https://www.micron.com/about/press/news",
+      "themes": [
+        "hbm_supply",
+        "product_launch",
+        "supplier_dependency",
+        "ai_accelerators"
+      ],
+      "associated_entities": [
+        "Micron",
+        "Nvidia"
+      ],
+      "reliability_score": 0.82,
+      "bias_risk": "medium",
+      "license_status": "official_public",
+      "chunk_index": 2,
+      "chunk_word_count": 334,
+      "text": "Board of Directors June 09, 2026 Read article Micron Powers AI Everywhere at COMPUTEX 2026 June 1, 2026 Read article Micron Technology to Report Fiscal Third Quarter Results on June 24, 2026 May 27, 2026 Read article Micron Advances Made-in-America Memory With Manufacturing Expansion in Virginia May 22, 2026 Read article Micron Redefines AI Performance With Sampling of 256GB DDR5 Server Module May 12, 2026 Read article Industry-Leading 245TB Micron 6600 ION Data Center SSD Now Shipping May 5, 2026 Read article View all news Media relations contacts Corporate Product & Technology Media resources Image gallery Our image galleries provide photographs of company officers, manufacturing, products, logos and locations. View image gallery Media kits Our media kits provide key information and resources including press releases, supporting documents, links to our image galleries, corporate information and more. Learn more Trademark and usage guidelines Our trademarks, service marks, and logos, whether registered or unregistered, must be used in accordance with these trademark usage guidelines. Read more Products Memory Storage Multichip packages Technology leadership Design tools Markets & industries AI Automotive Client PC Consumer Data center and servers Customer and partner storage success Industrial IoT Mobile Network infrastructure Partners Partners overview Partner networks Technology enablement programs Become a partner Partner login Sales network Suppliers ODM Partners: AVL status by platform Sales & Support Sales and support overview Customer support Sales Downloads and technical documentation About About overview Company Corporate governance Micron blog Events Micron glossary Awards and recognition U.S. expansion Investor Relations IR home Events and presentations Latest news Quarterly financial results Legal Micron Privacy Notice Terms of sale Privacy choices © 2023 Micron Technology, Inc. . Information, products, and/or specifications are subject to change without notice. All information is provided on an \"AS IS\" basis without warranties of any kind. Drawings may not be to scale. Micron, the Micron logo, and all other Micron trademarks are the property of Micron Technology, Inc. All other trademarks are the property of their respective owners",
+      "created_at": "2026-07-06T17:50:32.387279+00:00",
+      "filtered_at": "2026-07-06T17:57:52.993139+00:00",
+      "quality": {
+        "word_count": 334,
+        "blocklist_hits": 0,
+        "nav_noise_hits": 2,
+        "strategic_signal_hits": 3,
+        "quality_status": "kept",
+        "filter_reasons": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,472 @@
+{
+  "generated_at": "2026-07-06T17:57:52.993751+00:00",
+  "input_chunks": 53,
+  "kept_chunks": 21,
+  "filtered_chunks": 32,
+  "filters": {
+    "min_word_count": 250,
+    "excluded_source_ids": [
+      "src_004"
+    ],
+    "blocklist_phrases": [
+      "request access",
+      "your request has been flagged",
+      "complete the captcha",
+      "captcha",
+      "site help",
+      "access to these sites is limited"
+    ],
+    "navigation_noise_phrases": [
+      "skip to main content",
+      "privacy policy",
+      "terms of service",
+      "cookie policy",
+      "manage cookie settings",
+      "copyright ©",
+      "email alerts",
+      "subscribe",
+      "contact us",
+      "all rights reserved",
+      "follow nvidia",
+      "powered by"
+    ]
+  },
+  "filtered": [
+    {
+      "chunk_id": "chunk_doc_src_007_001",
+      "document_id": "doc_src_007",
+      "source_id": "src_007",
+      "source_name": "Federal Register Export-Control Rules",
+      "source_tier": 0,
+      "word_count": 181,
+      "filter_reasons": [
+        "too_short",
+        "blocked_access_or_captcha_content",
+        "low_strategic_signal"
+      ]
+    },
+    {
+      "chunk_id": "chunk_doc_src_024_001",
+      "document_id": "doc_src_024",
+      "source_id": "src_024",
+      "source_name": "Samsung Investor Relations",
+      "source_tier": 3,
+      "word_count": 432,
+      "filter_reasons": [
+        "low_strategic_signal"
+      ]
+    },
+    {
+      "chunk_id": "chunk_doc_src_008_001",
+      "document_id": "doc_src_008",
+      "source_id": "src_008",
+      "source_name": "Nvidia Quarterly Results",
+      "source_tier": 1,
+      "word_count": 543,
+      "filter_reasons": [
+        "high_navigation_footer_noise"
+      ]
+    },
+    {
+      "chunk_id": "chunk_doc_src_014_004",
+      "document_id": "doc_src_014",
+      "source_id": "src_014",
+      "source_name": "Nvidia Blackwell Platform Announcement",
+      "source_tier": 2,
+      "word_count": 603,
+      "filter_reasons": [
+        "high_navigation_footer_noise"
+      ]
+    },
+    {
+      "chunk_id": "chunk_doc_src_012_001",
+      "document_id": "doc_src_012",
+      "source_id": "src_012",
+      "source_name": "Nvidia Newsroom",
+      "source_tier": 2,
+      "word_count": 803,
+      "filter_reasons": [
+        "high_navigation_footer_noise"
+      ]
+    },
+    {
+      "chunk_id": "chunk_doc_src_003_001",
+      "document_id": "doc_src_003",
+      "source_id": "src_003",
+      "source_name": "SEC EDGAR Nvidia Company Page",
+      "source_tier": 0,
+      "word_count": 366,
+      "filter_reasons": [
+        "low_strategic_signal"
+      ]
+    },
+    {
+      "chunk_id": "chunk_doc_src_013_002",
+      "document_id": "doc_src_013",
+      "source_id": "src_013",
+      "source_name": "Nvidia Latest News",
+      "source_tier": 2,
+      "word_count": 726,
+      "filter_reasons": [
+        "high_navigation_footer_noise"
+      ]
+    },
+    {
+      "chunk_id": "chunk_doc_src_009_001",
+      "document_id": "doc_src_009",
+      "source_id": "src_009",
+      "source_name": "Nvidia Financial Reports",
+      "source_tier": 1,
+      "word_count": 626,
+      "filter_reasons": [
+        "high_navigation_footer_noise"
+      ]
+    },
+    {
+      "chunk_id": "chunk_doc_src_031_004",
+      "document_id": "doc_src_031",
+      "source_id": "src_031",
+      "source_name": "AWS and Nvidia Strategic Collaboration",
+      "source_tier": 3,
+      "word_count": 438,
+      "filter_reasons": [
+        "high_navigation_footer_noise"
+      ]
+    },
+    {
+      "chunk_id": "chunk_doc_src_001_001",
+      "document_id": "doc_src_001",
+      "source_id": "src_001",
+      "source_name": "Nvidia Investor Relations SEC Filings",
+      "source_tier": 0,
+      "word_count": 570,
+      "filter_reasons": [
+        "high_navigation_footer_noise"
+      ]
+    },
+    {
+      "chunk_id": "chunk_doc_src_002_002",
+      "document_id": "doc_src_002",
+      "source_id": "src_002",
+      "source_name": "Nvidia Annual Reports and Proxies",
+      "source_tier": 0,
+      "word_count": 151,
+      "filter_reasons": [
+        "too_short",
+        "low_strategic_signal"
+      ]
+    },
+    {
+      "chunk_id": "chunk_doc_src_004_001",
+      "document_id": "doc_src_004",
+      "source_id": "src_004",
+      "source_name": "SEC Nvidia Submissions JSON",
+      "source_tier": 0,
+      "word_count": 1000,
+      "filter_reasons": [
+        "excluded_source_for_evidence_extraction"
+      ]
+    },
+    {
+      "chunk_id": "chunk_doc_src_004_002",
+      "document_id": "doc_src_004",
+      "source_id": "src_004",
+      "source_name": "SEC Nvidia Submissions JSON",
+      "source_tier": 0,
+      "word_count": 1000,
+      "filter_reasons": [
+        "excluded_source_for_evidence_extraction"
+      ]
+    },
+    {
+      "chunk_id": "chunk_doc_src_004_003",
+      "document_id": "doc_src_004",
+      "source_id": "src_004",
+      "source_name": "SEC Nvidia Submissions JSON",
+      "source_tier": 0,
+      "word_count": 1000,
+      "filter_reasons": [
+        "excluded_source_for_evidence_extraction"
+      ]
+    },
+    {
+      "chunk_id": "chunk_doc_src_004_004",
+      "document_id": "doc_src_004",
+      "source_id": "src_004",
+      "source_name": "SEC Nvidia Submissions JSON",
+      "source_tier": 0,
+      "word_count": 1000,
+      "filter_reasons": [
+        "excluded_source_for_evidence_extraction"
+      ]
+    },
+    {
+      "chunk_id": "chunk_doc_src_004_005",
+      "document_id": "doc_src_004",
+      "source_id": "src_004",
+      "source_name": "SEC Nvidia Submissions JSON",
+      "source_tier": 0,
+      "word_count": 1000,
+      "filter_reasons": [
+        "excluded_source_for_evidence_extraction"
+      ]
+    },
+    {
+      "chunk_id": "chunk_doc_src_004_006",
+      "document_id": "doc_src_004",
+      "source_id": "src_004",
+      "source_name": "SEC Nvidia Submissions JSON",
+      "source_tier": 0,
+      "word_count": 1000,
+      "filter_reasons": [
+        "excluded_source_for_evidence_extraction"
+      ]
+    },
+    {
+      "chunk_id": "chunk_doc_src_004_007",
+      "document_id": "doc_src_004",
+      "source_id": "src_004",
+      "source_name": "SEC Nvidia Submissions JSON",
+      "source_tier": 0,
+      "word_count": 1000,
+      "filter_reasons": [
+        "excluded_source_for_evidence_extraction"
+      ]
+    },
+    {
+      "chunk_id": "chunk_doc_src_004_008",
+      "document_id": "doc_src_004",
+      "source_id": "src_004",
+      "source_name": "SEC Nvidia Submissions JSON",
+      "source_tier": 0,
+      "word_count": 1000,
+      "filter_reasons": [
+        "excluded_source_for_evidence_extraction"
+      ]
+    },
+    {
+      "chunk_id": "chunk_doc_src_004_009",
+      "document_id": "doc_src_004",
+      "source_id": "src_004",
+      "source_name": "SEC Nvidia Submissions JSON",
+      "source_tier": 0,
+      "word_count": 1000,
+      "filter_reasons": [
+        "excluded_source_for_evidence_extraction"
+      ]
+    },
+    {
+      "chunk_id": "chunk_doc_src_004_010",
+      "document_id": "doc_src_004",
+      "source_id": "src_004",
+      "source_name": "SEC Nvidia Submissions JSON",
+      "source_tier": 0,
+      "word_count": 1000,
+      "filter_reasons": [
+        "excluded_source_for_evidence_extraction"
+      ]
+    },
+    {
+      "chunk_id": "chunk_doc_src_004_011",
+      "document_id": "doc_src_004",
+      "source_id": "src_004",
+      "source_name": "SEC Nvidia Submissions JSON",
+      "source_tier": 0,
+      "word_count": 1000,
+      "filter_reasons": [
+        "excluded_source_for_evidence_extraction"
+      ]
+    },
+    {
+      "chunk_id": "chunk_doc_src_004_012",
+      "document_id": "doc_src_004",
+      "source_id": "src_004",
+      "source_name": "SEC Nvidia Submissions JSON",
+      "source_tier": 0,
+      "word_count": 1000,
+      "filter_reasons": [
+        "excluded_source_for_evidence_extraction"
+      ]
+    },
+    {
+      "chunk_id": "chunk_doc_src_004_013",
+      "document_id": "doc_src_004",
+      "source_id": "src_004",
+      "source_name": "SEC Nvidia Submissions JSON",
+      "source_tier": 0,
+      "word_count": 1000,
+      "filter_reasons": [
+        "excluded_source_for_evidence_extraction"
+      ]
+    },
+    {
+      "chunk_id": "chunk_doc_src_004_014",
+      "document_id": "doc_src_004",
+      "source_id": "src_004",
+      "source_name": "SEC Nvidia Submissions JSON",
+      "source_tier": 0,
+      "word_count": 1000,
+      "filter_reasons": [
+        "excluded_source_for_evidence_extraction"
+      ]
+    },
+    {
+      "chunk_id": "chunk_doc_src_004_015",
+      "document_id": "doc_src_004",
+      "source_id": "src_004",
+      "source_name": "SEC Nvidia Submissions JSON",
+      "source_tier": 0,
+      "word_count": 1000,
+      "filter_reasons": [
+        "excluded_source_for_evidence_extraction"
+      ]
+    },
+    {
+      "chunk_id": "chunk_doc_src_004_016",
+      "document_id": "doc_src_004",
+      "source_id": "src_004",
+      "source_name": "SEC Nvidia Submissions JSON",
+      "source_tier": 0,
+      "word_count": 1000,
+      "filter_reasons": [
+        "excluded_source_for_evidence_extraction"
+      ]
+    },
+    {
+      "chunk_id": "chunk_doc_src_004_017",
+      "document_id": "doc_src_004",
+      "source_id": "src_004",
+      "source_name": "SEC Nvidia Submissions JSON",
+      "source_tier": 0,
+      "word_count": 1000,
+      "filter_reasons": [
+        "excluded_source_for_evidence_extraction"
+      ]
+    },
+    {
+      "chunk_id": "chunk_doc_src_004_018",
+      "document_id": "doc_src_004",
+      "source_id": "src_004",
+      "source_name": "SEC Nvidia Submissions JSON",
+      "source_tier": 0,
+      "word_count": 1000,
+      "filter_reasons": [
+        "excluded_source_for_evidence_extraction"
+      ]
+    },
+    {
+      "chunk_id": "chunk_doc_src_004_019",
+      "document_id": "doc_src_004",
+      "source_id": "src_004",
+      "source_name": "SEC Nvidia Submissions JSON",
+      "source_tier": 0,
+      "word_count": 1000,
+      "filter_reasons": [
+        "excluded_source_for_evidence_extraction"
+      ]
+    },
+    {
+      "chunk_id": "chunk_doc_src_004_020",
+      "document_id": "doc_src_004",
+      "source_id": "src_004",
+      "source_name": "SEC Nvidia Submissions JSON",
+      "source_tier": 0,
+      "word_count": 713,
+      "filter_reasons": [
+        "excluded_source_for_evidence_extraction"
+      ]
+    },
+    {
+      "chunk_id": "chunk_doc_src_010_001",
+      "document_id": "doc_src_010",
+      "source_id": "src_010",
+      "source_name": "Nvidia Events and Presentations",
+      "source_tier": 1,
+      "word_count": 557,
+      "filter_reasons": [
+        "high_navigation_footer_noise"
+      ]
+    }
+  ],
+  "kept_by_source": [
+    {
+      "source_id": "src_002",
+      "source_name": "Nvidia Annual Reports and Proxies",
+      "source_tier": 0,
+      "kept_chunks": 1
+    },
+    {
+      "source_id": "src_006",
+      "source_name": "BIS Export Controls",
+      "source_tier": 0,
+      "kept_chunks": 1
+    },
+    {
+      "source_id": "src_013",
+      "source_name": "Nvidia Latest News",
+      "source_tier": 2,
+      "kept_chunks": 1
+    },
+    {
+      "source_id": "src_014",
+      "source_name": "Nvidia Blackwell Platform Announcement",
+      "source_tier": 2,
+      "kept_chunks": 3
+    },
+    {
+      "source_id": "src_015",
+      "source_name": "Nvidia Data Center Products",
+      "source_tier": 2,
+      "kept_chunks": 3
+    },
+    {
+      "source_id": "src_016",
+      "source_name": "Nvidia CUDA Toolkit",
+      "source_tier": 2,
+      "kept_chunks": 1
+    },
+    {
+      "source_id": "src_019",
+      "source_name": "TSMC Investor Relations",
+      "source_tier": 3,
+      "kept_chunks": 2
+    },
+    {
+      "source_id": "src_020",
+      "source_name": "TSMC CoWoS 3DFabric",
+      "source_tier": 3,
+      "kept_chunks": 2
+    },
+    {
+      "source_id": "src_021",
+      "source_name": "SK hynix Newsroom",
+      "source_tier": 3,
+      "kept_chunks": 1
+    },
+    {
+      "source_id": "src_023",
+      "source_name": "Micron Newsroom",
+      "source_tier": 3,
+      "kept_chunks": 2
+    },
+    {
+      "source_id": "src_026",
+      "source_name": "ASML Investor Relations",
+      "source_tier": 3,
+      "kept_chunks": 1
+    },
+    {
+      "source_id": "src_031",
+      "source_name": "AWS and Nvidia Strategic Collaboration",
+      "source_tier": 3,
+      "kept_chunks": 3
+    }
+  ],
+  "filtered_by_reason": {
+    "too_short": 2,
+    "blocked_access_or_captcha_content": 1,
+    "low_strategic_signal": 4,
+    "high_navigation_footer_noise": 8,
+    "excluded_source_for_evidence_extraction": 20
+  }
+}

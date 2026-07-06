@@ -1,0 +1,185 @@
+{
+  "generated_at": "2026-07-06T17:41:32.999043+00:00",
+  "total_sources_attempted": 22,
+  "success": 21,
+  "manual_required": 0,
+  "failed": 1,
+  "results": [
+    {
+      "source_id": "src_001",
+      "source_name": "Nvidia Investor Relations SEC Filings",
+      "status": "success",
+      "output_path": "data/raw/doc_src_001_nvidia_investor_relations_sec_filings.json",
+      "error": "",
+      "text_length": 4187
+    },
+    {
+      "source_id": "src_002",
+      "source_name": "Nvidia Annual Reports and Proxies",
+      "status": "success",
+      "output_path": "data/raw/doc_src_002_nvidia_annual_reports_and_proxies.json",
+      "error": "",
+      "text_length": 6785
+    },
+    {
+      "source_id": "src_003",
+      "source_name": "SEC EDGAR Nvidia Company Page",
+      "status": "success",
+      "output_path": "data/raw/doc_src_003_sec_edgar_nvidia_company_page.json",
+      "error": "",
+      "text_length": 2719
+    },
+    {
+      "source_id": "src_004",
+      "source_name": "SEC Nvidia Submissions JSON",
+      "status": "success",
+      "output_path": "data/raw/doc_src_004_sec_nvidia_submissions_json.json",
+      "error": "",
+      "text_length": 305215
+    },
+    {
+      "source_id": "src_006",
+      "source_name": "BIS Export Controls",
+      "status": "success",
+      "output_path": "data/raw/doc_src_006_bis_export_controls.json",
+      "error": "",
+      "text_length": 5301
+    },
+    {
+      "source_id": "src_007",
+      "source_name": "Federal Register Export-Control Rules",
+      "status": "success",
+      "output_path": "data/raw/doc_src_007_federal_register_export_control_rules.json",
+      "error": "",
+      "text_length": 1153
+    },
+    {
+      "source_id": "src_008",
+      "source_name": "Nvidia Quarterly Results",
+      "status": "success",
+      "output_path": "data/raw/doc_src_008_nvidia_quarterly_results.json",
+      "error": "",
+      "text_length": 3998
+    },
+    {
+      "source_id": "src_009",
+      "source_name": "Nvidia Financial Reports",
+      "status": "success",
+      "output_path": "data/raw/doc_src_009_nvidia_financial_reports.json",
+      "error": "",
+      "text_length": 4527
+    },
+    {
+      "source_id": "src_010",
+      "source_name": "Nvidia Events and Presentations",
+      "status": "success",
+      "output_path": "data/raw/doc_src_010_nvidia_events_and_presentations.json",
+      "error": "",
+      "text_length": 4106
+    },
+    {
+      "source_id": "src_012",
+      "source_name": "Nvidia Newsroom",
+      "status": "success",
+      "output_path": "data/raw/doc_src_012_nvidia_newsroom.json",
+      "error": "",
+      "text_length": 5594
+    },
+    {
+      "source_id": "src_013",
+      "source_name": "Nvidia Latest News",
+      "status": "success",
+      "output_path": "data/raw/doc_src_013_nvidia_latest_news.json",
+      "error": "",
+      "text_length": 10657
+    },
+    {
+      "source_id": "src_014",
+      "source_name": "Nvidia Blackwell Platform Announcement",
+      "status": "success",
+      "output_path": "data/raw/doc_src_014_nvidia_blackwell_platform_announcement.json",
+      "error": "",
+      "text_length": 22092
+    },
+    {
+      "source_id": "src_015",
+      "source_name": "Nvidia Data Center Products",
+      "status": "success",
+      "output_path": "data/raw/doc_src_015_nvidia_data_center_products.json",
+      "error": "",
+      "text_length": 18517
+    },
+    {
+      "source_id": "src_016",
+      "source_name": "Nvidia CUDA Toolkit",
+      "status": "success",
+      "output_path": "data/raw/doc_src_016_nvidia_cuda_toolkit.json",
+      "error": "",
+      "text_length": 4653
+    },
+    {
+      "source_id": "src_019",
+      "source_name": "TSMC Investor Relations",
+      "status": "success",
+      "output_path": "data/raw/doc_src_019_tsmc_investor_relations.json",
+      "error": "",
+      "text_length": 11095
+    },
+    {
+      "source_id": "src_020",
+      "source_name": "TSMC CoWoS 3DFabric",
+      "status": "success",
+      "output_path": "data/raw/doc_src_020_tsmc_cowos_3dfabric.json",
+      "error": "",
+      "text_length": 10856
+    },
+    {
+      "source_id": "src_021",
+      "source_name": "SK hynix Newsroom",
+      "status": "success",
+      "output_path": "data/raw/doc_src_021_sk_hynix_newsroom.json",
+      "error": "",
+      "text_length": 3567
+    },
+    {
+      "source_id": "src_022",
+      "source_name": "Micron Investor Relations",
+      "status": "failed",
+      "output_path": "data/raw/doc_src_022_micron_investor_relations.json",
+      "error": "HTTPSConnectionPool(host='investors.micron.com', port=443): Read timed out. (read timeout=30)",
+      "text_length": 0
+    },
+    {
+      "source_id": "src_023",
+      "source_name": "Micron Newsroom",
+      "status": "success",
+      "output_path": "data/raw/doc_src_023_micron_newsroom.json",
+      "error": "",
+      "text_length": 8686
+    },
+    {
+      "source_id": "src_024",
+      "source_name": "Samsung Investor Relations",
+      "status": "success",
+      "output_path": "data/raw/doc_src_024_samsung_investor_relations.json",
+      "error": "",
+      "text_length": 3453
+    },
+    {
+      "source_id": "src_026",
+      "source_name": "ASML Investor Relations",
+      "status": "success",
+      "output_path": "data/raw/doc_src_026_asml_investor_relations.json",
+      "error": "",
+      "text_length": 4742
+    },
+    {
+      "source_id": "src_031",
+      "source_name": "AWS and Nvidia Strategic Collaboration",
+      "status": "success",
+      "output_path": "data/raw/doc_src_031_aws_and_nvidia_strategic_collaboration.json",
+      "error": "",
+      "text_length": 21059
+    }
+  ]
+}

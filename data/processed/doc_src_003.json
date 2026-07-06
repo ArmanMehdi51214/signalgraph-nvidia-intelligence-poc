@@ -1,0 +1,29 @@
+{
+  "document_id": "doc_src_003",
+  "source_id": "src_003",
+  "source_name": "SEC EDGAR Nvidia Company Page",
+  "source_family": "primary_regulatory",
+  "source_type": "sec_filing",
+  "source_tier": 0,
+  "url": "https://www.sec.gov/edgar/browse/?CIK=1045810",
+  "root_domain": "www.sec.gov",
+  "themes": [
+    "risk_factors",
+    "financial_performance",
+    "regulatory_context",
+    "export_controls"
+  ],
+  "associated_entities": [
+    "Nvidia"
+  ],
+  "reliability_score": 0.98,
+  "bias_risk": "low",
+  "license_status": "official_public",
+  "collected_at": "2026-07-06T17:40:08.841443+00:00",
+  "normalized_at": "2026-07-06T17:44:14.850658+00:00",
+  "raw_path": "data/raw/doc_src_003_sec_edgar_nvidia_company_page.json",
+  "clean_text": "EDGAR Entity Landing Page\n\nEDGAR | Company Search Results\n\nFAQ\n\nEDGAR search tools\n\nFeedback\n\nClassic version\n\nHome\n Â»\n \nCompany\n Search\n\nThis company's Exchange Act registration has been\n revoked\n\nThis company's Exchange Act\n registration as a Municipal Advisor has been revoked\n\nThis company's Exchange\n Act\n registration as a Municipal Advisor has been cancelled\n\n Investor toolkit:\n \n\nOn\n\n[+]\n Company Information\n \n\nCIK:\n\nEIN:\n\nLEI:\n\nSIC:\n\n(CF Office: \n)\n \n\nState location:\n\nState of\n incorporation:\n\nFiscal year end:\n\nBusiness address:\n\nPhone: \n\nMailing address:\n\nCategory:\n\nFilings:\n EDGAR filings since \n\nGet \ninsider transactions\n\n for this \nissuer\n\nGet \ninsider transactions\n\n for this \nreporting owner\n\nList all funds and\n classes/contracts for \n\n Latest Filings \n(excluding insider transactions)\n\nNo Filings for this company\n\nView\n filings\n\nHide filings\n\n Selected Filings\n \n\n[+]\n 8-K\n (current reports)\n\nNo 8-K filing data for this company in last \n days\n\nView all\n 8-Ks\n\nEducation\n\n[+]\n 10-K\n (annual reports) and\n 10-Q (quarterly reports)\n\nNo 10-K/10-Q filings for this company in last \n\n days\n\nView all 10-Ks and 10-Qs\n\nEducation\n\n[+]\n Proxy\n (annual meeting) and\n information statements\n\nNo Proxy filings for this company in last \n days\n\nView all\n proxy and information statements\n\nEducation\n\n[+]\n\n Ownership disclosures\n\nInsider transactions\n \nNo insider transaction filings for this\n company in last \n\n days\n\nView\n all insider transactions\n\nEducation\n\nBeneficial ownership (Schedule 13D and 13G)\n \nNo beneficial ownership filings for this\n company in last \n\n days\n\nView\n all beneficial ownership\n\nEducation\n\nFilings\n\nAll\n\nAll\n\nExclude\n insider transactions\n\nCurrent\n reports\n\nAnnual &\n quarterly reports\n\nProxy\n statements\n\nInsider\n transactions\n\nBeneficial\n ownership\n\nProxy voting\n records\n\nShareholder\n reports\n\nStatutory\n prospectuses\n\nSummary\n prospectuses\n\nSearch\n table\n\nSearch table\n\nFrom Date\n (yyyy-mm-dd)\n\nFrom Date (yyyy-mm-dd)\n\nTo Date\n (yyyy-mm-dd)\n\nTo Date (yyyy-mm-dd)\n\nClear\n\nEducation\n\n  \n \nClear\n\nKeywords:\n\nSearch text in\n documents\n\nShow columns:\n\nForm type\n\nClick to toggle column\n visibility\n\nForm description\n\nClick to toggle column\n visibility\n\nFiling\n date\n\nClick to toggle column\n visibility\n\nReporting date\n\nClick to toggle column\n visibility\n\nAct\n\nClick to toggle column\n visibility\n\nFilm number\n\nClick to toggle column\n visibility\n\nFile number\n\nClick to toggle column\n visibility\n\nAccession number\n\nClick to toggle column\n visibility\n\nSize\n\nClick to toggle column visibility\n\n ...Grid Refreshed\n \n\nData source:\n\nThere is no filings data for\n this organization\n \n\n Investor Resources\n \n\nPlease use the \nCompany or Person Lookup\n to find a valid\n Central Index Key (CIK).",
+  "char_count": 2719,
+  "word_count": 366,
+  "status": "normalized"
+}

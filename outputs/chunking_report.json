@@ -1,0 +1,177 @@
+{
+  "generated_at": "2026-07-06T17:50:32.389673+00:00",
+  "input_documents": 21,
+  "total_chunks": 53,
+  "chunk_size_words": 1000,
+  "chunk_overlap_words": 150,
+  "documents": [
+    {
+      "document_id": "doc_src_007",
+      "source_id": "src_007",
+      "source_name": "Federal Register Export-Control Rules",
+      "source_tier": 0,
+      "chunks": 1,
+      "total_chunk_words": 181
+    },
+    {
+      "document_id": "doc_src_020",
+      "source_id": "src_020",
+      "source_name": "TSMC CoWoS 3DFabric",
+      "source_tier": 3,
+      "chunks": 2,
+      "total_chunk_words": 1593
+    },
+    {
+      "document_id": "doc_src_024",
+      "source_id": "src_024",
+      "source_name": "Samsung Investor Relations",
+      "source_tier": 3,
+      "chunks": 1,
+      "total_chunk_words": 432
+    },
+    {
+      "document_id": "doc_src_008",
+      "source_id": "src_008",
+      "source_name": "Nvidia Quarterly Results",
+      "source_tier": 1,
+      "chunks": 1,
+      "total_chunk_words": 543
+    },
+    {
+      "document_id": "doc_src_014",
+      "source_id": "src_014",
+      "source_name": "Nvidia Blackwell Platform Announcement",
+      "source_tier": 2,
+      "chunks": 4,
+      "total_chunk_words": 3603
+    },
+    {
+      "document_id": "doc_src_021",
+      "source_id": "src_021",
+      "source_name": "SK hynix Newsroom",
+      "source_tier": 3,
+      "chunks": 1,
+      "total_chunk_words": 549
+    },
+    {
+      "document_id": "doc_src_006",
+      "source_id": "src_006",
+      "source_name": "BIS Export Controls",
+      "source_tier": 0,
+      "chunks": 1,
+      "total_chunk_words": 740
+    },
+    {
+      "document_id": "doc_src_012",
+      "source_id": "src_012",
+      "source_name": "Nvidia Newsroom",
+      "source_tier": 2,
+      "chunks": 1,
+      "total_chunk_words": 803
+    },
+    {
+      "document_id": "doc_src_003",
+      "source_id": "src_003",
+      "source_name": "SEC EDGAR Nvidia Company Page",
+      "source_tier": 0,
+      "chunks": 1,
+      "total_chunk_words": 366
+    },
+    {
+      "document_id": "doc_src_016",
+      "source_id": "src_016",
+      "source_name": "Nvidia CUDA Toolkit",
+      "source_tier": 2,
+      "chunks": 1,
+      "total_chunk_words": 669
+    },
+    {
+      "document_id": "doc_src_015",
+      "source_id": "src_015",
+      "source_name": "Nvidia Data Center Products",
+      "source_tier": 2,
+      "chunks": 3,
+      "total_chunk_words": 2831
+    },
+    {
+      "document_id": "doc_src_013",
+      "source_id": "src_013",
+      "source_name": "Nvidia Latest News",
+      "source_tier": 2,
+      "chunks": 2,
+      "total_chunk_words": 1726
+    },
+    {
+      "document_id": "doc_src_019",
+      "source_id": "src_019",
+      "source_name": "TSMC Investor Relations",
+      "source_tier": 3,
+      "chunks": 2,
+      "total_chunk_words": 1578
+    },
+    {
+      "document_id": "doc_src_009",
+      "source_id": "src_009",
+      "source_name": "Nvidia Financial Reports",
+      "source_tier": 1,
+      "chunks": 1,
+      "total_chunk_words": 626
+    },
+    {
+      "document_id": "doc_src_031",
+      "source_id": "src_031",
+      "source_name": "AWS and Nvidia Strategic Collaboration",
+      "source_tier": 3,
+      "chunks": 4,
+      "total_chunk_words": 3438
+    },
+    {
+      "document_id": "doc_src_001",
+      "source_id": "src_001",
+      "source_name": "Nvidia Investor Relations SEC Filings",
+      "source_tier": 0,
+      "chunks": 1,
+      "total_chunk_words": 570
+    },
+    {
+      "document_id": "doc_src_002",
+      "source_id": "src_002",
+      "source_name": "Nvidia Annual Reports and Proxies",
+      "source_tier": 0,
+      "chunks": 2,
+      "total_chunk_words": 1151
+    },
+    {
+      "document_id": "doc_src_026",
+      "source_id": "src_026",
+      "source_name": "ASML Investor Relations",
+      "source_tier": 3,
+      "chunks": 1,
+      "total_chunk_words": 689
+    },
+    {
+      "document_id": "doc_src_004",
+      "source_id": "src_004",
+      "source_name": "SEC Nvidia Submissions JSON",
+      "source_tier": 0,
+      "chunks": 20,
+      "total_chunk_words": 19713
+    },
+    {
+      "document_id": "doc_src_023",
+      "source_id": "src_023",
+      "source_name": "Micron Newsroom",
+      "source_tier": 3,
+      "chunks": 2,
+      "total_chunk_words": 1334
+    },
+    {
+      "document_id": "doc_src_010",
+      "source_id": "src_010",
+      "source_name": "Nvidia Events and Presentations",
+      "source_tier": 1,
+      "chunks": 1,
+      "total_chunk_words": 557
+    }
+  ]
+}

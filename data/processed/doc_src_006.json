@@ -1,0 +1,31 @@
+{
+  "document_id": "doc_src_006",
+  "source_id": "src_006",
+  "source_name": "BIS Export Controls",
+  "source_family": "regulatory_policy",
+  "source_type": "regulatory_export_control",
+  "source_tier": 0,
+  "url": "https://www.bis.gov/",
+  "root_domain": "www.bis.gov",
+  "themes": [
+    "export_controls",
+    "china_restrictions",
+    "regulatory_context",
+    "risk_factors"
+  ],
+  "associated_entities": [
+    "Nvidia",
+    "BIS",
+    "China"
+  ],
+  "reliability_score": 0.95,
+  "bias_risk": "low",
+  "license_status": "official_public",
+  "collected_at": "2026-07-06T17:40:14.515486+00:00",
+  "normalized_at": "2026-07-06T17:44:14.851326+00:00",
+  "raw_path": "data/raw/doc_src_006_bis_export_controls.json",
+  "clean_text": "Homepage | Bureau of Industry and Security\nAn official website of the United States government\nHere's how you know\nOfficial websites use .gov\nA \n.gov\n website belongs to an official government organization in the United States.\nSecure .gov websites use HTTPS\nA lock (\n) or \nhttps://\n means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.\nSkip to main content\n \n Bureau of Industry and Security \nU.S. Department of Commerce\nHomepage\nEmail notifications\nRegulations\nLicensing\nLearn & Support\nNews & Updates\nEnforcement\nAbout BIS\nRegulations\nLicensing\nLearn & Support\nNews & Updates\nEnforcement\nAbout BIS\nAdvancing national security through technology leadership and vigilant export controls\nLearn About BIS\nQuick links\nExport Administration Regulations\nClassify your item\nCountry guidance\nSubmit a confidential lead or tip\nConsolidated Screening List\nOffice of Information and Communications Technology and Services (OICTS)\nSpecial Issues\n \nGuidance Regarding Enforcement of License Requirements for Advanced Computing Items for Entities Headquartered in Country Group D:5 and Macau\n \nThe Department of Commerce, Bureau of Industry and Security (BIS) is issuing this guidance to clarify that a license is required to export advanced computing items to entities headquartered in Country Group D:5 (see \nsupplement no. 1 to part 740\n of the Export Administration Regulations (EAR) (15 CFR parts 730-774)) or Macau or with an ultimate parent company headquartered in Country Group D:5 or Macau – even if the entities themselves are located outside Country Group D:5 or Macau.\nGuidance on Advanced Computing Items (May 2026)\nFrequently Asked Questions\n \nBIS Extends Timeline for Authorized IC Designers\n \nOn January 16, 2025, BIS published a rule titled \"Implementation of Additional Due Diligence Measures for Advanced Computing Integrated Circuits; Amendments and Clarifications; and Extension of Comment Period\", which included a timeline during which certain companies are considered authorized integrated circuit (IC) designers who can overcome a presumption of certain license requirements. On April 7, 2026, BIS extended this timeline until December 31, 2026. This extension will allow more time for companies to submit Approved IC Designer applications and allow BIS additional time to process these applications. \nThe text of the rule can be viewed \nhere\n.\n \nSection 232 Investigations\n \nThe Secretary of Commerce initiated investigations under Section 232 of the Trade Expansion Act of 1962 to determine the effects on the national security of imports of the following: \nCopper\nTimber and Lumber\nSemiconductors\nPharmaceuticals\n  \nTrucks\nCritical Minerals\nCommercial Aircraft\nPolysilicon\nUnmanned Aircraft Systems\nWind Turbines\nMedical Products\nRobotics and Industrial Machinery\n \nThe posted Section 232 Inclusion Requests and their requested HTSUS Classifications can be found on \nDocket BIS-2025-0023\n on Regulations.gov.\nSection 232 Investigations Homepage\nSection 232 Inclusions Processes\nRead the latest News & Updates\nRobert Bosch GmbH (Bosch) To Pay $36 Million Penalty to BIS for Violations Pertaining to Shipments to Huawei \n \nJune 17, 2026\nBIS Reaches Administrative Enforcement Settlement with Coastal PVA Technology, Inc.\n \nApril 14, 2026\nBIS Reaches Administrative Enforcement Settlement with Solventum Corporation Order\n \nMarch 27, 2026\nBIS Reaches Administrative Enforcement Settlement with Teledyne FLIR LLC and its affiliates, FLIR Optoelectronic Technology (Shanghai) Co. Ltd. and Teledyne FLIR Commercial Systems Inc.\n \nFebruary 26, 2026\nBIS Reaches Administrative Enforcement Settlement with Vizicom ICT\n \nFebruary 25, 2026\nBulgarian National Sentenced in Austin for Scheme to Illegally Export U.S.-Origin Sensitive Microelectronics to Russia\n \nFebruary 19, 2026\nSee more News & Updates \n Bureau of Industry and Security \nShare to YouTube\nShare to Twitter\nShare to LinkedIn\nAdvancing U.S. national security, foreign policy, and economic objectives by ensuring an effective export control and treaty compliance system and promoting continued U.S. strategic technology leadership.\n \nRegulations\n \nExport Administration Regulations (EAR)\nChemical Weapons Convention Regulations (CWCR)\nFederal Register Notices\n \nLicensing\n \nAbout Licensing\nDetermine what is subject to the EAR\nClassify your item\nCountry guidance\nGuidance on end-use and end-user controls and U.S. person controls\nApply for licenses (SNAP-R)\nTrack applications (STELA)\nLicense exceptions\nBIS forms\n \nLearn & Support\n \nAbout Learn & Support\nEvents\nTraining videos\nDecision tools\nChemical and biological controls\nDeemed exports\nEncryption controls\nExport Compliance Programs (ECPs)\nReexports and exports from abroad\nGuidance & Frequently Asked Questions\nAdvisory Opinions\n \nNews & Updates\n \nNews & Updates\n \nEnforcement\n \nAbout Export Enforcement\nDon't Let This Happen To You\nOffices & leadership\nVoluntary Self-Disclosure\n \nAbout BIS\n \nAbout BIS\nGuiding principles\nLeadership\nOffices\nTechnical Advisory Committees (TAC)\nAnnual reports \nFreedom of Information Act\nPrivacy Policy Program\nContact us\nWebsite updates\nFOIA\nDisclaimer\nPrivacy Policy\nSORN\nInformation Quality\nDepartment of Commerce \nUSA.gov\nAccessibility\nSmall Business Fairness\nSystem Use Notice",
+  "char_count": 5301,
+  "word_count": 740,
+  "status": "normalized"
+}

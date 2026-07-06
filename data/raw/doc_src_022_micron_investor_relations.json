@@ -1,0 +1,32 @@
+{
+  "document_id": "doc_src_022",
+  "source_id": "src_022",
+  "source_name": "Micron Investor Relations",
+  "source_family": "supplier_ecosystem",
+  "source_type": "supplier_investor_relations",
+  "source_tier": 3,
+  "url": "https://investors.micron.com/",
+  "root_domain": "investors.micron.com",
+  "purpose": "Micron investor source for HBM ramp, AI memory demand, capex, and supplier competition.",
+  "themes": [
+    "hbm_supply",
+    "supplier_dependency",
+    "financial_performance",
+    "competitor_movement"
+  ],
+  "associated_entities": [
+    "Micron",
+    "Nvidia"
+  ],
+  "reliability_score": 0.85,
+  "bias_risk": "low_medium",
+  "license_status": "official_public",
+  "collection_method": "manual_download",
+  "active_status": "active_now",
+  "collected_at": "2026-07-06T17:41:21.477132+00:00",
+  "status": "failed",
+  "content_type": "",
+  "raw_text": "",
+  "raw_html": "",
+  "error": "HTTPSConnectionPool(host='investors.micron.com', port=443): Read timed out. (read timeout=30)"
+}

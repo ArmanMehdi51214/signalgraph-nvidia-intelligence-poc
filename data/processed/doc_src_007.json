@@ -1,0 +1,31 @@
+{
+  "document_id": "doc_src_007",
+  "source_id": "src_007",
+  "source_name": "Federal Register Export-Control Rules",
+  "source_family": "regulatory_policy",
+  "source_type": "government_rule",
+  "source_tier": 0,
+  "url": "https://www.federalregister.gov/documents/search?conditions%5Bterm%5D=advanced+computing+semiconductor+export+controls",
+  "root_domain": "www.federalregister.gov",
+  "themes": [
+    "export_controls",
+    "china_restrictions",
+    "regulatory_context",
+    "risk_factors"
+  ],
+  "associated_entities": [
+    "Nvidia",
+    "BIS",
+    "China"
+  ],
+  "reliability_score": 0.96,
+  "bias_risk": "low",
+  "license_status": "official_public",
+  "collected_at": "2026-07-06T17:40:17.204595+00:00",
+  "normalized_at": "2026-07-06T17:44:14.848410+00:00",
+  "raw_path": "data/raw/doc_src_007_federal_register_export_control_rules.json",
+  "clean_text": "Federal Register :: Request Access\n\nRequest Access\n\n Due to aggressive automated scraping of FederalRegister.gov and eCFR.gov,\n programmatic access to these sites is limited to access to our extensive\n developer APIs. Please visit\n \n\n FederalRegister.gov API\n \n\n documentation or\n \n\n eCFR.gov API\n \n\n documentation to learn more about how to access the API.\n\n Your request has been flagged as potentially automated. If you are human user\n receiving this message, please complete the CAPTCHA (bot test) below and\n click \"Request Access\". You may occassionally be asked to complete the\n CAPTCHA again, this is normal and part of our security measures.\n\n Request Access\n \n\nAn official website of the United States government.\n\n If you experiencing issues with the CAPTCHA or want to request a wider IP range,\n you can use the \"Site Help\" button found in the lower, right of this page\n to make a request.\n\n×\n\nIP Access Help\n\n This contact form is only for IP Access help.\n Please do not provide confidential information or personal data.\n \n\n*\n Your Name\n\n*\n Email\n\n*\n How can we help you?\n\nUpload Attachment\n\n*\n I am requesting technical help.\n\n \n\nSite Help",
+  "char_count": 1153,
+  "word_count": 181,
+  "status": "normalized"
+}

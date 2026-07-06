@@ -1,0 +1,197 @@
+{
+  "generated_at": "2026-07-06T17:44:14.852290+00:00",
+  "total_raw_success_docs": 21,
+  "normalized": 21,
+  "empty": 0,
+  "results": [
+    {
+      "document_id": "doc_src_021",
+      "source_id": "src_021",
+      "source_name": "SK hynix Newsroom",
+      "status": "normalized",
+      "word_count": 549,
+      "char_count": 3567,
+      "output_path": "data/processed/doc_src_021.json"
+    },
+    {
+      "document_id": "doc_src_013",
+      "source_id": "src_013",
+      "source_name": "Nvidia Latest News",
+      "status": "normalized",
+      "word_count": 1576,
+      "char_count": 10657,
+      "output_path": "data/processed/doc_src_013.json"
+    },
+    {
+      "document_id": "doc_src_012",
+      "source_id": "src_012",
+      "source_name": "Nvidia Newsroom",
+      "status": "normalized",
+      "word_count": 803,
+      "char_count": 5594,
+      "output_path": "data/processed/doc_src_012.json"
+    },
+    {
+      "document_id": "doc_src_009",
+      "source_id": "src_009",
+      "source_name": "Nvidia Financial Reports",
+      "status": "normalized",
+      "word_count": 626,
+      "char_count": 4526,
+      "output_path": "data/processed/doc_src_009.json"
+    },
+    {
+      "document_id": "doc_src_008",
+      "source_id": "src_008",
+      "source_name": "Nvidia Quarterly Results",
+      "status": "normalized",
+      "word_count": 543,
+      "char_count": 3997,
+      "output_path": "data/processed/doc_src_008.json"
+    },
+    {
+      "document_id": "doc_src_026",
+      "source_id": "src_026",
+      "source_name": "ASML Investor Relations",
+      "status": "normalized",
+      "word_count": 689,
+      "char_count": 4742,
+      "output_path": "data/processed/doc_src_026.json"
+    },
+    {
+      "document_id": "doc_src_023",
+      "source_id": "src_023",
+      "source_name": "Micron Newsroom",
+      "status": "normalized",
+      "word_count": 1184,
+      "char_count": 8686,
+      "output_path": "data/processed/doc_src_023.json"
+    },
+    {
+      "document_id": "doc_src_019",
+      "source_id": "src_019",
+      "source_name": "TSMC Investor Relations",
+      "status": "normalized",
+      "word_count": 1428,
+      "char_count": 11095,
+      "output_path": "data/processed/doc_src_019.json"
+    },
+    {
+      "document_id": "doc_src_004",
+      "source_id": "src_004",
+      "source_name": "SEC Nvidia Submissions JSON",
+      "status": "normalized",
+      "word_count": 16863,
+      "char_count": 192613,
+      "output_path": "data/processed/doc_src_004.json"
+    },
+    {
+      "document_id": "doc_src_007",
+      "source_id": "src_007",
+      "source_name": "Federal Register Export-Control Rules",
+      "status": "normalized",
+      "word_count": 181,
+      "char_count": 1153,
+      "output_path": "data/processed/doc_src_007.json"
+    },
+    {
+      "document_id": "doc_src_002",
+      "source_id": "src_002",
+      "source_name": "Nvidia Annual Reports and Proxies",
+      "status": "normalized",
+      "word_count": 1001,
+      "char_count": 6784,
+      "output_path": "data/processed/doc_src_002.json"
+    },
+    {
+      "document_id": "doc_src_014",
+      "source_id": "src_014",
+      "source_name": "Nvidia Blackwell Platform Announcement",
+      "status": "normalized",
+      "word_count": 3153,
+      "char_count": 22086,
+      "output_path": "data/processed/doc_src_014.json"
+    },
+    {
+      "document_id": "doc_src_010",
+      "source_id": "src_010",
+      "source_name": "Nvidia Events and Presentations",
+      "status": "normalized",
+      "word_count": 557,
+      "char_count": 4105,
+      "output_path": "data/processed/doc_src_010.json"
+    },
+    {
+      "document_id": "doc_src_024",
+      "source_id": "src_024",
+      "source_name": "Samsung Investor Relations",
+      "status": "normalized",
+      "word_count": 432,
+      "char_count": 3408,
+      "output_path": "data/processed/doc_src_024.json"
+    },
+    {
+      "document_id": "doc_src_015",
+      "source_id": "src_015",
+      "source_name": "Nvidia Data Center Products",
+      "status": "normalized",
+      "word_count": 2531,
+      "char_count": 18517,
+      "output_path": "data/processed/doc_src_015.json"
+    },
+    {
+      "document_id": "doc_src_003",
+      "source_id": "src_003",
+      "source_name": "SEC EDGAR Nvidia Company Page",
+      "status": "normalized",
+      "word_count": 366,
+      "char_count": 2719,
+      "output_path": "data/processed/doc_src_003.json"
+    },
+    {
+      "document_id": "doc_src_020",
+      "source_id": "src_020",
+      "source_name": "TSMC CoWoS 3DFabric",
+      "status": "normalized",
+      "word_count": 1443,
+      "char_count": 10856,
+      "output_path": "data/processed/doc_src_020.json"
+    },
+    {
+      "document_id": "doc_src_001",
+      "source_id": "src_001",
+      "source_name": "Nvidia Investor Relations SEC Filings",
+      "status": "normalized",
+      "word_count": 570,
+      "char_count": 4186,
+      "output_path": "data/processed/doc_src_001.json"
+    },
+    {
+      "document_id": "doc_src_006",
+      "source_id": "src_006",
+      "source_name": "BIS Export Controls",
+      "status": "normalized",
+      "word_count": 740,
+      "char_count": 5301,
+      "output_path": "data/processed/doc_src_006.json"
+    },
+    {
+      "document_id": "doc_src_016",
+      "source_id": "src_016",
+      "source_name": "Nvidia CUDA Toolkit",
+      "status": "normalized",
+      "word_count": 669,
+      "char_count": 4653,
+      "output_path": "data/processed/doc_src_016.json"
+    },
+    {
+      "document_id": "doc_src_031",
+      "source_id": "src_031",
+      "source_name": "AWS and Nvidia Strategic Collaboration",
+      "status": "normalized",
+      "word_count": 2988,
+      "char_count": 21050,
+      "output_path": "data/processed/doc_src_031.json"
+    }
+  ]
+}

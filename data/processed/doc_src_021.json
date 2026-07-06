@@ -1,0 +1,30 @@
+{
+  "document_id": "doc_src_021",
+  "source_id": "src_021",
+  "source_name": "SK hynix Newsroom",
+  "source_family": "supplier_ecosystem",
+  "source_type": "supplier_newsroom",
+  "source_tier": 3,
+  "url": "https://news.skhynix.com/",
+  "root_domain": "news.skhynix.com",
+  "themes": [
+    "hbm_supply",
+    "supplier_dependency",
+    "ai_accelerators",
+    "partnership"
+  ],
+  "associated_entities": [
+    "SK Hynix",
+    "Nvidia"
+  ],
+  "reliability_score": 0.84,
+  "bias_risk": "medium",
+  "license_status": "official_public",
+  "collected_at": "2026-07-06T17:40:49.256778+00:00",
+  "normalized_at": "2026-07-06T17:44:14.840240+00:00",
+  "raw_path": "data/raw/doc_src_021_sk_hynix_newsroom.json",
+  "clean_text": "Main - SK hynix Newsroom\n\nFACT\n\nPRESS\n\nTECH&AI\n\nSTORY\n\nIR\n\n \n\nSelect Page\n\n \n \n\nEnglish\n\nChinese(中文)\n\nKorean(한국어)\n\n \n\n \n\n \n\nFACT\n\nPRESS\n\nTECH&AI\n\nSTORY\n\nIR\n\n \n\nENG\n\n中文\n\nKOR\n\n#AI Memory\n#CXL\n#DRAM\n#eSSD\n#HBM3E\n#HBM4\n#NAND\n \n\n[Expert POV] From AI semiconductors to AI services\n\nThe arrival of the AI era is not only reshaping the role of the semiconductor industry but also expanding the boundaries of the ecosystem itself.\n\nWhy advanced memory matters in the AI infrastructure era\n\nThe landscape of AI competition is expanding. For years, the industry has focused on larger models, faster accelerators, and higher compute performance, \n\nSK hynix Announces Investment Plan for Chungcheong Region\n\nSK hynix CEO Kwak Noh-Jung announced a Cheongju-based investment plan to strengthen Korea’s future competitiveness\n\nSK hynix Announces Investment Plan for Southwestern Region\n\nSK hynix President & CEO Kwak Noh-Jung announced the company’s vision for 'Semiconductor and AI Investment in the Southwestern Region'\n\nExplainer: SK hynix’s Mid-to-Long-Term Investment Strategy\n\nSK hynix announces a KRW 1,100 trillion investment strategy encompassing Yongin, Cheongju, and a new Southwestern hub to lead the AI memory market\n\n1\n / \n6\n\nPRESS\n\nPRESS\n\nSK hynix Ships Samples of 12-Layer Next-Gen ‘HBM4E’\n\nJune 18, 2026\n\nPRESS\n\nSK hynix and NVIDIA Announce Multi-year Technology Partnership to Advance Memory for AI Factories\n\nJune 7, 2026\n\nPRESS\n\nSK hynix unveils ‘iHBM’ thermal solution to boost AI performance\n\nMay 26, 2026\n\nPRESS\n\nSK hynix received 2026 IEEE Corporate Innovation Award for Driving AI Computing Expansion with HBM\n\nApril 25, 2026\n\nPRESS\n\nSK hynix Announces 1Q26 Financial Results\n\nApril 22, 2026\n\nPRESS\n\nSK hynix Begins Mass Production of 192GB SOCAMM2 ‘Setting a New Standard for AI Server Memory Performance’\n\nApril 19, 2026\n\nTECH&AI\n\nTECH&AI\n\n[Expert POV] From AI semiconductors to AI services: How the ecosystem is evolving\n\nJuly 6, 2026\n\nTECH&AI\n\nWhy advanced memory matters in the AI infrastructure era\n\nJuly 3, 2026\n\nTECH&AI\n\n[Expert POV] The real battleground in the AI semiconductor race: Capital and energy infrastructure\n\nJune 24, 2026\n\nTECH&AI\n\nFive things you need to know about SK hynix and the future of AI memory\n\nJune 23, 2026\n\nTECH&AI\n\nSK hynix Showcases Tech Leadership as ‘Full Stack AI Memory Creator’ at HPED 2026, Reaffirming Strong Partnership with HPE\n\nJune 19, 2026\n\nTECH&AI\n\n[SOD’s Review] COMPUTEX 2026: SK hynix beyond memory – how the AI factory era is reshaping the company’s identity\n\nJune 11, 2026\n\nLatest\n\nSTORY\n\nMe~eh~eh~mory! The secret behind the flock leading the AI era — Behind the scenes of SK hynix’s new ad, “The Memory Shepherd”\n\nJune 10, 2026\n\nSTORY\n\nSK hynix and the Ministry of Climate, Energy and Environment Co-host ‘AI for Green Impact, Inspiring Young Minds to Shape a Greener Future\n\nJune 5, 2026\n\nSTORY\n\nSK hynix Honored with Gold Tower Order and Presidential Citation at the 61st Invention Day Ceremony, Proving AI Memory Technological Leadership\n\nMay 20, 2026\n\nSTORY\n\nSK hynix Vice President Woopyo Jeong Receives Order of Science and Technology Merit, Doyak Medal at National Science and Information and Communications Day Ceremony\n\nApril 21, 2026\n\nSTORY\n\n“Shaping the AI Era Together,” SK hynix Unveils Shared Growth Strategy with Partner Companies\n\nApril 20, 2026\n\nSTORY\n\nSK hynix Hosts 2026 Happiness Sharing Fund Donation Ceremony, Reaffirming the Value of Sharing Through Running Together\n\nApril 15, 2026\n\nContact Us\n\nSK hynix.com\n\nCareers\n\nTerms of Use\n\nCOPYRIGHT © SK HYNIX INC. ALL RIGHTS RESERVED.",
+  "char_count": 3567,
+  "word_count": 549,
+  "status": "normalized"
+}

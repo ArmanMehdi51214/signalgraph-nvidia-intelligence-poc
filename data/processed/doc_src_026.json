@@ -1,0 +1,32 @@
+{
+  "document_id": "doc_src_026",
+  "source_id": "src_026",
+  "source_name": "ASML Investor Relations",
+  "source_family": "supplier_ecosystem",
+  "source_type": "supplier_investor_relations",
+  "source_tier": 3,
+  "url": "https://www.asml.com/en/investors",
+  "root_domain": "www.asml.com",
+  "themes": [
+    "supplier_dependency",
+    "foundry_dependency",
+    "industry_context",
+    "financial_performance"
+  ],
+  "associated_entities": [
+    "ASML",
+    "TSMC",
+    "Samsung",
+    "Nvidia"
+  ],
+  "reliability_score": 0.86,
+  "bias_risk": "low_medium",
+  "license_status": "official_public",
+  "collected_at": "2026-07-06T17:41:28.390477+00:00",
+  "normalized_at": "2026-07-06T17:44:14.841246+00:00",
+  "raw_path": "data/raw/doc_src_026_asml_investor_relations.json",
+  "clean_text": "Investors | ASML - Supplying the semiconductor industry\nSkip to main content\nSaved jobs\nWe saved your job\nCompany\nBack\nCompany overview\nAbout ASML\nBack\nAbout ASML overview\nVision & mission\nOrganization\nHistory\nLocations\nGovernance\nBack\nGovernance overview\nBoard of Management\nSupervisory Board\nShareholders\nCode of Conduct\nHow we manage risk\nAuditors\nGovernance downloads\nSustainability\nCommunity engagement\nBack\nCommunity engagement overview\nEducation\nCulture\nLocal outreach\nCareers\nBack\nCareers overview\nSearch jobs\nInterviewing at ASML\nWorking at ASML\nBack\nWorking at ASML overview\nThe Netherlands\nUnited States\nTaiwan\nSouth Korea\nChina\nJapan\nGermany\nTechnical fields\nTeams\nStudents & graduates\nBack\nStudents & graduates overview\nEarly careers\nThe Netherlands\nUnited States\nTaiwan\nSouth Korea\nChina\nTechnology\nBack\nTechnology overview\nAll about chips\nBack\nAll about chips overview\nThe basics\nHow microchips are made\nMoore's Law\nLithography principles\nBack\nLithography principles overview\nThe Rayleigh criterion\nLight & lasers\nLenses & mirrors\nMechanics & mechatronics\nMeasuring accuracy\nPushing k1 further\nHow we innovate\nBack\nHow we innovate overview\nFellows\nSoftware\nProducts\nBack\nProducts overview\nEUV lithography\nDUV lithography\nRefurbished systems\nMetrology & inspection\nComputational lithography\nCustomer support\nNews\nBack\nNews overview\nPress releases & announcements\nStories\nShare buyback\nMedia library\nContact Media Relations\nNews alerts\nInvestors\nBack\nInvestors overview\nWhy invest in ASML\nBack\nWhy invest in ASML overview\nFact Sheet\nFinancial strategy\nCapital return & financing\nShare buyback\nAnnual reports\nFinancial results\nBack\nFinancial results overview\nQ2 2026\nQ1 2026\nQ4 2025\nQ3 2025\nQ2 2025\nQ1 2025\nFinancial overview\nShares\nBack\nShares overview\nShare price\nSEC filings\nAnalyst coverage\nShareholder meetings\nInvestor days\nFinancial calendar\nContact Investor Relations\nContact us\nSupplierNet\nCustomerNet\nSearch\nSearch\nInvestors\nOur investors help us make the impossible possible\n01 / 23\nExplore our financial results, share information, and strategy for growth as a leader in the competitive semiconductor industry.\nFact Sheet\nAnnual reports\nASML files its annual report with the US Securities Exchange Commission each year. Explore the results and download the complete report.\nLatest financial results\nWe release annual and quarterly financial results to ensure investors, both current and potential, are kept informed.\nFinancial strategy\nASML plans for the road ahead. Read about our long-term financial strategy and expectations for growth in the industry.\nFinancial calendar\nJoin ASML at one of our many financial events throughout the year, learning more about our place in the industry and how we're growing in it.\nCapital return and financing\nRead about our capital return policy as well as our current outstanding publicly traded bonds, credit ratings and standby facility.\nShare buyback\nASML returns cash to shareholders on a regular basis through share buybacks or capital repayment.\nShareholder meetings\nInformation and downloads from our most recent AGMs.\nInvestor days\nAt our investor days, we keep current shareholders and prospective investors informed about the future of our industry and our role in it.\nShare price\nData from our Euronext and NASDAQ listings.\nAnalyst coverage\nFind out which sell-side analysts currently follow ASML.\nContact Investor Relations\nFind out who to contact for Investor Relations related questions in Europe, Asia, and the Americas.\nWhy invest in ASML?\nWe're technology trailblazers and strategic thinkers, creating value and new opportunities\nLearn more\nSign up for news alerts\nRelated content\nLocations\nThree continents, 16 countries and regions, 60 locations. Find out more about what it’s like working at a world leader in the semiconductor industry.\nSustainability\nFind out what sustainability means to us at ASML and what concrete actions we are taking together with our customers, suppliers and partners.\nLatest press releases\nMay 16, 2026\n \nTata Electronics and ASML Announce Strategic Partnership to Advance the Semiconductor Manufacturing Ecosystem in India\nMay 5, 2026\n \nASML CEO Christophe Fouquet co-signed opinion piece with European technology companies\nApril 22, 2026\n \nASML discloses 2026 AGM results\nHome\nInvestors\n/\nLearn\nHistory\nProducts\nTechnology\nSustainability\nNews\nWork At ASML\nJob search\nCareers\nOrganization\nLocations\nInvest\nWhy invest in ASML\nAnnual report\nFinancial results\nInvestor days\nShares\nGet in touch\nContact information\nContact Media Relations\nContact Investor Relations\nCustomerNet\nSupplierNet\nSocial Media\nManage cookie settings\nCopyright © 2019-2026 (ASML) All Rights Reserved\nTerms of use\nPrivacy\nCookies\nTerms & conditions\nAccessibility",
+  "char_count": 4742,
+  "word_count": 689,
+  "status": "normalized"
+}
