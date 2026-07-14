@@ -1,0 +1,366 @@
+{
+  "repository_version": "0.1.0",
+  "primary_entity": "NVIDIA",
+  "generated_at": "2026-07-14T06:43:40.813705+00:00",
+  "model": "gpt-4.1-mini",
+  "source_evidence_count": 31,
+  "relationship_count": 11,
+  "approved_relationship_count": 11,
+  "needs_review_count": 0,
+  "relationships": [
+    {
+      "relationship_id": "rel_0001",
+      "source_entity": "NVIDIA",
+      "relationship_type": "partners_with",
+      "target_entity": "Amazon Web Services",
+      "relationship_statement": "NVIDIA partners with Amazon Web Services to host DGX Cloud featuring GH200 NVL32 for AI training.",
+      "supporting_evidence_ids": [
+        "ev_0025",
+        "ev_0026"
+      ],
+      "supporting_source_ids": [
+        "src_031"
+      ],
+      "themes": [
+        "data_center_growth",
+        "partnership"
+      ],
+      "confidence": "high",
+      "confidence_score": 0.895,
+      "business_impact": "This partnership enhances both companies' AI training capabilities and cloud infrastructure offerings, which may influence the competitive landscape in AI development platforms.",
+      "why_it_matters": "The collaboration could accelerate cloud-based AI training adoption and innovation, making it important to track launch milestones and performance metrics.",
+      "watch_items": [
+        "launch date of DGX Cloud on AWS",
+        "developer adoption of DGX Cloud",
+        "performance reports of DGX Cloud",
+        "progress updates on Project Ceiba",
+        "Project Ceiba deployment timeline"
+      ],
+      "verification_status": "supported_by_multiple_evidence",
+      "relationship_status": "approved",
+      "contradictory_evidence_ids": [],
+      "discovery_notes": "Relationship derived from company claim in the evidence describing hosting and collaboration between NVIDIA and AWS for DGX Cloud.",
+      "relationship_strength": 0.88,
+      "source_support_score": 0.88,
+      "discovered_at": "2026-07-14T06:43:27.314106+00:00"
+    },
+    {
+      "relationship_id": "rel_0002",
+      "source_entity": "Amazon Web Services",
+      "relationship_type": "adopts",
+      "target_entity": "NVIDIA",
+      "relationship_statement": "Amazon Web Services will be the first cloud provider to offer NVIDIA GH200 Grace Hopper Superchips.",
+      "supporting_evidence_ids": [
+        "ev_0024",
+        "ev_0027",
+        "ev_0028"
+      ],
+      "supporting_source_ids": [
+        "src_031"
+      ],
+      "themes": [
+        "hyperscaler_demand"
+      ],
+      "confidence": "high",
+      "confidence_score": 0.891,
+      "business_impact": "This adoption enables AWS to enhance its AI supercomputing capabilities, potentially impacting demand and competitive positioning in cloud AI services.",
+      "why_it_matters": "AWS adopting NVIDIA's GH200 chips signals intensified competition in cloud AI offerings and may influence GPU deployment trends among hyperscalers.",
+      "watch_items": [
+        "availability of GH200 NVL32 instances on AWS",
+        "performance benchmarks of GH200 Superchips",
+        "customer adoption of GH200-based instances",
+        "availability and adoption of P5e, G6, and G6e instances",
+        "performance comparisons of new EC2 instances"
+      ],
+      "verification_status": "supported_by_multiple_evidence",
+      "relationship_status": "approved",
+      "contradictory_evidence_ids": [],
+      "discovery_notes": "The claim comes directly from AWS's announcement as a first cloud provider to offer NVIDIA GH200 chips with new multi-node NVLink technology.",
+      "relationship_strength": 0.88,
+      "source_support_score": 0.88,
+      "discovered_at": "2026-07-14T06:43:24.015276+00:00"
+    },
+    {
+      "relationship_id": "rel_0003",
+      "source_entity": "TSMC",
+      "relationship_type": "targets",
+      "target_entity": "AI",
+      "relationship_statement": "TSMC's CoWoS-S technology targets ultra-high performance computing applications including AI.",
+      "supporting_evidence_ids": [
+        "ev_0001"
+      ],
+      "supporting_source_ids": [
+        "src_020"
+      ],
+      "themes": [
+        "advanced_packaging"
+      ],
+      "confidence": "medium_high",
+      "confidence_score": 0.862,
+      "business_impact": "TSMC targets the growing AI market with advanced packaging technology, potentially increasing its market share and influence in this critical semiconductor segment.",
+      "why_it_matters": "Understanding TSMC's focus on AI applications informs competitive positioning and technology roadmap planning within the semiconductor industry.",
+      "watch_items": [
+        "product tape-outs using CoWoS-S",
+        "technology adoption in AI applications",
+        "performance benchmarks of CoWoS-S packages"
+      ],
+      "verification_status": "company_claim",
+      "relationship_status": "approved",
+      "contradictory_evidence_ids": [],
+      "discovery_notes": "Claim states CoWoS-S targets AI, supporting a targeting relationship from TSMC to AI.",
+      "relationship_strength": 0.89,
+      "source_support_score": 0.89,
+      "discovered_at": "2026-07-14T06:42:25.457184+00:00"
+    },
+    {
+      "relationship_id": "rel_0004",
+      "source_entity": "TSMC",
+      "relationship_type": "targets",
+      "target_entity": "supercomputing",
+      "relationship_statement": "TSMC's CoWoS-S technology targets ultra-high performance computing applications including supercomputing.",
+      "supporting_evidence_ids": [
+        "ev_0001"
+      ],
+      "supporting_source_ids": [
+        "src_020"
+      ],
+      "themes": [
+        "advanced_packaging"
+      ],
+      "confidence": "medium_high",
+      "confidence_score": 0.862,
+      "business_impact": "TSMC addresses the supercomputing market with specialized packaging technology, potentially expanding its role in this high-value sector.",
+      "why_it_matters": "Recognizing TSMC's targeting of supercomputing aids in analyzing market opportunities and competitive threats in the HPC semiconductor domain.",
+      "watch_items": [
+        "product tape-outs using CoWoS-S",
+        "technology adoption in supercomputing applications",
+        "performance benchmarks of CoWoS-S packages"
+      ],
+      "verification_status": "company_claim",
+      "relationship_status": "approved",
+      "contradictory_evidence_ids": [],
+      "discovery_notes": "Evidence supports TSMC targeting supercomputing applications with CoWoS-S.",
+      "relationship_strength": 0.89,
+      "source_support_score": 0.89,
+      "discovered_at": "2026-07-14T06:42:25.457218+00:00"
+    },
+    {
+      "relationship_id": "rel_0005",
+      "source_entity": "NVIDIA NVLink",
+      "relationship_type": "enabled_by",
+      "target_entity": "NVIDIA",
+      "relationship_statement": "NVIDIA NVLink is enabled by NVIDIA technology as the fifth-generation NVLink delivers 1.8TB/s bidirectional throughput per GPU and supports communication among up to 576 GPUs.",
+      "supporting_evidence_ids": [
+        "ev_0008"
+      ],
+      "supporting_source_ids": [
+        "src_014"
+      ],
+      "themes": [
+        "blackwell"
+      ],
+      "confidence": "medium_high",
+      "confidence_score": 0.844,
+      "business_impact": "This relationship highlights NVIDIA's role in enabling high-speed GPU interconnects crucial for scaling large AI models efficiently, impacting AI performance and deployment.",
+      "why_it_matters": "Understanding that NVIDIA NVLink is enabled by NVIDIA clarifies the company's technological capabilities in advancing multi-GPU communication essential for AI workloads.",
+      "watch_items": [
+        "NVLink performance reports",
+        "multi-GPU system deployments"
+      ],
+      "verification_status": "company_claim",
+      "relationship_status": "approved",
+      "contradictory_evidence_ids": [],
+      "discovery_notes": "The claim and snippet explicitly state the performance and capabilities of NVIDIA NVLink as a product enabled by NVIDIA's technology.",
+      "relationship_strength": 0.87,
+      "source_support_score": 0.87,
+      "discovered_at": "2026-07-14T06:42:42.123725+00:00"
+    },
+    {
+      "relationship_id": "rel_0006",
+      "source_entity": "NVIDIA AI Enterprise",
+      "relationship_type": "integrates_with",
+      "target_entity": "NVIDIA NIM inference microservices",
+      "relationship_statement": "NVIDIA AI Enterprise includes NVIDIA NIM inference microservices.",
+      "supporting_evidence_ids": [
+        "ev_0010"
+      ],
+      "supporting_source_ids": [
+        "src_014"
+      ],
+      "themes": [
+        "blackwell"
+      ],
+      "confidence": "medium_high",
+      "confidence_score": 0.844,
+      "business_impact": "This integration enhances NVIDIA AI Enterprise with advanced AI inference capabilities, potentially improving AI workload deployment and management.",
+      "why_it_matters": "Understanding this integration aids in assessing NVIDIA's enterprise AI stack and its potential impact on AI deployment platforms such as Blackwell.",
+      "watch_items": [
+        "NVIDIA NIM inference microservices adoption",
+        "updates to NVIDIA AI Enterprise"
+      ],
+      "verification_status": "company_claim",
+      "relationship_status": "approved",
+      "contradictory_evidence_ids": [],
+      "discovery_notes": "The evidence explicitly states that NVIDIA AI Enterprise includes NVIDIA NIM inference microservices, supporting an integration relationship.",
+      "relationship_strength": 0.87,
+      "source_support_score": 0.87,
+      "discovered_at": "2026-07-14T06:42:49.102041+00:00"
+    },
+    {
+      "relationship_id": "rel_0007",
+      "source_entity": "NVIDIA",
+      "relationship_type": "supports",
+      "target_entity": "ARM ecosystem",
+      "relationship_statement": "The CUDA Toolkit supports the ARM ecosystem by unifying it into a single toolkit for deployment from data center to edge.",
+      "supporting_evidence_ids": [
+        "ev_0015"
+      ],
+      "supporting_source_ids": [
+        "src_016"
+      ],
+      "themes": [
+        "cuda_ecosystem"
+      ],
+      "confidence": "medium_high",
+      "confidence_score": 0.828,
+      "business_impact": "This support enhances software compatibility and deployment consistency across ARM-based hardware, potentially expanding CUDA's reach.",
+      "why_it_matters": "Understanding NVIDIA's effort to unify and support the ARM ecosystem is crucial for competitive intelligence to track ecosystem expansion and software deployment capabilities.",
+      "watch_items": [
+        "ARM ecosystem support announcements",
+        "performance on ARM hardware"
+      ],
+      "verification_status": "company_claim",
+      "relationship_status": "approved",
+      "contradictory_evidence_ids": [],
+      "discovery_notes": "Relationship inferred from the company's claim that CUDA Toolkit unifies and enables deployment across the ARM ecosystem.",
+      "relationship_strength": 0.86,
+      "source_support_score": 0.86,
+      "discovered_at": "2026-07-14T06:42:58.794427+00:00"
+    },
+    {
+      "relationship_id": "rel_0008",
+      "source_entity": "NVIDIA DGX Vera Rubin NVL72",
+      "relationship_type": "integrates_with",
+      "target_entity": "NVIDIA Rubin GPUs",
+      "relationship_statement": "The NVIDIA DGX Vera Rubin NVL72 rack integrates 72 NVIDIA Rubin GPUs.",
+      "supporting_evidence_ids": [
+        "ev_0023"
+      ],
+      "supporting_source_ids": [
+        "src_015"
+      ],
+      "themes": [
+        "data_center_growth"
+      ],
+      "confidence": "medium_high",
+      "confidence_score": 0.828,
+      "business_impact": "Integration of high-performance NVIDIA Rubin GPUs enables advanced AI processing capabilities in this rack-scale system.",
+      "why_it_matters": "It illustrates NVIDIA's capability to build high-density GPU systems critical for AI workloads, influencing data center AI infrastructure.",
+      "watch_items": [
+        "DGX Vera Rubin deployment updates",
+        "system availability dates"
+      ],
+      "verification_status": "company_claim",
+      "relationship_status": "approved",
+      "contradictory_evidence_ids": [],
+      "discovery_notes": "Directly described in company claim that DGX Vera Rubin NVL72 integrates 72 Rubin GPUs.",
+      "relationship_strength": 0.86,
+      "source_support_score": 0.86,
+      "discovered_at": "2026-07-14T06:43:20.666664+00:00"
+    },
+    {
+      "relationship_id": "rel_0009",
+      "source_entity": "NVIDIA DGX Vera Rubin NVL72",
+      "relationship_type": "integrates_with",
+      "target_entity": "NVIDIA NVLink",
+      "relationship_statement": "The NVIDIA DGX Vera Rubin NVL72 rack uses sixth-generation NVLink to connect GPUs and CPUs.",
+      "supporting_evidence_ids": [
+        "ev_0023"
+      ],
+      "supporting_source_ids": [
+        "src_015"
+      ],
+      "themes": [
+        "data_center_growth"
+      ],
+      "confidence": "medium_high",
+      "confidence_score": 0.828,
+      "business_impact": "Utilizing sixth-generation NVLink enables a large shared memory space, which enhances inter-component communication efficiency for complex AI models.",
+      "why_it_matters": "Indicates use of advanced interconnect technology in NVIDIA's AI racks, important for performance benchmarking and competitive positioning.",
+      "watch_items": [
+        "NVLink sixth-generation performance metrics",
+        "DGX Vera Rubin deployment updates"
+      ],
+      "verification_status": "company_claim",
+      "relationship_status": "approved",
+      "contradictory_evidence_ids": [],
+      "discovery_notes": "Company claim names sixth-generation NVLink as technology connecting Rubin GPUs and Vera CPUs in the system.",
+      "relationship_strength": 0.86,
+      "source_support_score": 0.86,
+      "discovered_at": "2026-07-14T06:43:20.667123+00:00"
+    },
+    {
+      "relationship_id": "rel_0010",
+      "source_entity": "NVIDIA DGX Vera Rubin NVL72",
+      "relationship_type": "integrates_with",
+      "target_entity": "NVIDIA Vera CPUs",
+      "relationship_statement": "The NVIDIA DGX Vera Rubin NVL72 rack integrates 36 NVIDIA Vera CPUs.",
+      "supporting_evidence_ids": [
+        "ev_0023"
+      ],
+      "supporting_source_ids": [
+        "src_015"
+      ],
+      "themes": [
+        "data_center_growth"
+      ],
+      "confidence": "medium_high",
+      "confidence_score": 0.822,
+      "business_impact": "Including Vera CPUs in the system increases compute diversity and accelerates complex models, enhancing NVIDIA's data center offerings.",
+      "why_it_matters": "Shows the heterogeneous architecture approach NVIDIA employs for AI and HPC systems.",
+      "watch_items": [
+        "DGX Vera Rubin deployment updates",
+        "system availability dates"
+      ],
+      "verification_status": "company_claim",
+      "relationship_status": "approved",
+      "contradictory_evidence_ids": [],
+      "discovery_notes": "Claim explicitly states integration of 36 Vera CPUs in the DGX Vera Rubin NVL72.",
+      "relationship_strength": 0.85,
+      "source_support_score": 0.85,
+      "discovered_at": "2026-07-14T06:43:20.666913+00:00"
+    },
+    {
+      "relationship_id": "rel_0011",
+      "source_entity": "NVIDIA",
+      "relationship_type": "supplies_to",
+      "target_entity": "NVIDIA RTX PRO 6000 Blackwell",
+      "relationship_statement": "NVIDIA supplies the RTX PRO 6000 Blackwell GPU designed for professional AI, graphics, and visual computing tasks.",
+      "supporting_evidence_ids": [
+        "ev_0017"
+      ],
+      "supporting_source_ids": [
+        "src_015"
+      ],
+      "themes": [
+        "blackwell"
+      ],
+      "confidence": "medium_high",
+      "confidence_score": 0.795,
+      "business_impact": "This relationship establishes NVIDIA's role as the supplier of a professional AI and graphics GPU, highlighting the company's product offerings in key computing markets and its potential influence on customer choice and market competition.",
+      "why_it_matters": "It is important for competitive intelligence as it confirms NVIDIA’s product line in high-performance computing segments, which may affect competitor strategies and market dynamics.",
+      "watch_items": [
+        "future product updates",
+        "customer adoption of RTX PRO 6000 Blackwell",
+        "benchmark performance of RTX PRO 6000 Blackwell"
+      ],
+      "verification_status": "company_claim",
+      "relationship_status": "approved",
+      "contradictory_evidence_ids": [],
+      "discovery_notes": "The evidence directly claims NVIDIA offers the RTX PRO 6000 Blackwell, supporting a supplier relationship from NVIDIA to the product.",
+      "relationship_strength": 0.82,
+      "source_support_score": 0.82,
+      "discovered_at": "2026-07-14T06:43:05.245354+00:00"
+    }
+  ]
+}

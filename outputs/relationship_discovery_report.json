@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-07-14T06:43:40.814182+00:00",
+  "model": "gpt-4.1-mini",
+  "input_evidence": 31,
+  "raw_relationship_candidates": 21,
+  "candidates_rejected_by_validation": 7,
+  "final_relationships": 11,
+  "approved_relationships": 11,
+  "needs_review": 0,
+  "failed_evidence_reviews": 0,
+  "by_relationship_type": {
+    "adopts": 1,
+    "enabled_by": 1,
+    "integrates_with": 4,
+    "partners_with": 1,
+    "supplies_to": 1,
+    "supports": 1,
+    "targets": 2
+  },
+  "by_source_entity": {
+    "NVIDIA": 3,
+    "NVIDIA DGX Vera Rubin NVL72": 3,
+    "TSMC": 2,
+    "Amazon Web Services": 1,
+    "NVIDIA NVLink": 1,
+    "NVIDIA AI Enterprise": 1
+  },
+  "by_target_entity": {
+    "NVIDIA": 2,
+    "Amazon Web Services": 1,
+    "AI": 1,
+    "supercomputing": 1,
+    "NVIDIA NIM inference microservices": 1,
+    "ARM ecosystem": 1,
+    "NVIDIA Rubin GPUs": 1,
+    "NVIDIA NVLink": 1,
+    "NVIDIA Vera CPUs": 1,
+    "NVIDIA RTX PRO 6000 Blackwell": 1
+  },
+  "by_verification_status": {
+    "company_claim": 9,
+    "supported_by_multiple_evidence": 2
+  },
+  "failures": []
+}

@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-07-14T06:54:05.128821+00:00",
+  "model": "gpt-4.1-mini",
+  "input_relationships": 11,
+  "intelligence_objects": 11,
+  "failures": 0,
+  "by_type": {
+    "customer_signal": 1,
+    "ecosystem_signal": 3,
+    "market_opportunity": 1,
+    "strategic_event": 3,
+    "supplier_signal": 1,
+    "technology_shift": 2
+  },
+  "by_entity": {
+    "NVIDIA DGX Vera Rubin NVL72": 3,
+    "TSMC": 2,
+    "NVIDIA": 2,
+    "NVIDIA and Amazon Web Services": 1,
+    "Amazon Web Services": 1,
+    "NVIDIA NVLink": 1,
+    "NVIDIA AI Enterprise": 1
+  },
+  "by_confidence": {
+    "high": 2,
+    "medium_high": 9
+  },
+  "failures_detail": []
+}

@@ -1,0 +1,47 @@
+{
+  "generated_at": "2026-07-14T06:27:18.306207+00:00",
+  "model": "gpt-4.1-mini",
+  "input_evidence": 31,
+  "reviewed": 31,
+  "approved_before_deduplication": 31,
+  "approved_after_deduplication": 31,
+  "rejected": 0,
+  "semantic_duplicates_removed": 0,
+  "failures": 0,
+  "minimum_strategic_relevance": 0.7,
+  "minimum_claim_support": 0.8,
+  "minimum_relationship_potential": 0.6,
+  "semantic_duplicate_threshold": 0.72,
+  "by_theme": {
+    "advanced_packaging": 1,
+    "ai_accelerators": 4,
+    "blackwell": 10,
+    "cuda_ecosystem": 4,
+    "data_center_growth": 6,
+    "export_controls": 1,
+    "hyperscaler_demand": 4,
+    "partnership": 1
+  },
+  "by_verification_status": {
+    "official_company_claim": 30,
+    "official_regulatory_statement": 1
+  },
+  "by_primary_entity": {
+    "NVIDIA": 23,
+    "Amazon Web Services": 6,
+    "TSMC": 1,
+    "Bureau of Industry and Security": 1
+  },
+  "issue_flags": {
+    "promotional_language": 10,
+    "inconsistent_entity_name": 9,
+    "overstated_claim": 8,
+    "vague_why_it_matters": 7,
+    "incorrect_entity": 4,
+    "company_claim_not_verified": 4,
+    "unsupported_implication": 1
+  },
+  "duplicates_removed": [],
+  "rejected_evidence": [],
+  "failures_detail": []
+}
